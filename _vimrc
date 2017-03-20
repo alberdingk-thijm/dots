@@ -23,13 +23,8 @@ set hlsearch
 
 set nohidden
 
-" to ensure plugins correctly use paths in bash
-set shellslash
-
 " Syntax
 syntax on
-let g:syntastic_python_python_exec = '/f/Python27/python.exe'
-" let g:syntastic_python_python_exec = 'f/Python35/python.exe'
 
 " Tab navigation
 inoremap <F7> :tabn
@@ -47,16 +42,7 @@ nnoremap <C-H> <C-W><C-H>
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
-let g:SimpylFold_docstring_preview = 1
 
 " Enable folding with the spacebar
 nnoremap <space> za
 
-" Vim-airline config
-set noshowmode
-set laststatus=2
-let g:airline_powerline_fonts = 1
-let g:airline_theme='solarized'
-
-" Simplenote credentials
-source ~/.simplenoterc
