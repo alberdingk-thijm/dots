@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "js": [ "showdown.js", "markdownify.js" ],
+      "matches": [ "http://*/*.md*", "file://*/*.md", "http://*/*.markdown*", "file://*/*.markdown", "http://*/*.text", "file://*/*.text" ]
+   } ],
+   "description": "Converts and previews markdown files (.md, .markdown) to HTML right inside Chrome.",
+   "icons": {
+      "128": "images/icon.png",
+      "16": "images/icon.png",
+      "48": "images/icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCj81nxsOE811Qqj8KyNZrn+Fjt2ttim+vqljwzFx+3ApDYpLerDAqUDzmsKS6Iu+Qtv8zEw+hPKbPbY3vA/dKPV7B5UdzNjZ2oD8TPY4R/K+lurpKdQz/pliRiE4giUKxi976DI4LOkfLEFkbcT2uncW1QiodfrNvvALDqOSvU1QIDAQAB",
+   "manifest_version": 2,
+   "name": "Markdown Preview",
+   "permissions": [ "tabs", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6",
+   "web_accessible_resources": [ "markdown.css" ]
+}

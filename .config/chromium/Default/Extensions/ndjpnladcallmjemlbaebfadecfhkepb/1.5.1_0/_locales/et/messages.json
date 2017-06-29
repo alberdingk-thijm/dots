@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Konto"
+   },
+   "AppDescription": {
+      "message": "Saate veebibrauseris Office'i faile vaadata, redigeerida ja luua."
+   },
+   "AppFolderName": {
+      "message": "Office Online'i laiendus"
+   },
+   "AppLongDescription": {
+      "message": "Välja töötatud Chrome'i jaoks – saate ilma Office'it installimata kasutada veebis rakendusi Word, Excel, PowerPoint, OneNote ja Sway Online.\r\n\r\nDokumentide hõlbus koostamine – tuttavate vormindus- ja küljendusfunktsioonide abil saate anda vormi oma suurepärastele ideedele.\r\n\r\nTöötamine liikvel olles – integreeritud OneDrive'i ja OneDrive for Businessi abil pääsete oma failidele juurde kõikjal.\r\n\r\nRakenduse installimise korral nõustute järgmiste tingimustega: http://aka.ms/officechromeextensionterms\r\n\r\nprivaatsuspoliitika: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online'i ikoon kuvatakse Microsoft Edge'i tööriistaribal ning selle kaudu pääsete otse juurde oma Office'i failidele, olenemata sellest, kas need on salvestatud arvutisse või veebi.\r\n\r\nOffice Online'iga saab avada faile, mis on salvestatud OneDrive'i ja OneDrive for Businessisse.\r\n\r\nSaate Wordi, Exceli, PowerPointi, OneNote'i ja Sway funktsioone kasutada brauseris ilma Office'it installimata.\r\n\r\nRakenduse installimise korral nõustute järgmiste tingimustega: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Sirvi"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation, 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Loo konto"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Te pole viimasel ajal dokumente vaadanud."
+   },
+   "CreateNewLabel": {
+      "message": "Uus"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Viimatiste dokumentide loendit ei saa praegu tuua."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Tippige oma kommentaar"
+   },
+   "FeedbackDontLike": {
+      "message": "On midagi, mis mulle ei meeldi"
+   },
+   "FeedbackLike": {
+      "message": "On midagi, mis mulle meeldib"
+   },
+   "FeedbackOverall": {
+      "message": "Milline on teie tagasiside?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Privaatsusavaldus"
+   },
+   "FeedbackSubmit": {
+      "message": "Esita"
+   },
+   "FeedbackSuggestion": {
+      "message": "Mul on ettepanek"
+   },
+   "FeedbackTitle": {
+      "message": "Tagasiside saatmine"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Mis teile ei meeldinud?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Mis teile meeldis?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Mida soovitate?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Failitüüpi ei toetata. Valige Wordi, Exceli või PowerPointi dokument."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Laadimine..."
+   },
+   "NextLabel": {
+      "message": "Logi sisse"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Ära seda enam kuva"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Salvestasime faili teie OneDrive'i kausta \"Office Online'i laiendus\"."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Salvestasime faili teie OneDrive for Businessi kausta \"Office Online'i laiendus\"."
+   },
+   "NotificationFileAccess": {
+      "message": "Kui soovite pukseerida faile Chrome'i, märkige Chrome'i laienduste seadetes ruut \"Luba juurdepääs failide URL-idele\"."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Chrome'i Office Online'i laiendus ei saa dokumenti avada, sest dokument on liiga mahukas. Laadige dokument avamiseks üles otse OneDrive'i."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Kahjuks ei saanud teie faili avada."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Kahjuks ei saanud teie faili avada. Proovige hiljem uuesti."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Kahjuks ei saanud teie faili avada. Valige Wordis, Excelis või PowerPointis loodud fail."
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Laadime praegu teie dokumente üles."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Teie Office 365 tellimus võib olla aegunud või ei sisalda OneDrive for Businessit. Vaadake tellimus üle või logige sisse Microsofti kontoga."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Failide Office Online'is vaatamiseks ja redigeerimiseks logige sisse."
+   },
+   "NotificationSetDefault": {
+      "message": "Rakenduses Failid olevate dokumentide avamiseks Office Online'is puudutage dokumente kahe sõrmega."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Valige Wordis, Excelis või PowerPointis loodud fail."
+   },
+   "O365FilesLabel": {
+      "message": "OneDrive for Businessist"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Töötate võrguühenduseta. Chrome'i Office Online'i laienduse kasutamiseks looge uuesti ühendus."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "OneDrive'ist"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Ava"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Viimatised dokumendid"
+   },
+   "SettingsLabel": {
+      "message": "Sätted"
+   },
+   "ShareMessage": {
+      "message": "Jaga"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Õigus on nõutav"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Teil pole õigust jagada"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "Kuhu soovite oma failid salvestada?"
+   },
+   "SignInLabel": {
+      "message": "Logi sisse"
+   },
+   "SignOutLabel": {
+      "message": "Logi välja"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Saada automaatselt andmeid, et saaksime oma tooteid paremaks muuta."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Laadi üles OneDrive for Businessisse"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Laadi üles OneDrive'i"
+   },
+   "UsernameLabel": {
+      "message": "Pole sisse logitud"
+   },
+   "ViewMoreLabel": {
+      "message": "Kuva rohkem"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

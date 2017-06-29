@@ -1,0 +1,44 @@
+.share_button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    float: right;
+}
+
+.share_button_disabled {
+    color: gray;
+    cursor: default;
+}
+
+.mru_name {
+    display: inline-block;
+    max-width: 80%;
+}
+
+/* Show the share button on hover */
+.mru_container .share_button {
+    visibility: hidden;
+}
+
+.mru_container:hover .share_button {
+    visibility: visible;
+}
+
+/* Styling for the "tooltip" that replaces the title attribute in Edge */
+.fake_tooltip {
+    cursor: default;
+    color: red;
+    font-size: 13px;
+    white-space: nowrap;
+    margin-top: -7px;
+    visibility: hidden;
+}
+
+/* Show fake tooltip on disabled share button hover */
+.share_button_disabled ~ .fake_tooltip {
+    visibility: hidden;
+}
+
+.share_button_disabled:hover ~ .fake_tooltip {
+    visibility: visible;
+}

@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "حساب"
+   },
+   "AppDescription": {
+      "message": "فایل‌های Office را در مرورگر خود مشاهده، ویرایش و ایجاد کنید."
+   },
+   "AppFolderName": {
+      "message": "افزونه Office Online"
+   },
+   "AppLongDescription": {
+      "message": "ساخته شده برای Chrome - از Word، Excel، PowerPoint، OneNote و Sway Online بدون نیاز به نصب کردن Office استفاده کنید.\r\n\r\nبا اطمینان محتوا تولید کنید - با استفاده از گزینه‌های قالب‌بندی و چیدمان آشنا، ایده‌هایتان را با وضوح کامل بیان کنید.\r\n\r\nهمه‌جا کار کنید - با یکپارچه‌سازی OneDrive و OneDrive for Business، از همه جا به فایل‌هایتان دسترسی داشته باشید.\r\n\r\nبا نصب برنامه، با این شرایط و ضوابط موافقت می‌کنید: http://aka.ms/officechromeextensionterms\r\n\r\nخط مشی حریم خصوصی: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online نمادی را روی نوار ابزار Microsoft Edge شما قرار می‌دهد که به شما امکان دسترسی مستقیم به فایل‌های Office را می‌دهد، فرقی نمی‌کند به طور آنلاین یا در رایانه شما ذخیره شده باشند.\r\n\r\nOffice Online می‌تواند فایل‌ها را در OneDrive و OneDrive for Business باز کند.\r\n\r\nویژگی‌های Word، Excel، PowerPoint، OneNote و Sway را درست در مرورگر خود بدون نیاز به نصب Office دریافت می‌کنید.\r\n\r\nبا نصب برنامه، با این شرایط و ضوابط موافقت می‌کنید: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "مرور"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "ایجاد حساب"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "اخیراً هیچ سندی مشاهده نکردید."
+   },
+   "CreateNewLabel": {
+      "message": "جدید"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "فعلاً نمی‌توانیم فهرست اسناد اخیر را دریافت کنیم."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "لطفاً نظرتان را وارد کنید"
+   },
+   "FeedbackDontLike": {
+      "message": "موردی را دوست نداشتم"
+   },
+   "FeedbackLike": {
+      "message": "موردی را دوست داشتم"
+   },
+   "FeedbackOverall": {
+      "message": "چه نوع بازخوردی دارید؟"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "بیانیه حریم خصوصی"
+   },
+   "FeedbackSubmit": {
+      "message": "ارسال"
+   },
+   "FeedbackSuggestion": {
+      "message": "پيشنهادی دارم"
+   },
+   "FeedbackTitle": {
+      "message": "ارسال بازخورد"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "چه چیزی را دوست نداشتید؟"
+   },
+   "FeedbackWhatLike": {
+      "message": "چه چیزی را دوست داشتید؟"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "چه پیشنهادی دارید؟"
+   },
+   "FileTypeErrorMessage": {
+      "message": "این نوع فایل پشتیبانی نمی‌شود. لطفاً سند Word، Excel یا PowerPoint انتخاب کنید."
+   },
+   "LoadingRecentsLabel": {
+      "message": "در حال بارگیری..."
+   },
+   "NextLabel": {
+      "message": "ورود به سیستم"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "دیگر نشان داده نشود"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "فایلتان را در پوشه «افزونه Office Online» در OneDrive قرار دادیم."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "فایلتان را در پوشه «افزونه Office Online» در OneDrive for Business قرار دادیم."
+   },
+   "NotificationFileAccess": {
+      "message": "اگر می‌خواهید کشیدن و رها کردن فایل‌ها در Chrome فعال شود، در تنظیمات افزونه Chrome، گزینه «Allow access to file URLs» را علامت بزنید."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "افزونه Office Online برای Chrome نمی‌تواند سندتان را به علت اندازه زیاد باز کند. لطفاً مستقیماً در OneDrive آپلود کنید تا سند باز شود."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "متأسفیم،‌نمی‌توانیم فایل شما را باز کنیم."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "متأسفیم،‌نمی‌توانیم فایل شما را باز کنیم. لطفاً بعداً دوباره امتحان کنید."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "متأسفیم،‌نمی‌توانیم فایل شما را باز کنیم. لطفاً فایلی را که با Word، Excel یا PowerPoint ایجاد شده است، انتخاب کنید"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "در حال آپلود اسناد شما هستیم."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "اشتراک Office 365 شما ممکن است منقضی شده باشد یا شامل OneDrive for Business نباشد. اشتراکتان را بررسی کنید یا در عوض با حساب Microsoft وارد سیستم شوید."
+   },
+   "NotificationNotSignedIn": {
+      "message": "برای مشاهده و ویرایش فایل‌های Office Online در افزونه وارد سیستم شوید."
+   },
+   "NotificationSetDefault": {
+      "message": "در برنامه فایل، با دو انگشت روی اسناد ضربه بزنید تا با Office Online باز شوند."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "لطفاً فایلی را که با Word، Excel یا PowerPoint ایجاد شده است، انتخاب کنید."
+   },
+   "O365FilesLabel": {
+      "message": "از OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "آفلاین هستید. لطفاً به اینترنت وصل شوید تا بتوانید از افزونه Office Online برای Chrome استفاده کنید."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "از OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "باز کردن"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "اسناد اخیر"
+   },
+   "SettingsLabel": {
+      "message": "تنظیمات"
+   },
+   "ShareMessage": {
+      "message": "اشتراک‌گذاری"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "مجوز ضروری است"
+   },
+   "SharePermissionsTooltip": {
+      "message": "مجوزی برای اشتراک‌گذاری ندارید"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "مایلید فایل‌ها کجا ذخیره شوند؟"
+   },
+   "SignInLabel": {
+      "message": "ورود به سیستم"
+   },
+   "SignOutLabel": {
+      "message": "خروج از سیستم"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "داده‌ها به طور خودکار ارسال شوند تا در بهبود محصولات مورد استفاده قرار گیرند."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "آپلود در OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "آپلود در OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "وارد سیستم نشده است"
+   },
+   "ViewMoreLabel": {
+      "message": "مشاهده موارد بیشتر"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

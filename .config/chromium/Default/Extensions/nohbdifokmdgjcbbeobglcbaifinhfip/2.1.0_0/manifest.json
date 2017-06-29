@@ -1,0 +1,19 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "go.html"
+   },
+   "description": "This extension shows the apps overview when opening a new tab in Chrome.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "64": "icon-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCEibJXUv2hXFCS9cyVE2Obb+vsO5l7ASgcpJfoQCzbmBQS6dO5SsnzZf6EyJL0x8Hqv2dmQoMMlTQNXPCCiGkj9+T+9cb/JRIAwo6RE5pJ+vF6N7obnFU2/CuDCy030+8rH8D8UkxAun2XL/XAhiCoGkZxmzROQbyHq57fmgejhwIDAQAB",
+   "manifest_version": 2,
+   "name": "Show Apps in new tab",
+   "permissions": [ "tabs" ],
+   "short_name": "Show Apps",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.0"
+}

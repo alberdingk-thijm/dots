@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Konto"
+   },
+   "AppDescription": {
+      "message": "Zobrazujte, upravujte a vytvárajte súbory balíka Office vo svojom prehliadači."
+   },
+   "AppFolderName": {
+      "message": "Rozšírenie Office Online"
+   },
+   "AppLongDescription": {
+      "message": "Vytvorené pre Chrome – používajte Word, Excel, PowerPoint, OneNote a Sway Online bez toho, aby ste si museli nainštalovať Office.\r\n\r\nTvorba s istotou – pomocou známych možností formátovania a rozloženia vyjadrujte svoje myšlienky čo najpresnejšie.\r\n\r\nPráca na cestách – vďaka integrácii s OneDrivom a OneDrivom for Business získajte k svojim súborom prístup odvšadiaľ.\r\n\r\nInštaláciou aplikácie vyjadrujete súhlas s týmito podmienkami a požiadavkami: http://aka.ms/officechromeextensionterms\r\n\r\nZásady ochrany osobných údajov: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online umiestni na panel s nástrojmi prehliadača Microsoft Edge ikonu, ktorá vám umožní priamy prístup k súborom balíka Office bez ohľadu na to, či sú uložené online alebo v počítači.\r\n\r\nOffice Online umožňuje otvoriť súbory uložené vo OneDrive a OneDrive for Business.\r\n\r\nFunkcie Wordu, Excelu, PowerPointu, OneNotu a Swaya sú k dispozícii priamo v prehliadači bez nutnosti inštalácie balíka Office.\r\n\r\nNainštalovaním aplikácie vyjadrujete svoj súhlas s týmito podmienkami a dojednaniami: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Prehľadávať"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Vytvoriť konto"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "V poslednom čase ste nezobrazili žiadne dokumenty."
+   },
+   "CreateNewLabel": {
+      "message": "Nové"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Momentálne nemôžeme získať zoznam vašich naposledy otvorených dokumentov."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Zadajte svoj komentár"
+   },
+   "FeedbackDontLike": {
+      "message": "Niečo sa mi nepáči"
+   },
+   "FeedbackLike": {
+      "message": "Niečo sa mi páči"
+   },
+   "FeedbackOverall": {
+      "message": "Aký typ pripomienok chcete poskytnúť?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Vyhlásenie o ochrane osobných údajov"
+   },
+   "FeedbackSubmit": {
+      "message": "Odoslať"
+   },
+   "FeedbackSuggestion": {
+      "message": "Mám návrh"
+   },
+   "FeedbackTitle": {
+      "message": "Odoslanie pripomienok"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Čo sa vám nepáčilo?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Čo sa vám páčilo?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Čo navrhujete?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Typ súboru nie je podporovaný. Vyberte wordový, excelový alebo powerpointový dokument."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Načítava sa..."
+   },
+   "NextLabel": {
+      "message": "Prihlásiť sa"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Nabudúce nezobrazovať"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Súbor sme uložili v priečinku Rozšírenie Office Online vo vašom OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Súbor sme uložili v priečinku Rozšírenie Office Online vo vašom OneDrive for Business."
+   },
+   "NotificationFileAccess": {
+      "message": "Ak chcete myšou presúvať súbory do Chromu, v nastaveniach rozšírenia pre Chrome začiarknite políčko Povoliť prístup k URL adresám súborov."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Rozšírenie Office Online pre Chrome nemôže otvoriť dokument z dôvodu jeho veľkosti. Ak chcete dokument otvoriť, nahrajte ho priamo do OneDrivu."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Ľutujeme, váš súbor sa nám nepodarilo otvoriť."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Ľutujeme, váš súbor sa nám nepodarilo otvoriť. Skúste to znova neskôr."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Ľutujeme, váš súbor sa nám nepodarilo otvoriť. Vyberte súbor vytvorený vo Worde, Exceli alebo PowerPointe."
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Momentálne nahrávame vaše dokumenty."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Platnosť vášho predplatného na Office 365 možno uplynula alebo predplatné možno nezahŕňa OneDrive for Business. Skontrolujte svoje predplatné alebo sa prihláste s kontom Microsoft."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Keď sa do rozšírenia prihlásite, budete môcť zobrazovať a upravovať súbory v Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "Keď v aplikácii Súbory ťuknete na dokument dvomi prstami, otvorí sa v Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Vyberte súbor vytvorený vo Worde, Exceli alebo PowerPointe."
+   },
+   "O365FilesLabel": {
+      "message": "Z OneDrivu for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Ste offline. Ak chcete používať rozšírenie Office Online pre Chrome, znova sa prihláste."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Z OneDrivu"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Otvoriť"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Naposledy použité dokumenty"
+   },
+   "SettingsLabel": {
+      "message": "Nastavenia"
+   },
+   "ShareMessage": {
+      "message": "Zdieľať"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Vyžaduje sa povolenie"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Nemáte povolenie na zdieľanie"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "Kam chcete uložiť súbory?"
+   },
+   "SignInLabel": {
+      "message": "Prihlásiť sa"
+   },
+   "SignOutLabel": {
+      "message": "Odhlásiť sa"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Automaticky odosielať údaje a pomôcť tak zlepšiť naše produkty."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Nahrať do OneDrivu for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Nahrať do OneDrivu"
+   },
+   "UsernameLabel": {
+      "message": "Neprihlásení"
+   },
+   "ViewMoreLabel": {
+      "message": "Zobraziť viac"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

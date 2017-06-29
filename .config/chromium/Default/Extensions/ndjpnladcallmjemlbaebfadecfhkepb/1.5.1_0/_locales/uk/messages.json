@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Обліковий запис"
+   },
+   "AppDescription": {
+      "message": "Переглядайте, редагуйте та створюйте файли Office у браузері."
+   },
+   "AppFolderName": {
+      "message": "Розширення Office Online"
+   },
+   "AppLongDescription": {
+      "message": "Створено для Chrome: використовуйте Word, Excel, PowerPoint, OneNote і Sway Online, не інсталюючи Office.\r\n\r\nЗвичні засоби для роботи: висловлюйте свої ідеї за допомогою знайомих засобів форматування та розмітки.\r\n\r\nРобота в дорозі: завдяки інтеграції зі сховищами OneDrive і \"OneDrive для бізнесу\" ваші файли завжди від рукою.\r\n\r\nІнсталювавши програму, ви погоджуєтеся з цими умовами та положеннями: http://aka.ms/officechromeextensionterms\r\n\r\nПолітика конфіденційності: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online додає піктограму на панель інструментів Microsoft Edge, щоб надати вам безпосередній доступ до ваших файлів Office в онлайновому сховищі та на комп’ютері.\r\n\r\nOffice Online може відкривати файли, збережені у сховищі OneDrive і \"OneDrive для бізнесу\".\r\n\r\nУсі можливості Word, Excel, PowerPoint, OneNote і Sway доступні прямо в браузері – інсталювати Office не потрібно.\r\n\r\nІнсталюючи цю програму, ви погоджуєтеся з такими умовами та положеннями: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Огляд"
+   },
+   "CopyrightLabel": {
+      "message": "Корпорація Майкрософт (Microsoft Corporation), 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Створити обліковий запис"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Ви не переглядали жодних документів останнім часом."
+   },
+   "CreateNewLabel": {
+      "message": "Створити"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Зараз не вдалось отримати список останніх документів."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Введіть свій коментар"
+   },
+   "FeedbackDontLike": {
+      "message": "Мені дещо не подобається"
+   },
+   "FeedbackLike": {
+      "message": "Мені дещо подобається"
+   },
+   "FeedbackOverall": {
+      "message": "Що б ви хотіли вказати у відгуку?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Декларація про конфіденційність"
+   },
+   "FeedbackSubmit": {
+      "message": "Надіслати"
+   },
+   "FeedbackSuggestion": {
+      "message": "У мене є пропозиція"
+   },
+   "FeedbackTitle": {
+      "message": "Надсилання відгуку"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Що саме вам не сподобалося?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Що саме вам сподобалося?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Що б ви хотіли запропонувати?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Тип файлу не підтримується. Виберіть документ Word, Excel або PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Завантаження..."
+   },
+   "NextLabel": {
+      "message": "Вхід"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Більше не показувати"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Ми зберегли ваш файл у папці \"Розширення Office Online\" у вашому сховищі OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Ми зберегли ваш файл у папці \"Розширення Office Online\" у вашому сховищі \"OneDrive для бізнесу\"."
+   },
+   "NotificationFileAccess": {
+      "message": "У настройках розширень Chrome установіть прапорець \"Дозволити доступ до URL-адрес файлів\", щоб дозволити перетягувати файли до браузера Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Не вдалося відкрити ваш документ у розширенні Office Online для Chrome, тому що від завеликий. Передайте файл безпосередньо до сховища OneDrive, щоб відкрити його."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "На жаль, не вдалося відкрити файл."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "На жаль, не вдалося відкрити файл. Спробуйте ще раз пізніше."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "На жаль, не вдалося відкрити файл. Виберіть файл, створений у програмах Word, Excel або PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Триває передавання ваших документів."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Можливо, термін дії вашої передплати на Office 365 завершився, або до неї не входить служба \"OneDrive для бізнесу\". Перевірте передплату або ввійдіть за допомогою облікового запису Microsoft."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Увійдіть до розширення, щоб переглядати та редагувати файли у веб-службі Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "У програмі \"Файли\" торкніться документа двома пальцями, щоб відкрити його в Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Виберіть файл, створений у програмі Word, Excel або PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "З \"OneDrive для бізнесу\""
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Відсутнє підключення до мережі. Відновіть підключення, щоб скористатися розширенням Office Online для Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Зі сховища OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Відкрити"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Останні документи"
+   },
+   "SettingsLabel": {
+      "message": "Настройки"
+   },
+   "ShareMessage": {
+      "message": "Поділитися"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Потрібен дозвіл"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Ви не маєте дозволу надавати спільний доступ"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive для бізнесу"
+   },
+   "SignInHeaderLabel": {
+      "message": "Де потрібно зберігати файли?"
+   },
+   "SignInLabel": {
+      "message": "Вхід"
+   },
+   "SignOutLabel": {
+      "message": "Вихід"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Дані, що допоможуть нам вдосконалити наші продукти, надсилатимуться автоматично."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Передати до \"OneDrive для бізнесу\""
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Передати до OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Вхід не виконано"
+   },
+   "ViewMoreLabel": {
+      "message": "Показати більше"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

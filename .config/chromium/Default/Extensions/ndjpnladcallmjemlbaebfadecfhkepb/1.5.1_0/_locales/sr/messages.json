@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Nalog"
+   },
+   "AppDescription": {
+      "message": "Prikažite, uredite i kreirajte Office datoteke u pregledaču."
+   },
+   "AppFolderName": {
+      "message": "Office Online proširenje"
+   },
+   "AppLongDescription": {
+      "message": "Napravljeno za Chrome – Koristite Word, Excel, PowerPoint, OneNote i Sway Online bez potrebe za instaliranjem sistema Office.\r\n\r\nKreirajte sa sigurnošću – Koristite poznate opcije oblikovanja i rasporeda da precizno izrazite svoje ideje.\r\n\r\nRad u pokretu – Pristupite datotekama sa bilo koje lokacije, zahvaljujući integraciji sa programima OneDrive i OneDrive for Business.\r\n\r\nInstaliranjem aplikacije pristajete na ove odredbe i uslove: http://aka.ms/officechromeextensionterms\r\n\r\nSmernice za privatnost: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online na Microsoft Edge traku sa alatkama postavlja ikonu koja vam pruža direktan pristup Office datotekama, bilo da su one uskladištene na mreži ili na vašem računaru.\r\n\r\nOffice Online može da otvori datoteke uskladištene u uslugama OneDrive i OneDrive for Business.\r\n\r\nDobijate funkcije programa Word, Excel, PowerPoint, OneNote i Sway direktno u pregledaču bez potrebe za instaliranjem sistema Office.\r\n\r\nAko instalirate aplikaciju, pristajete na sledeće odredbe i uslove: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Potraži"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Kreiranje naloga"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Niste prikazali nijedan dokument u poslednje vreme."
+   },
+   "CreateNewLabel": {
+      "message": "Novi"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Trenutno ne možemo da preuzmemo listu nedavnih dokumenata."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Otkucajte komentar"
+   },
+   "FeedbackDontLike": {
+      "message": "Ne sviđa mi se nešto"
+   },
+   "FeedbackLike": {
+      "message": "Sviđa mi se nešto"
+   },
+   "FeedbackOverall": {
+      "message": "Koju vrstu povratnih informacija imate?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Izjava o privatnosti"
+   },
+   "FeedbackSubmit": {
+      "message": "Prosledi"
+   },
+   "FeedbackSuggestion": {
+      "message": "Imam predlog"
+   },
+   "FeedbackTitle": {
+      "message": "Pošalji povratne informacije"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Šta vam se nije svidelo?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Šta vam se svidelo?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Šta predlažete?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Tip datoteke nije podržan. Odaberite Word, Excel ili PowerPoint dokument."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Učitavanje..."
+   },
+   "NextLabel": {
+      "message": "Prijavite se"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Ne prikazuj ovo više"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Sačuvali smo datoteku u fascikli „Office Online proširenje“ u usluzi OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Sačuvali smo datoteku u fascikli „Office Online proširenje“ u usluzi OneDrive for Business."
+   },
+   "NotificationFileAccess": {
+      "message": "U postavkama proširenja programa Chrome, potvrdite izbor u polju za potvrdu „Dozvoli pristup URL adresama datoteka“ ako želite da prevučete i otpustite datoteke u Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Office Online proširenje za Chrome ne može da otvori dokument zbog veličine. Otpremite direktno u OneDrive da biste otvorili dokument."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Žao nam je, nismo mogli da otvorimo datoteku."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Žao nam je, nismo mogli da otvorimo datoteku. Pokušajte ponovo kasnije."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Žao nam je, nismo mogli da otvorimo datoteku. Odaberite datoteku kreiranu pomoću programa Word, Excel ili PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Trenutno otpremamo dokument(e)."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Vaša Office 365 pretplata je možda istekla ili ne sadrži OneDrive for Business. Proverite pretplatu ili se prijavite pomoću Microsoft naloga umesto toga."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Prijavite se u proširenje da biste prikazali i uredili datoteke u sistemu Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "U aplikaciji „Datoteke“ dodirnite dokumente pomoću dva prsta da biste ih otvorili koristeći Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Odaberite datoteku kreiranu pomoću programa Word, Excel ili PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "Iz usluge OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Van mreže ste. Ponovo se povežite da biste koristili Office Online proširenje za Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Iz usluge OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Otvori"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Nedavni dokumenti"
+   },
+   "SettingsLabel": {
+      "message": "Postavke"
+   },
+   "ShareMessage": {
+      "message": "Deli"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Potrebna je dozvola"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Nemate dozvolu za deljenje"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "Gde želite da sačuvate datoteke?"
+   },
+   "SignInLabel": {
+      "message": "Prijavite se"
+   },
+   "SignOutLabel": {
+      "message": "Odjavite se"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Automatski šaljite podatke da biste nam pomogli da poboljšamo proizvode."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Otpremanje u OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Otpremanje u OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Niste prijavljeni"
+   },
+   "ViewMoreLabel": {
+      "message": "Prikažite više"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

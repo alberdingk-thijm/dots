@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">REM  *****  BASIC  *****
+
+Sub Main
+
+End Sub
+
+Public Function CombatStatus2(leveled As Boolean, totalHP As Integer, rng As Range) As Integer
+
+    Dim curHP As Integer
+    Dim stunHP As Double
+    Dim indicator As Integer
+    Dim i As Integer
+    
+    indicator = 1
+    curHP = totalHP - rng.Cells(1).Value
+    i = 2
+    
+    &apos; Loop executes while cells are not blank
+    Do While rng.Cells(i).Value &lt;&gt; &quot;&quot;
+        stunHP = Abs(curHP / 4)
+        &apos; Take the absolute quarter of the current HP
+        &apos; (abs ensures that taking 0 damage is never greater than the stunHP)
+        
+        curHP = curHP - rng.Cells(i).Value
+        If (curHP &lt;= -10 And leveled) Or (curHP &lt;= -4 And Not leveled) Then
+            &apos; dead
+            indicator = -1
+        ElseIf (rng.Cells(i).Value &gt;= stunHP And rng.Cells(i).Value &gt; 0) Then
+        &apos; second test is for when taking 0 damage at 0 health
+            &apos; stunned
+            indicator = 0
+        Else
+            &apos; alive
+            indicator = 1
+        End If
+        
+        i = i + 1
+    Loop
+    
+    CombatStatus2 = indicator
+    
+End Function
+
+</script:module>

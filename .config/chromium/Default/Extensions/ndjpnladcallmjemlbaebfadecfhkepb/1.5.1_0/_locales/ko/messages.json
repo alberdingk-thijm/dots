@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "계정"
+   },
+   "AppDescription": {
+      "message": "브라우저에서 Office 파일을 보고 편집하고 만듭니다."
+   },
+   "AppFolderName": {
+      "message": "Office Online 확장"
+   },
+   "AppLongDescription": {
+      "message": "Chrome용으로 빌드됨 – Office를 설치하지 않고도 Word, Excel, PowerPoint, OneNote 및 Sway Online을 사용할 수 있습니다.\r\n\r\n편리한 문서 생성 – 익숙한 서식 설정과 레이아웃 옵션을 사용하여 아이디어를 그대로 표현할 수 있습니다.\r\n\r\n이동 중 작업 – OneDrive 및 비즈니스용 OneDrive와의 통합으로 어디서나 파일을 사용할 수 있습니다.\r\n\r\n앱을 설치하면 http://aka.ms/officechromeextensionterms의 사용 약관에 동의하는 것으로 간주됩니다.\r\n\r\n개인 정보취급방침: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online을 사용하면 온라인상에 저장되었거나 컴퓨터에 저장된 Office 파일에 직접 액세스하는 데 사용할 수 있는 아이콘이 Microsoft Edge 도구 모음에 추가됩니다.\r\n\r\nOffice Online은 OneDrive 및 비즈니스용 OneDrive에 저장된 파일을 열 수 있습니다.\r\n\r\nOffice를 설치할 필요 없이 Word, Excel, PowerPoint, OneNote 및 Sway의 기능을 브라우저에서 바로 사용할 수 있습니다.\r\n\r\n앱을 설치하는 것은 다음 사용 약관에 동의하는 것으로 간주됩니다. \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "찾아보기"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "계정 만들기"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "최근에 본 문서가 없습니다."
+   },
+   "CreateNewLabel": {
+      "message": "새로 만들기"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "지금은 최근 문서 목록을 가져올 수 없습니다."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "메모를 입력하세요."
+   },
+   "FeedbackDontLike": {
+      "message": "마음에 들지 않는 점이 있습니다."
+   },
+   "FeedbackLike": {
+      "message": "마음에 드는 점이 있습니다."
+   },
+   "FeedbackOverall": {
+      "message": "다음 중 어떤 의견을 가지고 계신가요?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "개인정보취급방침"
+   },
+   "FeedbackSubmit": {
+      "message": "제출"
+   },
+   "FeedbackSuggestion": {
+      "message": "제안할 점이 있습니다."
+   },
+   "FeedbackTitle": {
+      "message": "사용자 의견 보내기"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "마음에 들지 않은 점은 무엇이었나요?"
+   },
+   "FeedbackWhatLike": {
+      "message": "마음에 드는 점은 무엇이었나요?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "제안할 내용은 무엇인가요?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "파일 형식이 지원되지 않습니다. Word, Excel 또는 PowerPoint 문서를 선택하세요."
+   },
+   "LoadingRecentsLabel": {
+      "message": "로드 중..."
+   },
+   "NextLabel": {
+      "message": "로그인"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "이 내용을 다시 표시하지 않음"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "\"Office Online 확장\" 폴더의 파일을 OneDrive에 저장했습니다."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "\"Office Online 확장\" 폴더의 파일을 비즈니스용 OneDrive에 저장했습니다."
+   },
+   "NotificationFileAccess": {
+      "message": "파일을 Chrome으로 끌어서 놓으려면 Chrome 확장 설정에서 \"파일 URL에 대한 액세스 허용\" 확인란을 선택하세요."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Chrome용 Office Online 확장에서 크기로 인해 문서를 열 수 없습니다. 문서를 열려면 OneDrive로 직접 업로드하세요."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "죄송합니다. 파일을 열 수 없습니다."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "죄송합니다. 파일을 열 수 없습니다. 나중에 다시 시도하세요."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "죄송합니다. 파일을 열 수 없습니다. Word, Excel 또는 PowerPoint에서 만든 파일을 선택하세요."
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "현재 문서를 업로드하는 중입니다."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Office 365 구독이 만료되었거나 비즈니스용 OneDrive를 포함하지 않을 수 있습니다. 구독을 확인하거나 대신 Microsoft 계정으로 로그인하세요."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Office Online에서 파일을 보고 편집하려면 확장에 로그인하세요."
+   },
+   "NotificationSetDefault": {
+      "message": "[파일] 앱에서 두 손가락으로 문서를 탭하여 Office Online에서 여세요."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Word, Excel 또는 PowerPoint를 사용하여 만든 파일을 선택하세요."
+   },
+   "O365FilesLabel": {
+      "message": "비즈니스용 OneDrive에서"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "오프라인 상태입니다. Chrome용 Office Online 확장을 사용하려면 다시 연결하세요."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "OneDrive에서"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "열기"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "최근 문서"
+   },
+   "SettingsLabel": {
+      "message": "설정"
+   },
+   "ShareMessage": {
+      "message": "공유"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "사용 권한 필요"
+   },
+   "SharePermissionsTooltip": {
+      "message": "공유할 수 있는 권한이 없습니다."
+   },
+   "SharePointAppName": {
+      "message": "비즈니스용 OneDrive"
+   },
+   "SignInHeaderLabel": {
+      "message": "파일을 저장할 위치를 선택하세요."
+   },
+   "SignInLabel": {
+      "message": "로그인"
+   },
+   "SignOutLabel": {
+      "message": "로그아웃"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "자동으로 데이터를 보내도록 선택하면 제품 개선에 도움이 됩니다."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "비즈니스용 OneDrive에 업로드"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "OneDrive에 업로드"
+   },
+   "UsernameLabel": {
+      "message": "로그인되어 있지 않음"
+   },
+   "ViewMoreLabel": {
+      "message": "더 보기"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

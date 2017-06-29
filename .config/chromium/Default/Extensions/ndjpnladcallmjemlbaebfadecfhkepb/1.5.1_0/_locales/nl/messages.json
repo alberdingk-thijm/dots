@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Account"
+   },
+   "AppDescription": {
+      "message": "Bekijk, bewerk en maak Office-bestanden in de browser."
+   },
+   "AppFolderName": {
+      "message": "Office Online-uitbreiding"
+   },
+   "AppLongDescription": {
+      "message": "Gebouwd voor Chrome: gebruik Word, Excel, PowerPoint, OneNote en Sway Online zonder eerst Office te installeren.\r\n\r\nVol zelfvertrouwen creëren: gebruik de bekende opties voor opmaak en lay-out om vol vertrouwen uw ideeën naar buiten te brengen.\r\n\r\nOnderweg werken: open uw bestanden vanaf elke willekeurige locatie dankzij de integratie met OneDrive en OneDrive voor Bedrijven.\r\n\r\nAls u de toepassing installeert, gaat u akkoord met deze voorwaarden: http://aka.ms/officechromeextensionterms\r\n\r\nPrivacybeleid: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online plaats een pictogram op de Microsoft Edge-werkbalk waarmee u direct toegang hebt tot uw Office-bestanden, ongeacht of ze online zijn opgeslagen of op de computer.\r\n\r\nMet Office Online kunt u bestanden openen die zijn opgeslagen in OneDrive en in OneDrive voor Bedrijven.\r\n\r\nU kunt rechtstreeks vanuit de browser gebruikmaken van de functionaliteit van Word, Excel, PowerPoint, OneNote en Sway zonder dat u Office hoeft te installeren.\r\n\r\nDoor de app te installeren, gaat u akkoord met deze voorwaarden: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Bladeren"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Account maken"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "U hebt niet onlangs documenten bekeken."
+   },
+   "CreateNewLabel": {
+      "message": "Nieuw"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Er kan momenteel geen lijst met recente documenten worden opgehaald."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Typ uw opmerking"
+   },
+   "FeedbackDontLike": {
+      "message": "Er is iets dat ik niet leuk vind"
+   },
+   "FeedbackLike": {
+      "message": "Ik vind iets leuk"
+   },
+   "FeedbackOverall": {
+      "message": "Wat voor soort feedback hebt u?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Privacyverklaring"
+   },
+   "FeedbackSubmit": {
+      "message": "Verzenden"
+   },
+   "FeedbackSuggestion": {
+      "message": "Ik heb een suggestie"
+   },
+   "FeedbackTitle": {
+      "message": "Feedback verzenden"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Wat beviel u niet?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Wat beviel u?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Wat wilt u voorstellen?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Het bestandstype wordt niet ondersteund. Kies een document van Word, Excel of PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Laden..."
+   },
+   "NextLabel": {
+      "message": "Aanmelden"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Niet opnieuw weergeven"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Het bestand is opgeslagen in de map \"Office Online-uitbreiding\" in uw OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Het bestand is opgeslagen in de map \"Office Online-uitbreiding\" in uw OneDrive voor Bedrijven."
+   },
+   "NotificationFileAccess": {
+      "message": "Selecteer in de instellingen van de Chrome-uitbreiding het selectievakje voor het toestaan van toegang tot bestands-URL's als u bestanden wilt kunnen slepen en neerzetten in Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Uw document is te groot om te openen met de Office Online-uitbreiding voor Chrome. Upload het document rechtstreeks naar OneDrive om het te openen."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "We konden het bestand niet openen."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "We konden het bestand niet openen. Probeer het later opnieuw."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "We konden het bestand niet openen. Kies een bestand dat gemaakt is met Word, Excel of PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "We zijn bezig met het uploaden van uw document(en)."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Uw abonnement op Office 365 kan zijn verlopen of exclusief OneDrive voor Bedrijven zijn. Controleer uw abonnement of meld u aan met een Microsoft-account."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Meld u aan bij de uitbreiding om bestanden in Office Online te bekijken en te bewerken."
+   },
+   "NotificationSetDefault": {
+      "message": "Tik in de app Bestanden met twee vingers op documenten om ze te openen met Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Kies een bestand dat is gemaakt met Word, Excel of PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "Van OneDrive voor Bedrijven"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "U bent offline. Maak opnieuw verbinding om de Office Online-uitbreiding voor Chrome te gebruiken."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Van OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Openen"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Recente documenten"
+   },
+   "SettingsLabel": {
+      "message": "Instellingen"
+   },
+   "ShareMessage": {
+      "message": "Delen"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Toestemming vereist"
+   },
+   "SharePermissionsTooltip": {
+      "message": "U hebt geen toestemming om te delen"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive voor Bedrijven"
+   },
+   "SignInHeaderLabel": {
+      "message": "Waar wilt u uw bestanden opslaan?"
+   },
+   "SignInLabel": {
+      "message": "Aanmelden"
+   },
+   "SignOutLabel": {
+      "message": "Afmelden"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Automatisch gegevens verzenden om ons te helpen onze producten te verbeteren."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Uploaden naar OneDrive voor Bedrijven"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Uploaden naar OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Niet aangemeld"
+   },
+   "ViewMoreLabel": {
+      "message": "Meer weergeven"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

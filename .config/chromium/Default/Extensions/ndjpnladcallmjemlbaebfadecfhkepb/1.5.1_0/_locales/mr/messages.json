@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "खाते"
+   },
+   "AppDescription": {
+      "message": "आपल्या ब्राउझरमध्ये Office फाइली पाहण्याचा, संपादित आणि तयार करण्याचा सर्वात जलद मार्ग."
+   },
+   "AppFolderName": {
+      "message": "Office Online विस्तार"
+   },
+   "AppLongDescription": {
+      "message": "Chrome साठी बनविलेले – Office स्थापित न करता Word, Excel, PowerPoint, OneNote आणि Sway Online वापरा.\r\n\r\nआत्मविश्वासाने तयार करा – आपल्या कल्पनांना व्यक्त करण्यासाठी पूर्ण विश्वासासह ओळखीचे स्वरुपण आणि लेआउट पर्याय वापरा.\r\n\r\nजाताजाता काम करा – OneDrive आणि OneDrive for Business सह एकात्मिकतेमुळे कोठूनही आपल्या फाइली मिळवा.\r\n\r\nॲप स्थापित करुन आपण या अटी आणि शर्तींशी सहमत होता: http://aka.ms/officechromeextensionterms\r\n\r\nगोपनीयता धोरण: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online Microsoft Edge साधनपट्टीवर एक प्रतीक ठेवतो जे आपल्याला आपल्या Office फाइल्सचा थेट ऍक्सेस देतात, मग ते ऑनलाइन किंवा आपल्या कॉम्प्यूटर वर संग्रहित केलेले असो. \r\n\r\nOffice Online फाइल्स OneDrive मध्ये किंवा OneDrive for Business मध्ये संग्रहित करते. \r\n\r\nआपल्याला Word, Excel, PowerPoint, OneNote आणि Sway ची वैशिष्ट्ये आपल्या ब्राउझरमध्ये Office स्थापित करण्याची गरज न पडता प्राप्त होतील. \r\n\r\nअनुप्रयोग स्थापित करून आपण या अटी आणि शर्तींशी सहमत आहातः \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "ब्राउझ करा"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "खाते तयार करा"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "आपण अलीकडे कोणतेही दस्तऐवज पाहिलेले नाहीत."
+   },
+   "CreateNewLabel": {
+      "message": "नवीन"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "आम्ही आत्ता आपल्या अलीकडील दस्तऐवजांची यादी मिळवू शकत नाही."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "कृपया आपली टिप्पणी टाइप करा"
+   },
+   "FeedbackDontLike": {
+      "message": "मला काहीतरी आवडले नाही"
+   },
+   "FeedbackLike": {
+      "message": "मला काहीतरी आवडले"
+   },
+   "FeedbackOverall": {
+      "message": "आपल्याकडे कोणत्या प्रकारचा अभिप्राय आहे?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "गोपनीयता विधान"
+   },
+   "FeedbackSubmit": {
+      "message": "सबमिट करा"
+   },
+   "FeedbackSuggestion": {
+      "message": "माझ्याकडे सूचना आहे"
+   },
+   "FeedbackTitle": {
+      "message": "अभिप्राय पाठवा"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "आपल्याला काय आवडले नाही?"
+   },
+   "FeedbackWhatLike": {
+      "message": "आपल्याला काय आवडले?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "आपण काय सुचवित आहात?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "या फाइल प्रकारास समर्थन नाही. कृपया Word, Excel किंवा PowerPoint दस्तऐवज निवडा."
+   },
+   "LoadingRecentsLabel": {
+      "message": "लोड करत आहे..."
+   },
+   "NextLabel": {
+      "message": "साइन इन करा"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "हे पुन्हा दाखवू नका"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "आम्ही आपली फाइल आपल्या OneDrive वरील \"Office Online विस्तार\" मध्ये जतन केली आहे."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "आम्ही आपली फाइल आपल्या OneDrive for Business वरील \"Office Online विस्तार\" मध्ये जतन केली आहे."
+   },
+   "NotificationFileAccess": {
+      "message": "जर आपल्याला Chrome मध्ये फाइली ड्रॅग आणि ड्रॉप करायच्या असतील तर Chrome विस्तार सेटिंग्जमध्ये, \"फाइल URL कडे प्रवेशाची परवानगी द्या\" चेकबॉक्स निवडा ."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Chrome साठी Office Online विस्तार आपला दस्तऐवज आकारामुळे उघडू शकत नाही.  दस्तऐवज उघडण्यासाठी कृपया थेट OneDrive ला अपलोड करा."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "क्षमस्व, आम्हाला आपली फाइल उघडता आली नाही."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "क्षमस्व, आम्हाला आपली फाइल उघडता आली नाही.  कृपया नंतर पुन्हा प्रयत्न करा."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "क्षमस्व, आम्हाला आपली फाइल उघडता आली नाही.  कृपया Word, Excel किंवा PowerPoint सह तयार केलेली फाइल निवडा"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "आम्ही सध्या आपला(ले) दस्तऐवज अपलोड करत आहोत."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "आपले Office 365 सदस्यत्व समाप्त झालेले असू शकेल किंवा OneDrive for Business मध्ये समाविष्ट नसू शकेल. आपले सदस्यत्व तपासा किंवा त्याऐवजी Microsoft खात्यासह लॉग इन करा."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Office Online मध्ये फाइली पाहण्यास आणि संपादित करण्यास विस्तारामध्ये साइन इन करा."
+   },
+   "NotificationSetDefault": {
+      "message": "फाइली ऍपमध्ये, Office Online सह दस्तऐवज उघडण्यासाठी त्यांवर दोन बोटांनी टॅप करा."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Word, Excel किंवा PowerPoint सह तयार केलेली फाइल निवडा."
+   },
+   "O365FilesLabel": {
+      "message": "OneDrive for Business कडून"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "आपण ऑफलाइन आहात. Chrome साठी Office ऑनलाइन विस्तार वापरण्यासाठी कृपया पुन्हा कनेक्ट व्हा."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "OneDrive कडून"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "उघडा"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "अलीकडील दस्ताऐवज"
+   },
+   "SettingsLabel": {
+      "message": "सेटिंग्ज"
+   },
+   "ShareMessage": {
+      "message": "सामायिक करा"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "परवानगी आवश्यक"
+   },
+   "SharePermissionsTooltip": {
+      "message": "आपणास सामायिक करण्याची परवानगी नाही"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "आपल्याला आपल्या फाइली कोठे जतन करायच्या आहेत?"
+   },
+   "SignInLabel": {
+      "message": "साइन इन करा"
+   },
+   "SignOutLabel": {
+      "message": "साइन आउट करा"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "आम्हाला आमची उत्पादने सुधारण्यात मदत करण्यासाठी स्वयंचलितपणे डेटा पाठवा."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "OneDrive for Business ला अपलोड करा"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "OneDrive ला अपलोड करा"
+   },
+   "UsernameLabel": {
+      "message": "साइन इन नाही"
+   },
+   "ViewMoreLabel": {
+      "message": "अधिक दर्शवा"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

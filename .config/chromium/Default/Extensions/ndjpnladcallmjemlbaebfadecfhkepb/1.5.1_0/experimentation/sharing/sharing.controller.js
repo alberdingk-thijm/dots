@@ -1,0 +1,1 @@
+!function(){"use strict";function n(n){function t(){n.getFlight(r).then(function(n){i.flightView=e+n})}var i=this,e="/experimentation/sharing/",r="SHARING";i.flightView=e+"sharingControl/sharingControl.html",t()}angular.module("app.experimentation").controller("SharingController",["experimentService",n])}();

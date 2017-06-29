@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Account"
+   },
+   "AppDescription": {
+      "message": "Tumingin, mag-edit, at gumawa ng mga file sa Office sa iyong browser."
+   },
+   "AppFolderName": {
+      "message": "Office Online extension"
+   },
+   "AppLongDescription": {
+      "message": "Ginawa para sa Chrome – Gumamit ng Word, Excel, PowerPoint, OneNote, at Sway Online nang hindi kailangang i-install ang Office.\r\n\r\nGumawa nang may kumpiyansa – Gumamit ng pamilyar na mga opsyon sa pag-format at layout para maipahayag ang mga ideya mo nang buong katapatan.\r\n\r\nGumawa habang nagbibiyahe – Puntahan ang mga file mo kahit saan, salamat sa pagsasama sa OneDrive at OneDrive for Business.\r\n\r\nSa pag-install ng app, sumasang-ayon ka sa mga tuntunin at kondisyon na ito: http://aka.ms/officechromeextensionterms\r\n\r\nPatakaran sa Pagiging Pribado: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Naglalagay ang Office Online ng icon sa toolbar ng Microsoft Edge na nagbibigay sa iyo ng direktang access sa iyong mga file sa Office, nakaimbak man iyon online o sa iyong computer.\r\n\r\nMaaaring buksan ng Office Online ang mga file na nakaimbak sa OneDrive at OneDrive for Business.\r\n\r\nMakukuha mo ang mga tampok ng Word, Excel, PowerPoint, OneNote, at Sway doon mismo sa iyong browser nang hindi kinakailangang naka-install ang Office.\r\n\r\nSa pamamagitan ng pag-install sa app, sumasang-ayon ka sa mga tuntunin at kundisyong ito: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "I-browse"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Gumawa ng account"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Wala ka pang natitingnang anumang mga dokumento kamakailan."
+   },
+   "CreateNewLabel": {
+      "message": "Bago"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Hindi namin makuha sa ngayon ang listahan ng iyong mga kamakailang dokumento."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Mangyaring mag-type sa iyong komento"
+   },
+   "FeedbackDontLike": {
+      "message": "May hindi ako gusto"
+   },
+   "FeedbackLike": {
+      "message": "May nagustuhan ako"
+   },
+   "FeedbackOverall": {
+      "message": "Anong uri ng feedback ang mayroon ka?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Pahayag ng Pagiging Pribado"
+   },
+   "FeedbackSubmit": {
+      "message": "Isumite"
+   },
+   "FeedbackSuggestion": {
+      "message": "Mayroon akong suhestiyon"
+   },
+   "FeedbackTitle": {
+      "message": "Magpadala ng feedback"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Ano ang hindi mo nagustuhan?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Ano ang nagustuhan mo?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Ano ang iyong minumungkahi?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Hindi sinusuportahan ang uri ng file. Mangyaring pumili ng dokumento sa Word, Excel o PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Nilo-load..."
+   },
+   "NextLabel": {
+      "message": "Mag-sign in"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Huwag itong ipakita ulit"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Na-save namin ang iyong file sa folder na \"Office Online extension\" sa iyong OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Na-save namin ang iyong file sa folder na \"Office Online extension\" sa iyong OneDrive for Business."
+   },
+   "NotificationFileAccess": {
+      "message": "Sa setting ng Chrome extension, piliin ang checkbox na \"Payagan ang access sa mga URL ng file\" kung gusto mong mag-drag at mag-drop ng mga file sa Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Hindi mabuksan ng Office Online extension para sa Chrome ang iyong dokumento dahil sa laki.  Paki-upload nang direkta sa OneDrive para buksan ang dokumento."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Paumanhin, hindi namin nabuksan ang iyong file."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Paumanhin, hindi namin nabuksan ang iyong file.  Pakisubukang muli sa ibang pagkakataon."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Paumanhin, hindi namin nabuksan ang iyong file.  Mangyaring pumili ng file na ginawa sa Word, Excel o PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Kasalukuyan naming ina-upload ang iyong (mga) dokumento."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Maaaring nag-expire na ang iyong subscription sa Office 365 o maaaring hindi kasama rito ang OneDrive for Business. Suriin ang iyong subscription o mag-log in sa Account sa Microsoft sa halip."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Mag-sign in sa extension para tingnan at i-edit ang mga file sa Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "Sa app na Mga File, i-tap ang mga dokumento gamit ang dalawang daliri para buksan ang Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Pumili ng file na ginawa sa Word, Excel o PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "Mula sa OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Offline ka. Mangyaring kumonekta ulit para gamitin ang Office Online extension para sa Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Mula sa OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Buksan"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Mga kamakailang dokumento"
+   },
+   "SettingsLabel": {
+      "message": "Mga Setting"
+   },
+   "ShareMessage": {
+      "message": "Ibahagi"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Nangangailangan ng pahintulot"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Wala kang pahintulot na magbahagi"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "Saan mo gustong i-save ang iyong mga file?"
+   },
+   "SignInLabel": {
+      "message": "Mag-sign in"
+   },
+   "SignOutLabel": {
+      "message": "Mag-sign out"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Awtomatikong magpadala ng data para tulungan kaming pagandahin ang aming mga produkto."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "I-upload sa OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "I-upload sa OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Hindi naka-sign in"
+   },
+   "ViewMoreLabel": {
+      "message": "Tingnan ang higit pa"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

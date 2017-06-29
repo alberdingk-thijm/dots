@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Konts"
+   },
+   "AppDescription": {
+      "message": "Skatiet, rediģējiet un izveidojiet Office failus savā pārlūkprogrammā."
+   },
+   "AppFolderName": {
+      "message": "Office Online paplašinājums"
+   },
+   "AppLongDescription": {
+      "message": "Veidots pārlūkprogrammai Chrome – izmantojiet Word, Excel, PowerPoint, OneNote un Sway Online bez nepieciešamības instalēt Office.\r\n\r\nVeidojiet ar paļāvību – izmantojiet pazīstamās formatēšanas un izkārtojuma opcijas, lai precīzi paustu savas idejas.\r\n\r\nDarbs ceļā – pateicoties integrācijai ar OneDrive un OneDrive darbam, piekļūstiet saviem failiem no jebkuras vietas.\r\n\r\nInstalējot lietojumprogrammu, jūs piekrītat šiem noteikumiem un nosacījumiem: http://aka.ms/officechromeextensionterms\r\n\r\nKonfidencialitātes politika: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online ievieto ikonu Microsoft Edge rīkjoslā, ļaujot jums tieši piekļūt saviem Office failiem – gan tiem, kas tiek glabāti tiešsaistē, gan datorā.\r\n\r\nOffice Online var atvērt failus, kas tiek glabāti pakalpojumā OneDrive un OneDrive darbam.\r\n\r\nJūsu rīcībā pārlūkprogrammā ir Word, Excel, PowerPoint, OneNote un Sway līdzekļi, un Office nemaz nav jāinstalē.\r\n\r\nInstalējot lietojumprogrammu, jūs piekrītat šiem noteikumiem un nosacījumiem: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Pārlūkot"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Izveidot kontu"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Pēdējā laikā neesat skatījis nevienu dokumentu."
+   },
+   "CreateNewLabel": {
+      "message": "Jauns"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Šobrīd nevaram iegūt neseno dokumentu sarakstu."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Lūdzu, ierakstiet savu komentāru"
+   },
+   "FeedbackDontLike": {
+      "message": "Kaut kas man nepatīk"
+   },
+   "FeedbackLike": {
+      "message": "Kaut kas man patīk"
+   },
+   "FeedbackOverall": {
+      "message": "Kāda veida atsauksmes vēlaties sniegt?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Paziņojums par konfidencialitāti"
+   },
+   "FeedbackSubmit": {
+      "message": "Iesniegt"
+   },
+   "FeedbackSuggestion": {
+      "message": "Man ir ierosinājums"
+   },
+   "FeedbackTitle": {
+      "message": "Nosūtīt atsauksmes"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Kas jums nepatika?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Kas jums patika?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Ko jūs iesakāt?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Failu tips netiek atbalstīts. Lūdzu, izvēlieties Word, Excel vai PowerPoint dokumentu."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Notiek ielāde..."
+   },
+   "NextLabel": {
+      "message": "Pierakstīties"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Vairs nerādīt šo ziņojumu"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Failu saglabājām jūsu OneDrive mapē Office Online paplašinājums."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Failu saglabājām jūsu OneDrive darbam mapē Office Online paplašinājums."
+   },
+   "NotificationFileAccess": {
+      "message": "Ja vēlaties failus vilkt un nomest pārlūkprogrammā Chrome, tad Chrome paplašinājumu iestatījumos atzīmējiet izvēles rūtiņu Atļaut piekļuvi failu vietrāžiem URL."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Office Online paplašinājums pārlūkprogrammai Chrome nevar atvērt dokumentu tā lieluma dēļ. Lai atvērtu dokumentu, lūdzu, augšupielādējiet tieši pakalpojumā OneDrive."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Diemžēl nevarējām atvērt failu."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Diemžēl nevarējām atvērt failu. Lūdzu, vēlāk mēģiniet vēlreiz."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Diemžēl nevarējām atvērt failu. Lūdzu, izvēlieties failu, kas ir izveidots ar programmu Word, Excel vai PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Šobrīd augšupielādējam jūsu dokumentus."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Iespējams, ir beidzies Office 365 abonementa derīguma termiņš vai tajā nav iekļauts pakalpojums OneDrive darbam. Pārbaudiet savu abonementu vai piesakieties ar Microsoft kontu."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Pierakstieties paplašinājumā, lai failus skatītu un rediģētu pakalpojumā Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "Lietojumprogrammā Faili pieskarieties dokumentiem ar diviem pirkstiem, lai atvērtu, izmantojot Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Izvēlieties failu, kas izveidots ar programmu Word, Excel vai PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "No OneDrive darbam"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Jūs esat bezsaistē. Lūdzu atkārtoti izveidojiet savienojumu ar Office Online paplašinājumu pārlūkprogrammai Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "No OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Atvērt"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Pēdējie dokumenti"
+   },
+   "SettingsLabel": {
+      "message": "Iestatījumi"
+   },
+   "ShareMessage": {
+      "message": "Kopīgot"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Nepieciešama atļauja"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Jums nav atļaujas kopīgot"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive darbam"
+   },
+   "SignInHeaderLabel": {
+      "message": "Kur vēlaties saglabāt savus failus?"
+   },
+   "SignInLabel": {
+      "message": "Pierakstīties"
+   },
+   "SignOutLabel": {
+      "message": "Izrakstīties"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Automātiski nosūtīt datus, lai palīdzētu mums uzlabot produktus."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Augšupielādēt pakalpojumā OneDrive darbam"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Augšupielādēt pakalpojumā OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Nav pierakstījies"
+   },
+   "ViewMoreLabel": {
+      "message": "Skatīt vairāk"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}
