@@ -1,0 +1,7 @@
+#!/bin/sh
+
+tmux new-session 'vim'
+tmux split-window -h
+tmux resize-pane -R 60
+tmux new-window 'compile'
+tmux -2 attach-session -d
