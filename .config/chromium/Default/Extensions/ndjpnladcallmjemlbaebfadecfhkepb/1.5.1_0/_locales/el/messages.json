@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Λογαριασμός"
+   },
+   "AppDescription": {
+      "message": "Προβάλετε, επεξεργαστείτε και δημιουργήστε αρχεία του Office στο πρόγραμμα περιήγησής σας."
+   },
+   "AppFolderName": {
+      "message": "Επέκταση Office Online"
+   },
+   "AppLongDescription": {
+      "message": "Σχεδιασμένο για το Chrome – Χρησιμοποιήστε το Word, το Excel, το PowerPoint, το OneNote και το Sway Online, χωρίς να χρειάζεται να εγκαταστήσετε το Office.\r\n\r\nΔημιουργία με αυτοπεποίθηση – Χρησιμοποιήστε οικείες επιλογές μορφοποίησης και διάταξης, για να εκφράσετε τις ιδέες σας με απόλυτη πιστότητα.\r\n\r\nΕργασία εν κινήσει – Αποκτήστε πρόσβαση στα αρχεία σας από οπουδήποτε, χάρη στην ενοποίηση με το OneDrive και το OneDrive για επιχειρήσεις.\r\n\r\nΕγκαθιστώντας την εφαρμογή, συμφωνείτε με αυτούς τους όρους και τις προϋποθέσεις: http://aka.ms/officechromeextensionterms\r\n\r\nΠολιτική προστασίας προσωπικών δεδομένων: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Το Office Online τοποθετεί ένα εικονίδιο στη γραμμή εργαλείων του Microsoft Edge που σας παρέχει άμεση πρόσβαση στα αρχεία του Office, είτε είναι αποθηκευμένα online είτε στον υπολογιστή σας.\r\n\r\nΤο Office Online μπορεί να ανοίγει αρχεία που είναι αποθηκευμένα στο OneDrive και στο OneDrive για επιχειρήσεις.\r\n\r\nΕξασφαλίζετε τις δυνατότητες των Word, Excel, PowerPoint, OneNote και Sway απευθείας στο πρόγραμμα περιήγησής σας, χωρίς να χρειάζεται να εγκαταστήσετε το Office.\r\n\r\nΜε την εγκατάσταση της εφαρμογής, αποδέχεστε τους εξής όρους και προϋποθέσεις: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Αναζήτηση"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Δημιουργία λογαριασμού"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Δεν έχετε προβάλει έγγραφα πρόσφατα."
+   },
+   "CreateNewLabel": {
+      "message": "Δημιουργία"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Δεν είναι δυνατή η λήψη της λίστας των πρόσφατων εγγράφων σας αυτή τη στιγμή."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Πληκτρολογήστε το σχόλιό σας"
+   },
+   "FeedbackDontLike": {
+      "message": "Κάτι δεν μου αρέσει"
+   },
+   "FeedbackLike": {
+      "message": "Κάτι μου αρέσει"
+   },
+   "FeedbackOverall": {
+      "message": "Τι είδους σχόλια έχετε να κάνετε;"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Δήλωση προστασίας προσωπικών δεδομένων"
+   },
+   "FeedbackSubmit": {
+      "message": "Υποβολή"
+   },
+   "FeedbackSuggestion": {
+      "message": "Έχω μια πρόταση"
+   },
+   "FeedbackTitle": {
+      "message": "Αποστολή σχολίων"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Τι δεν σας άρεσε;"
+   },
+   "FeedbackWhatLike": {
+      "message": "Τι σας άρεσε;"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Τι προτείνετε;"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Ο τύπος αρχείου δεν υποστηρίζεται. Επιλέξτε ένα έγγραφο του Word, του Excel ή του PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Φόρτωση..."
+   },
+   "NextLabel": {
+      "message": "Είσοδος"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Να μην εμφανιστεί ξανά αυτό το μήνυμα"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Αποθηκεύσαμε το αρχείο σας στο φάκελο \"Επέκταση Office Online\" στο OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Αποθηκεύσαμε το αρχείο σας στο φάκελο \"Επέκταση Office Online\" στο OneDrive για επιχειρήσεις."
+   },
+   "NotificationFileAccess": {
+      "message": "Στις ρυθμίσεις επεκτάσεων του Chrome, επιλέξτε το πλαίσιο ελέγχου \"Να επιτρέπεται η πρόσβαση στις διευθύνσεις URL αρχείων\", αν θέλετε να κάνετε μεταφορά και απόθεση αρχείων στο Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Δεν είναι δυνατό το άνοιγμα του εγγράφου από την επέκταση Office Online για Chrome λόγω του μεγέθους. Κάντε αποστολή απευθείας στο OneDrive για να ανοίξετε το έγγραφο."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Δυστυχώς, δεν ήταν δυνατό το άνοιγμα του αρχείου."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Δυστυχώς, δεν ήταν δυνατό το άνοιγμα του αρχείου. Δοκιμάστε ξανά αργότερα."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Δυστυχώς, δεν ήταν δυνατό το άνοιγμα του αρχείου. Επιλέξτε ένα αρχείο που δημιουργήθηκε με το Word, το Excel ή το PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Η αποστολή των εγγράφων σας είναι σε εξέλιξη."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Η συνδρομή σας στο Office 365 μπορεί να έχει λήξει ή να μην περιλαμβάνει το OneDrive για επιχειρήσεις. Ελέγξτε τη συνδρομή σας ή συνδεθείτε με έναν λογαριασμό Microsoft."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Εισέλθετε στην επέκταση για να προβάλετε και να επεξεργαστείτε αρχεία στο Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "Στην εφαρμογή Αρχεία, πατήστε με δύο δάχτυλα σε έγγραφα για άνοιγμα με το Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Επιλέξτε ένα αρχείο που δημιουργήθηκε με το Word, το Excel ή το PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "Από το OneDrive για επιχειρήσεις"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Είστε εκτός σύνδεσης. Συνδεθείτε ξανά για να χρησιμοποιήσετε την επέκταση Office Online για Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Από το OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Άνοιγμα"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Πρόσφατα έγγραφα"
+   },
+   "SettingsLabel": {
+      "message": "Ρυθμίσεις"
+   },
+   "ShareMessage": {
+      "message": "Κοινή χρήση"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Απαιτούνται δικαιώματα χρήσης"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Δεν έχετε δικαίωμα για κοινή χρήση"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive για επιχειρήσεις"
+   },
+   "SignInHeaderLabel": {
+      "message": "Πού θέλετε να αποθηκεύσετε τα αρχεία σας;"
+   },
+   "SignInLabel": {
+      "message": "Είσοδος"
+   },
+   "SignOutLabel": {
+      "message": "Έξοδος"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Αυτόματη αποστολή δεδομένων για συμβολή στη βελτίωση των προϊόντων μας."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Αποστολή στο OneDrive για επιχειρήσεις"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Αποστολή στο OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Δεν έγινε είσοδος"
+   },
+   "ViewMoreLabel": {
+      "message": "Προβολή περισσότερων"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

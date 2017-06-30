@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Compte"
+   },
+   "AppDescription": {
+      "message": "Affichez, modifiez et créez des fichiers Office dans votre navigateur."
+   },
+   "AppFolderName": {
+      "message": "Extension Office Online"
+   },
+   "AppLongDescription": {
+      "message": "Application conçue pour Chrome – Utilisez Word, Excel, PowerPoint, OneNote et Sway Online sans avoir besoin d’installer Office.\r\n\r\nDonnez libre cours à votre imagination – Exprimez vos idées avec créativité en utilisant des options de mise en forme et de mise en page que vous connaissez déjà.\r\n\r\nTravaillez en déplacement – Accédez à vos fichiers où que vous soyez grâce à l’intégration avec OneDrive et OneDrive Entreprise.\r\n\r\nEn installant l’application, vous acceptez les conditions générales d’utilisation suivantes : http://aka.ms/officechromeextensionterms\r\n\r\nPolitique de confidentialité : http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online place une icône dans la barre d’outils de Microsoft Edge qui vous donne un accès direct à vos fichiers Office, qu’ils soient stockés en ligne ou sur votre ordinateur.\r\n\r\nOffice Online peut ouvrir les fichiers stockés dans OneDrive et OneDrive Entreprise.\r\n\r\nVous accédez aux fonctionnalités de Word, Excel, PowerPoint, OneNote et Sway directement dans votre navigateur sans qu’Office soit installé.\r\n\r\nEn installant l’application, vous acceptez ces conditions d’utilisation : \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Parcourir"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Créer un compte"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Vous n’avez pas affiché de documents Office récemment."
+   },
+   "CreateNewLabel": {
+      "message": "Nouveau"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Nous ne pouvons pas obtenir la liste de vos documents récents pour le moment."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Tapez votre commentaire"
+   },
+   "FeedbackDontLike": {
+      "message": "Quelque chose ne me plaît pas"
+   },
+   "FeedbackLike": {
+      "message": "Quelque chose me plaît"
+   },
+   "FeedbackOverall": {
+      "message": "Quel type de commentaire voulez-vous transmettre ?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Déclaration de confidentialité"
+   },
+   "FeedbackSubmit": {
+      "message": "Envoyer"
+   },
+   "FeedbackSuggestion": {
+      "message": "J’ai une suggestion"
+   },
+   "FeedbackTitle": {
+      "message": "Envoyer des commentaires"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Qu’est-ce que vous n’avez pas aimé ?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Qu’avez-vous aimé ?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Que suggérez-vous ?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Le type de fichier n’est pas pris en charge. Veuillez choisir un document Word, Excel ou PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Le chargement est en cours... Merci de patienter."
+   },
+   "NextLabel": {
+      "message": "Se connecter"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Ne plus afficher ce message"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Nous avons enregistré votre fichier dans le dossier Extension Office Online de votre espace OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Nous avons enregistré votre fichier dans le dossier Extension Office Online de votre espace OneDrive Entreprise."
+   },
+   "NotificationFileAccess": {
+      "message": "Dans les paramètres d’extension de Chrome, activez la case à cocher Autoriser l’accès à l’URL des fichiers si vous voulez faire glisser et déplacer des fichiers dans Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "L’extension Office Online pour Chrome ne peut pas ouvrir votre document en raison de sa taille. Veuillez le charger directement sur OneDrive pour l’ouvrir."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Désolé... Nous n’avons pas pu ouvrir votre fichier."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Désolé... Nous n’avons pas pu ouvrir votre fichier. Veuillez réessayer plus tard."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Désolé... Nous n’avons pas pu ouvrir votre fichier. Veuillez choisir un fichier créé avec Word, Excel ou PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Nous chargeons votre ou vos documents... Merci de patienter."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Votre abonnement Office 365 a peut-être expiré ou n’inclut pas OneDrive Entreprise. Vérifiez votre abonnement ou connectez-vous à l’aide d’un compte Microsoft."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Connectez-vous à l’extension pour afficher et modifier des fichiers dans Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "Dans l’application Fichiers, cliquez sur des documents avec deux doigts pour les ouvrir avec Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Choisissez un fichier créé avec Word, Excel ou PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "À partir de OneDrive Entreprise"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Vous êtes en mode hors connexion. Reconnectez-vous pour utiliser l’extension Office Online pour Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "À partir de OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Ouvrir"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Documents récents"
+   },
+   "SettingsLabel": {
+      "message": "Paramètres"
+   },
+   "ShareMessage": {
+      "message": "Partager"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Autorisation requise"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Vous n’êtes pas autorisé à partager"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive Entreprise"
+   },
+   "SignInHeaderLabel": {
+      "message": "Où voulez-vous enregistrer vos fichiers ?"
+   },
+   "SignInLabel": {
+      "message": "Se connecter"
+   },
+   "SignOutLabel": {
+      "message": "Se déconnecter"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Envoyez automatiquement des données pour nous aider à améliorer nos produits."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Charger dans OneDrive Entreprise"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Charger dans OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Pas connecté"
+   },
+   "ViewMoreLabel": {
+      "message": "Afficher plus"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "บัญชีผู้ใช้"
+   },
+   "AppDescription": {
+      "message": "ดู แก้ไข และสร้างไฟล์ Office ในเบราว์เซอร์ของคุณ"
+   },
+   "AppFolderName": {
+      "message": "ส่วนขยายของ Office Online"
+   },
+   "AppLongDescription": {
+      "message": "ออกแบบมาเพื่อ Chrome – ใช้ Word, Excel, PowerPoint, OneNote และ Sway Online แบบไม่ต้องติดตั้ง Office\r\n\r\nสร้างอย่างมั่นใจ – ใช้ตัวเลือกการจัดรูปแบบและเค้าโครงที่คุณคุ้นเคยเพื่อบอกเล่าไอเดียของคุณให้เที่ยงตรงมากที่สุด\r\n\r\nทำงานได้จากทุกที่ – เข้าถึงไฟล์ได้จากทุกที่ด้วยการรวมกับ OneDrive และ OneDrive for Business\r\n\r\nเมื่อคุณติดตั้งแอปนี้ คุณได้ยอมรับข้อกำหนดและเงื่อนไขเหล่านี้: http://aka.ms/officechromeextensionterms\r\n\r\nนโยบายความเป็นส่วนตัว: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online จัดวางไอคอนบนแถบเครื่องมือ Microsoft Edge ที่ให้คุณเข้าถึงไปยังไฟล์ Office โดยตรง ไม่ว่าจะถูกเก็บไว้แบบออนไลน์หรือบนคอมพิวเตอร์ของคุณ\r\n\r\nOffice Online สามารถเปิดไฟล์ที่เก็บอยู่ใน OneDrive และ OneDrive สำหรับธุรกิจ\r\n\r\nคุณได้รับฟีเจอร์ต่างๆ ของ Word, Excel, PowerPoint, OneNote และ Sway ในเบราว์เซอร์ของคุณได้ทันที โดยไม่ต้องติดตั้ง Office\r\n\r\nโดยการติดตั้งแอป คุณยอมรับข้อกำหนดและเงื่อนไขเหล่านี้: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "เรียกดู"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "สร้างบัญชีผู้ใช้"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "คุณยังไม่ได้ดูเอกสารใดๆ ในช่วงนี้"
+   },
+   "CreateNewLabel": {
+      "message": "ใหม่"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "เราไม่สามารถรับรายการเอกสารล่าสุดของคุณได้ในขณะนี้"
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "โปรดพิมพ์ข้อคิดเห็นของคุณ"
+   },
+   "FeedbackDontLike": {
+      "message": "ฉันไม่ชอบบางอย่าง"
+   },
+   "FeedbackLike": {
+      "message": "ฉันชอบบางอย่าง"
+   },
+   "FeedbackOverall": {
+      "message": "คุณมีคำติชมประเภทใด"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "คำชี้แจงสิทธิ์ส่วนบุคคล"
+   },
+   "FeedbackSubmit": {
+      "message": "ส่ง"
+   },
+   "FeedbackSuggestion": {
+      "message": "ฉันมีข้อเสนอแนะ"
+   },
+   "FeedbackTitle": {
+      "message": "ส่งคำติชม"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "คุณไม่ชอบอะไรบ้าง"
+   },
+   "FeedbackWhatLike": {
+      "message": "คุณชอบอะไรบ้าง"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "มีอะไรที่คุณอยากแนะนำเราหรือไม่"
+   },
+   "FileTypeErrorMessage": {
+      "message": "ชนิดไฟล์ไม่ได้รับการสนับสนุน โปรดเลือกเอกสาร Word, Excel หรือ PowerPoint"
+   },
+   "LoadingRecentsLabel": {
+      "message": "กำลังโหลด..."
+   },
+   "NextLabel": {
+      "message": "ลงชื่อเข้าใช้"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Do not show this again"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "We saved your file in the \"Office Online extension\" folder on your OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "We saved your file in the \"Office Online extension\" folder on your OneDrive for Business."
+   },
+   "NotificationFileAccess": {
+      "message": "In the Chrome extension settings, select the \"Allow access to file URLs\" checkbox if you want to drag and drop files into Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Office Online extension for Chrome is unable to open your document because of the size.  Please upload directly to OneDrive to open the document."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Sorry, we were unable to open your file."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Sorry, we were unable to open your file.  Please try again at a later time."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Sorry, we were unable to open your file.  Please choose a file created with Word, Excel, or PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "We are currently uploading your document(s)."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Your Office 365 subscription may be expired or may not include OneDrive for Business. Check your subscription or log in with a Microsoft Account instead."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Sign in to the extension to view and edit files in Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "In the Files app, tap documents with two fingers to open with Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Choose a file created with Word, Excel, or PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "จาก OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "คุณกำลังออฟไลน์ โปรดเชื่อมต่อใหม่เพื่อใช้ส่วนขยาย Office Online สำหรับ Chrome"
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "จาก OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "เปิด"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "เอกสารล่าสุด"
+   },
+   "SettingsLabel": {
+      "message": "การตั้งค่า"
+   },
+   "ShareMessage": {
+      "message": "แชร์"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "จำเป็นต้องมีสิทธิ์"
+   },
+   "SharePermissionsTooltip": {
+      "message": "คุณไม่มีสิทธิ์ในการแชร์"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "คุณต้องการบันทึกไฟล์ของคุณไว้ที่ใด"
+   },
+   "SignInLabel": {
+      "message": "ลงชื่อเข้าใช้"
+   },
+   "SignOutLabel": {
+      "message": "ออกจากระบบ"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "ส่งข้อมูลโดยอัตโนมัติเพื่อช่วยเราปรับปรุงผลิตภัณฑ์"
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "อัปโหลดไปยัง OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "อัปโหลดไปยัง OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "ไม่ได้ลงชื่อเข้าใช้"
+   },
+   "ViewMoreLabel": {
+      "message": "ดูเพิ่มเติม"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

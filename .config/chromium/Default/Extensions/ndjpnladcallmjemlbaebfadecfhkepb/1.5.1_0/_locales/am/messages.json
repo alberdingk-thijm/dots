@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "መለያ"
+   },
+   "AppDescription": {
+      "message": "በአሳሽዎ ላይ የOffice ፋይሎችን ይመልከቱ፣ ያርትዑ እንዲሁም ይፍጠሩ።"
+   },
+   "AppFolderName": {
+      "message": "የ Office Online ተቀጥላ"
+   },
+   "AppLongDescription": {
+      "message": "ለ Chrome የተገነባ – Office መጫን ሳያስፈልግ Word፣ Excel፣ PowerPoint፣ OneNote፣ እና Sway Online ይጠቀሙ።\r\n\r\nበመተማመን ይፍጠሩ – በሙሉ ታማኝነት ሃሳብዎን ለመግለጽ የተለመዱ ቅርጸት እና የአቀማመጥ አማራጮችን ይጠቀሙ።\r\n\r\nበመሄድ ላይ እያሉ ይስሩ – ከማንኛውም ቦታ ከፋይሎችዎ ጋር ይገናኙ፣ ከ OneDrive እና OneDrive for Business ጋር ውህደት እናመሰግናለን።\r\n\r\nመተግበሪያውን በመጫንዎ፣ ከነዚህ ውሎች እና ሁኔታዎች ጋር ተስማምቷል ማለት ነው፥http://aka.ms/officechromeextensionterms\r\n\r\nየግላዊነት ፖሊሲ፥ http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online በኮምፒውተርዎ ላይም ሆነ በመስመር ላይ ወደተቀመጡ የOffice ፋይሎችዎ በቀጥታ ያሚያደርሱ አዶዎችን በMicrosoft Edge የመሳሪያ አሞሌ ላይ  ያስቀምጣል።Office Online በOneDrive እና በOneDrive  for Business ላይ የተቀመጡ ፋይሎችን ይከፍታል።\r\n\r\nየWord፣  Excel፣ PowerPoint፣ OneNote and Sway ባህርያትን Officeን መጫን ሳያስፈልግዎ በአሳሽዎ ውስጥ ያገኛሉ። \r\n\r\nመተግበሪያውን በመጫን፣ በእነዚህ ስምምነቶች እና ሁኔታዎች ይስማማሉ፦ \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "አስስ"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "መለያ ፍጠር"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "የተወሰኑ የOffice ሰነዶችን ይፍጠሩ እና እዚህ ይታያሉ።"
+   },
+   "CreateNewLabel": {
+      "message": "አዲስ"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "የእርስዎን የቅርብ ጊዜ የሰነዶችዎን ዝርዝር በአሁኑ ጊዜ ማግኘት አልቻልንም፡፡"
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "እባክዎ አስተያየትዎን እዚህ ይስጡ"
+   },
+   "FeedbackDontLike": {
+      "message": "አንዳች ነገር አላስደሰተኝም"
+   },
+   "FeedbackLike": {
+      "message": "አንዳች ነገር አሰድስቶኛል"
+   },
+   "FeedbackOverall": {
+      "message": "ምን አይነት አስተያየት ነው ያለዎት?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "የግላዊነት መግለጫ"
+   },
+   "FeedbackSubmit": {
+      "message": "አስገባ"
+   },
+   "FeedbackSuggestion": {
+      "message": "ሃሳብ አለኝ"
+   },
+   "FeedbackTitle": {
+      "message": "አስተያየት ላክ"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "ያልወደዱት ነገር ምንድነው?"
+   },
+   "FeedbackWhatLike": {
+      "message": "የወደዱት ነገር ምንድነው?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "ምን ሃሳብ ይሰጣሉ?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "የፋይሉ አይነት አይደገፍም። እባክዎ የWord, Excel ወይም PowerPoint ሰነድ ይምረጡ።"
+   },
+   "LoadingRecentsLabel": {
+      "message": "በመጫን ላይ..."
+   },
+   "NextLabel": {
+      "message": "በምዝበባ ግባ"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "ይህን እንደገና አታሳይ"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "ፋይልዎን በOneDrive ላይ በሚገኘው የ \"Office Online extension\" አቃፊዎ ውስጥ አስቀምጠናል።"
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "ፋይልዎን በOneDrive for Business ላይ በሚገኘው የ \"Office Online extension\" አቃፊዎ ውስጥ አስቀምጠናል።"
+   },
+   "NotificationFileAccess": {
+      "message": "ፋይሎችን ወደ Chrome ጎትቶ መጣል የሚፈልጉ ከሆነ፣ በChrome ቅጥያዎች ማስተካከያዎች ውስጥ፣ \"Allow access to file URLs\" የምልክት ሳጥንን ምረጥ።"
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "ለChrome የተዘጋጁ የOffice Online ቅጥያዎች  በመጠኑ ምክንያት ሰነድዎን መክፈት አልቻለም። እባክዎ ሰነድዎን ለመክፈት በቀጥታ ወደ OneDrive ይስቀሉ።"
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "ይቅርታ፣ ፋይልዎን መክፈት አልቻልንም"
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "ይቅርታ፤ ፋይልዎን መክፈት አልቻልንም።  እባክዎ ወደ በኋላ እንደገና ይሞክሩ።"
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "ይቅርታ፣ ፋይልዎን መክፈት አልቻልንም። እባክዎ በWord፣  Excel ወይም PowerPoint የተፈጠሩ ፋይሎችን ምረጥ"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "አሁን የእርስዎን ሰነዶች በመስቀል ላይ ነን።"
+   },
+   "NotificationInvalidSubscription": {
+      "message": "የ Office 365 ምዝገባዎ የመጠቀሚያ ጊዜ አልፎ ሊሆን ይችላል ወይም OneDrive for Business ን ላይጨምር ይችላል። ምዝገባዎን ያረጋግጡ ወይም በ Microsoft መለያዎ ይግቡ።"
+   },
+   "NotificationNotSignedIn": {
+      "message": "በOffice Online ውስጥ ፋይሎችን ለመመልከት እና ለማርታዕ ከፈለጉ፣ ወደ ተቀጥላው በምዝገባ ይግቡ።"
+   },
+   "NotificationSetDefault": {
+      "message": "በፋይሎች መተግበሪያ፣ ሰነዶችን በOffice Online አማካኝነት ለመክፈት በሁለት ጣቶች ጠንቁል።"
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "ይቅርታ፣ ፋይልዎን መክፈት አልቻልንም። እባክዎ በWord፣ Excel ወይም PowerPoint የተፈጠሩ ፋይሎችን ምረጥ።"
+   },
+   "O365FilesLabel": {
+      "message": "ከ OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "ከመስመር ውጪ ነዎት። እባክዎን ለChrome የተዘጋጀውን የOffice Online ቅጥያዎች ለመጠቀም እንደገና ይያያዙ።"
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "ከ OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "ክፈት"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "የቅርብ ጊዜ ሰነዶች"
+   },
+   "SettingsLabel": {
+      "message": "ማስተካከያ"
+   },
+   "ShareMessage": {
+      "message": "አጋራ"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "ፈቃድ ይፈለጋል"
+   },
+   "SharePermissionsTooltip": {
+      "message": "ለማጋራት ፈቃድ የለህም"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "ፋይሎችዎን የት ማስቀመጥ ይፈልጋሉ?"
+   },
+   "SignInLabel": {
+      "message": "በምዝገባ ግባ"
+   },
+   "SignOutLabel": {
+      "message": "ከምዝገባ ውጣ"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "ምርቶቻችንን ለማሻሻል እንዲረዳን፣ በራስ ሰር መንገድ ወደ እኛ ዳታ ይላኩ።"
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "ወደ OneDrive for Business ስቀል"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "ወደ OneDrive ስቀል"
+   },
+   "UsernameLabel": {
+      "message": "በምዝገባ አልገቡም"
+   },
+   "ViewMoreLabel": {
+      "message": "ተጨማሪ ይመልከቱ"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

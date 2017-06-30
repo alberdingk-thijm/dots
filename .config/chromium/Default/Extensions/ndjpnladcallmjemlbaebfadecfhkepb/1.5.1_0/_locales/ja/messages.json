@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "アカウント"
+   },
+   "AppDescription": {
+      "message": "ブラウザーで Office ファイルを表示、編集、作成します。"
+   },
+   "AppFolderName": {
+      "message": "Office Online の拡張機能"
+   },
+   "AppLongDescription": {
+      "message": "Chrome 向けビルド – Office がインストールされていなくても Word、Excel、PowerPoint、OneNote、Sway Online を使うことができます。\r\n\r\n自信を持って作成する – 使い慣れたフォーマットとレイアウト オプションを使用して、アイデアを正確に表現します。\r\n\r\n外出先での作業 – OneDrive および OneDrive for Business との統合により、どこにいてもファイルにアクセスできます。\r\n\r\nアプリをインストールすると、次の利用規約に同意したことになります: http://aka.ms/officechromeextensionterms\r\n\r\nプライバシー ポリシー: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online はアイコンが Microsoft Edge ツール バーに配置され、そこからオンラインまたはコンピューターに保存されている Office ファイルに直接アクセスできます。\r\n\r\nOffice Online は OneDrive と OneDrive for Business に保存されているファイルを開くことができます。\r\n\r\nWord、Excel、PowerPoint、OneNote、Sway の機能をブラウザーで使うことができます。Office をインストールする必要はありません。\r\n\r\nアプリをインストールすると、次の使用条件に同意したものとみなされます。\r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "参照"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "アカウントの作成"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "最近表示したドキュメントはありません。"
+   },
+   "CreateNewLabel": {
+      "message": "新規作成"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "現在、最近使用したドキュメントの一覧を取得することはできません。"
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "コメントを入力してください"
+   },
+   "FeedbackDontLike": {
+      "message": "不満があること"
+   },
+   "FeedbackLike": {
+      "message": "気に入ったこと"
+   },
+   "FeedbackOverall": {
+      "message": "フィードバックをお寄せください。"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "プライバシーに関する声明"
+   },
+   "FeedbackSubmit": {
+      "message": "送信"
+   },
+   "FeedbackSuggestion": {
+      "message": "提案があります"
+   },
+   "FeedbackTitle": {
+      "message": "フィードバックの送信"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "不満があること"
+   },
+   "FeedbackWhatLike": {
+      "message": "気に入ったこと"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "提案内容"
+   },
+   "FileTypeErrorMessage": {
+      "message": "ファイルの種類がサポートされていません。Word、Excel または PowerPoint のドキュメントを選択してください。"
+   },
+   "LoadingRecentsLabel": {
+      "message": "読み込み中..."
+   },
+   "NextLabel": {
+      "message": "サインイン"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "今後このメッセージを表示しない"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "OneDrive の \"Office Online の拡張機能\" フォルダーにファイルが保存されました。"
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "OneDrive for Business の \"Office Online の拡張機能\" フォルダーにファイルが保存されました。"
+   },
+   "NotificationFileAccess": {
+      "message": "Chrome にファイルをドラッグ アンド ドロップする場合は、Chrome 拡張機能の設定で、[ファイルの URL へのアクセスを許可する] チェックボックスをオンにします。"
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "サイズが大きすぎるため、Chrome 用 Office Online の拡張機能はドキュメントを開くことができません。ドキュメントを開くには、OneDrive に直接アップロードしてください。"
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "申し訳ございません、ファイルを開くことができませんでした。"
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "申し訳ございません、ファイルを開くことができませんでした。 後でもう一度やり直してください。"
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "申し訳ございません、ファイルを開くことができませんでした。Word、Excel、または PowerPoint で作成されたファイルを選択してください。"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "現在ドキュメントをアップロードしています。"
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Office 365 サブスクリプションが期限切れ、あるいは Office 365 サブスクリプションに OneDrive for Business が含まれていない可能性があります。サブスクリプションを確認するか、Microsoft アカウントでログインしてください。"
+   },
+   "NotificationNotSignedIn": {
+      "message": "拡張機能にサインインして、Office Online でファイルを表示して編集します。"
+   },
+   "NotificationSetDefault": {
+      "message": "[ファイル] アプリケーションで、2 本の指を使ってドキュメントをタップして Office Online で開きます。"
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Word、Excel、または PowerPoint で作成されたファイルを選択します。"
+   },
+   "O365FilesLabel": {
+      "message": "OneDrive for Business から"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "現在オフラインです。Chrome 用 Office Online の拡張機能を使用して再接続してください。"
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "OneDrive から"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "開く"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "最近使用したドキュメント"
+   },
+   "SettingsLabel": {
+      "message": "設定"
+   },
+   "ShareMessage": {
+      "message": "共有"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "権限が必要です"
+   },
+   "SharePermissionsTooltip": {
+      "message": "共有する権限がありません"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "ファイルを保存する場所"
+   },
+   "SignInLabel": {
+      "message": "サインイン"
+   },
+   "SignOutLabel": {
+      "message": "サインアウト"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "データを自動的に送信して、製品の品質向上を支援します。"
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "OneDrive for Business にアップロード"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "OneDrive にアップロード"
+   },
+   "UsernameLabel": {
+      "message": "サインインしていません"
+   },
+   "ViewMoreLabel": {
+      "message": "詳細を表示"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

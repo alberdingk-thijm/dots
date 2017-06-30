@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Cont"
+   },
+   "AppDescription": {
+      "message": "Vizualizați, editați și creați fișiere Office din browser."
+   },
+   "AppFolderName": {
+      "message": "Extensie Office Online"
+   },
+   "AppLongDescription": {
+      "message": "Special pentru Chrome - Utilizați Word, Excel, PowerPoint, OneNote și Sway Online fără a fi nevoie să instalați Office.\r\n\r\nCreați cu încredere – Utilizați opțiunile familiare de formatare și de aspect pentru a vă exprima ideile cu deplină fidelitate.\r\n\r\nLucrați în deplasare - Vă accesați fișierele de oriunde, datorită integrării cu OneDrive și OneDrive pentru business.\r\n\r\nPrin instalarea aplicației, vă exprimați acordul cu acest set de termeni și condiții: http://aka.ms/officechromeextensionterms\r\n\r\nPolitica de confidențialitate: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online pune o pictogramă în bara de instrumente Microsoft Edge, care vă oferă acces direct la fișierele Office, indiferent dacă acestea sunt stocate online sau pe computer.\r\n\r\nOffice Online poate deschide fișierele stocate în OneDrive și OneDrive pentru business.\r\n\r\nObțineți caracteristicile din Word, Excel, PowerPoint, OneNote și Sway direct în browserul dvs., fără a fi nevoie de Office instalat.\r\n\r\nPrin instalarea aplicației, sunteți de acord cu acești termeni și aceste condiții: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Navigare"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Creați un cont"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Nu ați văzut recent niciun document."
+   },
+   "CreateNewLabel": {
+      "message": "Nou"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Nu putem obține lista de documente recente chiar acum."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Introduceți un comentariu"
+   },
+   "FeedbackDontLike": {
+      "message": "Nu îmi place ceva"
+   },
+   "FeedbackLike": {
+      "message": "Îmi place ceva"
+   },
+   "FeedbackOverall": {
+      "message": "Ce fel de feedback aveți?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Angajament de respectare a confidențialității"
+   },
+   "FeedbackSubmit": {
+      "message": "Remitere"
+   },
+   "FeedbackSuggestion": {
+      "message": "Am o sugestie"
+   },
+   "FeedbackTitle": {
+      "message": "Trimiteți feedback"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Ce nu v-a plăcut?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Ce v-a plăcut?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Ce sugerați?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Tipul de fișier nu este acceptat. Alegeți un document Word, Excel sau PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Se încarcă..."
+   },
+   "NextLabel": {
+      "message": "Conectare"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Nu se mai afișează"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Am salvat fișierul în folderul „Extensie Office Online” din contul dvs. OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Am salvat fișierul în folderul „Extensie Office Online” din contul dvs. OneDrive pentru business."
+   },
+   "NotificationFileAccess": {
+      "message": "În setările extensiei Chrome, bifați caseta de selectare „Permiteți accesul la adresele URL de fișier” dacă doriți să glisați și să fixați fișiere în Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Extensia Office Online pentru Chrome nu vă poate deschide documentul, din cauza dimensiunii sale. Încărcați direct în OneDrive pentru a deschide documentul."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Din păcate, nu v-am putut deschide fișierul."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Din păcate, nu v-am putut deschide fișierul. Încercați din nou mai târziu."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Din păcate, nu v-am putut deschide fișierul. Alegeți un fișier creat cu Word, Excel sau PowerPoint."
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "În prezent vă încărcăm documentele."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Abonamentul dvs. Office 365 este probabil expirat sau nu include OneDrive pentru business. Verificați abonamentul sau conectați-vă în schimb cu un cont Microsoft."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Conectați-vă la extensie pentru a vizualiza și a edita fișiere în Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "În aplicația Fișiere, atingeți documentele cu două degete pentru a le deschide cu Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Alegeți un fișier creat cu Word, Excel sau PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "Din OneDrive pentru business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Sunteți offline. Reconectați-vă pentru a utiliza extensia Office Online pentru Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Din OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Deschidere"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Documente recente"
+   },
+   "SettingsLabel": {
+      "message": "Setări"
+   },
+   "ShareMessage": {
+      "message": "Partajare"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Permisiune necesară"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Nu aveți permisiunea de a partaja"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive pentru business"
+   },
+   "SignInHeaderLabel": {
+      "message": "Unde doriți să salvați fișierele?"
+   },
+   "SignInLabel": {
+      "message": "Conectare"
+   },
+   "SignOutLabel": {
+      "message": "Deconectare"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Trimiteți automat date pentru a ne ajuta să ne îmbunătățim produsele."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Încărcați pe OneDrive pentru business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Încărcați pe OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Nu v-ați conectat"
+   },
+   "ViewMoreLabel": {
+      "message": "Vedeți mai multe"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

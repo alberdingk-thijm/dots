@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "ఖాతా"
+   },
+   "AppDescription": {
+      "message": "Office ఫైల్‌లను మీ బ్రౌజర్‌లో వీక్షించండి, సవరించండి మరియు సృష్టించండి."
+   },
+   "AppFolderName": {
+      "message": "Office Online పొడిగింపు"
+   },
+   "AppLongDescription": {
+      "message": "Chrome కోసం రూపొందించబడింది – Officeని ఇన్‌స్టాల్ చేయకుండానే Word, Excel, PowerPoint, OneNote మరియు Sway Online ఉపయోగించండి.\r\n\r\nవిశ్వాసంతో సృష్టించండి – సుపరిచిత ఆకృతీకరణ మరియు లేఅవుట్ ఎంపికలను ఉపయోగించి మీ ఆలోచనలను పూర్తి స్థాయిలో వ్యక్తపరచండి.\r\n\r\nప్రయాణంలో పని చేయండి – OneDrive మరియు OneDrive for Business యొక్క సమగ్రత కారణంగా ఎక్కడి నుండి అయినా మీ ఫైల్‌లను పొందండి.\r\n\r\nఅనువర్తనాన్ని ఇన్‌స్టాల్ చేయడం ద్వారా మీరు ఈ నిబంధనలు మరియు షరతులకు అంగీకరించాలి: http://aka.ms/officechromeextensionterms\r\n\r\nగోప్యతా విధానం: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online అనేది మీ Microsoft Edge టూల్‌బార్‌లో ఒక చిహ్నాన్ని ఏర్పాటు చేస్తుంది, దాని ద్వారా ఆన్‌లైన్‌లో లేదా మీ కంప్యూటర్‌లో నిల్వ చేసిన మీ Office ఫైల్‌లను మీరు నేరుగా ప్రాప్యత చేయవచ్చు.\r\n\r\nOneDrive మరియు OneDrive for Businessలో నిల్వ చేసిన ఫైల్‌లను Office Online ద్వారా తెరవచ్చు.\r\n\r\nOfficeని ఇన్‌స్టాల్ చేయకుండానే మీరు నేరుగా మీ బ్రౌజర్‌లో Word, Excel, PowerPoint, OneNote మరియు Sway ఫీచర్‌లను పొందవచ్చు.\r\n\r\nఅనువర్తనాన్ని ఇన్‌స్టాల్ చేయడం ద్వారా, ఈ నిబంధనలు మరియు షరతులకు మీరు అంగీకరించినట్లు పరిగణించబడతారు: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "బ్రౌజ్"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "ఖాతాను సృష్టించండి"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "మీరు ఇటీవల ఎలాంటి పత్రాలను చూడలేదు."
+   },
+   "CreateNewLabel": {
+      "message": "కొత్త"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "మేము ప్రస్తుతం మీ ఇటీవల పత్రాల జాబితాను పొందలేము."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "దయచేసి మీ వ్యాఖ్యానంలో టైప్ చేయండి"
+   },
+   "FeedbackDontLike": {
+      "message": "నాకు ఒకటి ఇష్టం లేదు"
+   },
+   "FeedbackLike": {
+      "message": "నాకు ఒకటి నచ్చింది"
+   },
+   "FeedbackOverall": {
+      "message": "మీ అభిప్రాయ రకం ఏమిటి?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "గోప్యతా ప్రకటన"
+   },
+   "FeedbackSubmit": {
+      "message": "సమర్పించు"
+   },
+   "FeedbackSuggestion": {
+      "message": "నేను ఒక సలహా ఇవ్వాలనుకుంటున్నాను"
+   },
+   "FeedbackTitle": {
+      "message": "అభిప్రాయాన్ని పంపు"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "మీకు నచ్చని అంశం ఏమిటి?"
+   },
+   "FeedbackWhatLike": {
+      "message": "మీకు నచ్చిన అంశం ఏమిటి?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "మీరు ఏమి సూచించాలనుకుంటున్నారు?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "ఫైలు రకానికి మద్దతు లేదు. దయచేసి Word, Excel లేదా PowerPoint పత్రాన్ని ఎంచుకోండి."
+   },
+   "LoadingRecentsLabel": {
+      "message": "లోడ్ అవుతోంది..."
+   },
+   "NextLabel": {
+      "message": "సైన్ ఇన్"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "దీనిని మళ్లీ చూపవద్దు"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "మేము మీ ఫైలును మీ OneDriveలోని \"Office Online పొడిగింపు\" ఫోల్డర్‌లో సేవ్ చేశాము."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "మేము మీ ఫైలును మీ OneDrive for Businessలోని \"Office Online పొడిగింపు\" ఫోల్డర్‌లో సేవ్ చేశాము."
+   },
+   "NotificationFileAccess": {
+      "message": "Chrome పొడిగింపు సెట్టింగుల్లో, మీరు ఫైలును Chromeలో లాగి వదలాలి అనుకుంటే \"ఫైల్ URLలకు ప్రాప్యతను అనుమతించు\" చెక్ బాక్స్ ఎంచుకోండి."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Chrome కోసం Office Online పొడిగింపు పరిమాణం కారణంగా మీ పత్రాన్ని తెరవలేకపోయింది.  పత్రాన్ని తెరవడానికి దయచేసి నేరుగా OneDriveకు అప్‌లోడ్ చేయండి."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "క్షమించండి, మేము మీ ఫైలు తెరవలేకపోతున్నాము."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "క్షమించండి, మేము మీ ఫైలు తెరవలేకపోతున్నాము.  దయచేసి తర్వాత సమయంలో మళ్లీ ప్రయత్నించండి."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "క్షమించండి, మేము మీ ఫైలు తెరవలేకపోతున్నాము.  దయచేసి Word, Excel, లేదా PowerPointతో సృష్టించిన ఫైలు ఎంచుకోండి"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "మేము ప్రస్తుతం మీ పత్రం(లు)ను అప్‌లోడ్ చేస్తున్నాము."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "మీ Office 365 సభ్యత్వం గడువు ముగిసి ఉండవచ్చు లేదా OneDrive for Businessను కలిగి ఉండకపోవచ్చు. మీ సభ్యత్వాన్ని తనిఖీ చేయండి లేదా బదులుగా Microsoft ఖాతాతో లాగిన్ చేయండి."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Office Online ఫైల్‌లను వీక్షించడానికి మరియు సంకలనం చేయడానికి పొడిగింపుకు సైన్ ఇన్ చేయండి."
+   },
+   "NotificationSetDefault": {
+      "message": "ఫైల్‌లు ప్రోగ్రాంలో, Office Online తెరవడానికి పత్రాలను రెండు వేళ్లతో టాప్ చేయండి."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Word, Excel, లేదా PowerPointతో సృష్టించిన ఫైలు ఎంచుకోండి."
+   },
+   "O365FilesLabel": {
+      "message": "OneDrive for Business నుండి"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "మీరు ఆఫ్‌లైన్‌లో ఉన్నారు. దయచేసి Chrome కోసం Office ఆన్‌లైన్ పొడిగింపును ఉపయోగించడానికి మళ్లీ కనెక్ట్ చేయండి."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "OneDrive నుండి"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "తెరువు"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "ఇటీవల పత్రాలు"
+   },
+   "SettingsLabel": {
+      "message": "సెట్టింగ్‌లు"
+   },
+   "ShareMessage": {
+      "message": "భాగస్వామ్యం చేయి"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "అనుమతి అవసరం"
+   },
+   "SharePermissionsTooltip": {
+      "message": "భాగస్వామ్యం చేయడానికి మీకు అనుమతి లేదు"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "మీరు మీ ఫైల్‌లను ఎక్కడ భద్రపరచాలనుకుంటున్నారు?"
+   },
+   "SignInLabel": {
+      "message": "సైన్ ఇన్"
+   },
+   "SignOutLabel": {
+      "message": "సైన్ అవుట్"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "మా ఉత్పత్తులను మెరుగుపరచడంలో మాకు సహాయంగా స్వయంచాలకంగా డేటాను పంపండి."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "OneDrive for Businessకు అప్‌లోడ్ చేయి"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "OneDriveకు అప్‌లోడ్ చేయి"
+   },
+   "UsernameLabel": {
+      "message": "సైన్ ఇన్ చేయలేదు"
+   },
+   "ViewMoreLabel": {
+      "message": "మరిన్ని వీక్షించండి"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

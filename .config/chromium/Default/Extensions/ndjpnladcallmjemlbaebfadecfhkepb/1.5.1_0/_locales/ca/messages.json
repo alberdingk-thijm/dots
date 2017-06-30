@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Compte"
+   },
+   "AppDescription": {
+      "message": "Visualitza, edita i crea fitxers de l'Office al navegador."
+   },
+   "AppFolderName": {
+      "message": "Extensió de l'Office Online"
+   },
+   "AppLongDescription": {
+      "message": "Dissenyat per al Chrome: utilitzeu el Word, l'Excel, el PowerPoint, el OneNote o el Sway Online sense tenir l'Office instal·lat.\r\n\r\nCreeu amb seguretat: utilitzeu opcions de format i disposició familiars per expressar les vostres idees amb precisió.\r\n\r\nTreballeu des de qualsevol lloc: accediu als fitxers sigueu on sigueu gràcies a la integració amb el OneDrive i el OneDrive for Business.\r\n\r\nEn instal·lar l'aplicació, accepteu aquests termes i condicions: http://aka.ms/officechromeextensionterms\r\n\r\nPolítica de privadesa: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "L'Office Online col·loca una icona a la barra d'eines del Microsoft Edge que t'ofereix accés directe als teus fitxers de l'Office, independentment de si estan emmagatzemats en línia o a l'ordinador.\r\n\r\nL'Office Online pot obrir els fitxers emmagatzemats al OneDrive i al OneDrive for Business.\r\n\r\nObtindràs les funcions del Word, l'Excel, el PowerPoint, el OneNote i el Sway directament al navegador, sense la necessitat d'instal·lar l'Office.\r\n\r\nEn instal·lar l'aplicació, acceptes aquests termes i condicions: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Navega"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Crea un compte"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "No heu visualitzat cap document recentment."
+   },
+   "CreateNewLabel": {
+      "message": "Crea"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "No podem obtenir la llista de documents recents."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Escriviu el vostre comentari"
+   },
+   "FeedbackDontLike": {
+      "message": "No m'agrada alguna cosa"
+   },
+   "FeedbackLike": {
+      "message": "M'agrada alguna cosa"
+   },
+   "FeedbackOverall": {
+      "message": "Quin tipus de comentaris teniu?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Declaració de privadesa"
+   },
+   "FeedbackSubmit": {
+      "message": "Envia"
+   },
+   "FeedbackSuggestion": {
+      "message": "Tinc un suggeriment"
+   },
+   "FeedbackTitle": {
+      "message": "Envia comentaris"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Què no us ha agradat?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Què us ha agradat?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Què suggeriu?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "El tipus de fitxer no és compatible. Trieu un document del Word, de l'Excel o del PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "S'està carregant..."
+   },
+   "NextLabel": {
+      "message": "Inicia la sessió"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "No ho tornis a mostrar"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Hem desat el vostre fitxer a la carpeta \"Extensió de l'Office Online\" del OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Hem desat el vostre fitxer a la carpeta \"Extensió de l'Office Online\" del OneDrive for Business."
+   },
+   "NotificationFileAccess": {
+      "message": "A la configuració de les extensions del Chrome, seleccioneu la casella de selecció \"Permet l'accés a les adreces URL dels fitxers\" si voleu arrossegar i deixar anar fitxers al Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "L'extensió de l'Office Online per al Chrome no pot obrir el document a causa de la mida. Per obrir el document, carregueu-lo directament al OneDrive."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "No hem pogut obrir el fitxer."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "No hem pogut obrir el fitxer. Torneu-ho a provar més tard."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "No hem pogut obrir el fitxer. Trieu un fitxer que s'hagi creat amb el Word, l'Excel o el PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Estem carregant els vostres documents en aquest moment."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Pot ser que la vostra subscripció a l'Office 365 hagi caducat o bé que no inclogui el OneDrive for Business. Consulteu la subscripció o inicieu la sessió amb un compte de Microsoft."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Inicieu la sessió a l'extensió per visualitzar i editar fitxers a l'Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "A l'aplicació Fitxers, toqueu els documents amb dos dits per obrir-los amb l'Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Trieu un fitxer que s'hagi creat amb el Word, l'Excel o el PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "Des del OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Esteu fora de línia. Torneu a connectar-vos per utilitzar l'extensió de l'Office Online per al Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Des del OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Obre"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Documents recents"
+   },
+   "SettingsLabel": {
+      "message": "Configuració"
+   },
+   "ShareMessage": {
+      "message": "Comparteix"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Es requereix permís"
+   },
+   "SharePermissionsTooltip": {
+      "message": "No tens permís per compartir"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "On voleu desar els fitxers?"
+   },
+   "SignInLabel": {
+      "message": "Inicia la sessió"
+   },
+   "SignOutLabel": {
+      "message": "Tanca la sessió"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Envia dades automàticament per ajudar-nos a millorar els nostres productes."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Puja-ho al OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Puja-ho al OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "No s'ha iniciat la sessió"
+   },
+   "ViewMoreLabel": {
+      "message": "Mostra'n més"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

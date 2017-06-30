@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Konto"
+   },
+   "AppDescription": {
+      "message": "Visa, redigera och skapa Office-filer i webbläsaren."
+   },
+   "AppFolderName": {
+      "message": "Office Online-tillägg"
+   },
+   "AppLongDescription": {
+      "message": "Skapad för Chrome – Använd Word, Excel, PowerPoint, OneNote och Sway Online utan att behöva ha Office installerat.\r\n\r\nSkapa i en miljö du känner igen – Använd bekanta format- och layoutalternativ för att uttrycka dina idéer exakt.\r\n\r\nArbeta på resande fot – Hämta filerna var de än finns, tack vare integrering med OneDrive och OneDrive för företag.\r\n\r\nGenom att installera appen godkänner du följande villkor: http://aka.ms/officechromeextensionterms\r\n\r\nSekretesspolicy: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online placerar en ikon i Microsoft Edge-verktygsfältet som ger dig direkt tillgång till Office-filer, oavsett om de är lagrade online eller på datorn.\r\n\r\nOffice Online kan öppna filer som är lagrade i OneDrive och OneDrive för företag.\r\n\r\nDu får funktionerna i Word, Excel, PowerPoint, OneNote och Sway rätt i webbläsaren utan att behöva ha Office installerat.\r\n\r\nGenom att installera programmet godkänner du följande villkor: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Bläddra"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Skapa ett konto"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Du har inga senast använda dokument."
+   },
+   "CreateNewLabel": {
+      "message": "Nytt"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Det går inte att hämta listan med senast använda dokument just nu."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Skriv din kommentar"
+   },
+   "FeedbackDontLike": {
+      "message": "Det finns något jag inte gillar"
+   },
+   "FeedbackLike": {
+      "message": "Jag gillar något"
+   },
+   "FeedbackOverall": {
+      "message": "Vilken typ av feedback har du?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Sekretesspolicy"
+   },
+   "FeedbackSubmit": {
+      "message": "Skicka"
+   },
+   "FeedbackSuggestion": {
+      "message": "Jag har ett förslag"
+   },
+   "FeedbackTitle": {
+      "message": "Skicka feedback"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Vad är det du inte gillar?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Vad gillade du?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Vad har du för förslag?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Filtypen stöds inte. Välj ett Word-, Excel- eller PowerPoint-dokument."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Läser in..."
+   },
+   "NextLabel": {
+      "message": "Logga in"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Visa inte detta meddelande igen"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Filen har sparats i mappen Office Online-tillägg på OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Filen har sparats i mappen Office Online-tillägg på OneDrive för företag."
+   },
+   "NotificationFileAccess": {
+      "message": "I inställningarna för Chrome-tillägget markerar du \"Tillåt åtkomst till fil-URL:er\" om du vill dra och släppa filer i Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Office Online-tillägget för Chrome kan inte öppna dokumentet på grund av dess storlek.  Ladda upp dokumentet direkt på OneDrive om du vill öppna det."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Det går inte att öppna filen."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Det går inte att öppna filen.  Försök igen senare."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Det går inte att öppna filen.  Välj en fil som har skapats med Word, Excel eller PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Ett eller flera dokument laddas upp."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Din Office 365-prenumeration kan ha gått ut eller innehåller kanske inte OneDrive för företag. Kontrollera prenumerationen eller logga in med ett Microsoft-konto istället."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Logga in på tillägget för att visa och redigera filer i Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "Tryck på dokument med två fingrar i appen Filer för att öppna dem med Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Välj en fil som har skapats med Word, Excel eller PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "Från OneDrive för företag"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Du är offline. Anslut igen om du vill använda Office Online-tillägget för Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Från OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Öppna"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Senast använda dokument"
+   },
+   "SettingsLabel": {
+      "message": "Inställningar"
+   },
+   "ShareMessage": {
+      "message": "Dela"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Behörighet krävs"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Du har inte behörighet att dela"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive för företag"
+   },
+   "SignInHeaderLabel": {
+      "message": "Var vill du spara dina filer?"
+   },
+   "SignInLabel": {
+      "message": "Logga in"
+   },
+   "SignOutLabel": {
+      "message": "Logga ut"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Skicka data automatiskt för att hjälpa oss att förbättra våra produkter."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Ladda upp till OneDrive för företag"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Ladda upp till OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Inte inloggad"
+   },
+   "ViewMoreLabel": {
+      "message": "Visa mer"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

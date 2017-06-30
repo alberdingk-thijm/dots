@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background/background_binary.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup/popup_template.html",
+      "default_title": "Inbox by Gmail"
+   },
+   "content_security_policy": "script-src 'self' https://apis.google.com https://www.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_6425858496683260529__",
+   "externally_connectable": {
+      "matches": [ "https://inbox.google.com/*" ]
+   },
+   "icons": {
+      "128": "images/logo_inbox_color_2x_web_64dp.png",
+      "24": "images/logo_inbox_color_1x_web_24dp.png",
+      "48": "images/logo_inbox_color_2x_web_24dp.png",
+      "64": "images/logo_inbox_color_1x_web_64dp.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm8f9d6rwCVrXmBvtm4LHoJPE6MUWqAJcYNWsQ7rsMAEbKhZqBuFzobnKIb3Dul+h6iGNj9wgjgfClOEge9+lA/QQboMSA1bTBdUYtkuWcYPnrEomHasEHYfsw4xMeXKudn+8CGi4nzIlEF1HNEEM0BxVdw9QxFn/FGoVZ7IufX3VnBhLO2e+uBn1ZCYejfy/mKkgFoKhqLHf9QyctMIMTbRlOPHwhpbl5495zS66NHj7C6q+lgnQ36V3G9yod/SCgZ7EeYt2FyyYPQ7IdNoQMpUsgUy13GsK5XmAEu85LmcDSAT6R03unHOjBAEQRPxmmucIMw/04hi5J3UkvkrZ/wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "47",
+   "name": "Inbox by Gmail",
+   "permissions": [ "activeTab", "clipboardRead", "contextMenus", "cookies", "https://*.google.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0.1929",
+   "web_accessible_resources": [ "content/frame_template.html", "content/init_binary.js", "content/success/success-bundle.css", "content/error/error-bundle.css", "images/logo_inbox_color_2x_web_24dp.png", "images/ic_bookmark_googblue_2x_web_24dp.png" ]
+}

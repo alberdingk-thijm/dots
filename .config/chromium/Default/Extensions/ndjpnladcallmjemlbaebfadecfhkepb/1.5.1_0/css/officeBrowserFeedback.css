@@ -1,0 +1,582 @@
+#officeBrowserFeedbackOverlayBackground
+{
+	background-color: rgba(0,0,0,0.5);
+	color: #444444;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 530px;  /*360px content holder + 2 * 85px margin*/
+	position: fixed;
+	z-index: 10000000000;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.officeBrowserFeedbackOverlayMinWidth
+{
+	min-width: 780px;
+}
+
+.officeBrowserFeedbackNarrowLayout.officeBrowserFeedbackOverlayMinWidth
+{
+	min-width: 320px;  /*Yields minimum 10px margins around the forms */
+}
+
+@-moz-keyframes officeBrowserFeedbackMainContainerGrowfromcenter
+{
+	from
+	{
+		margin-top: 0;
+		height: 0;
+	}
+
+	to
+	{
+		margin-top: -180px;
+		height: 360px;
+	}
+}
+
+@-webkit-keyframes officeBrowserFeedbackMainContainerGrowfromcenter
+{
+	from
+	{
+		margin-top: 0;
+		height: 0;
+	}
+
+	to
+	{
+		margin-top: -180px;
+		height: 360px;
+	}
+}
+
+@-o-keyframes officeBrowserFeedbackMainContainerGrowfromcenter
+{
+	from
+	{
+		margin-top: 0;
+		height: 0;
+	}
+
+	to
+	{
+		margin-top: -180px;
+		height: 360px;
+	}
+}
+
+@-ms-keyframes officeBrowserFeedbackMainContainerGrowfromcenter
+{
+	from
+	{
+		margin-top: 0;
+		height: 0;
+	}
+
+	to
+	{
+		margin-top: -180px;
+		height: 360px;
+	}
+}
+
+@keyframes officeBrowserFeedbackMainContainerGrowfromcenter
+{
+	from
+	{
+		margin-top: 0;
+		height: 0;
+	}
+
+	to
+	{
+		margin-top: -180px;
+		height: 360px;
+	}
+}
+
+#officeBrowserFeedbackMainContainer
+{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	background-color: #ffffff;
+	top: 50%;
+	min-width: 100%;
+	position: absolute;
+
+	margin-top: -180px;
+	height: 360px;
+
+	-moz-animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	-o-animation-duration: 1s; 
+	-ms-animation-duration: 1s;
+	animation-duration: 1s;
+
+	-moz-animation-name: officeBrowserFeedbackMainContainerGrowfromcenter;
+	-webkit-animation-name: officeBrowserFeedbackMainContainerGrowfromcenter;
+	-o-animation-name: officeBrowserFeedbackMainContainerGrowfromcenter; 
+	-ms-animation-name: officeBrowserFeedbackMainContainerGrowfromcenter;
+	animation-name: officeBrowserFeedbackMainContainerGrowfromcenter;
+
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards; 
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+#officeBrowserFeedbackMainContentHolder
+{
+	height: 100%;
+	width: 720px;
+	margin: 0 auto;
+}
+
+.officeBrowserFeedbackNarrowLayout #officeBrowserFeedbackMainContentHolder
+{
+	height: 100%;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#officeBrowserFeedbackLeftFormContainer
+{
+	float:left;
+	margin-left: 180px;
+}
+
+.officeBrowserFeedbackNarrowLayout #officeBrowserFeedbackLeftFormContainer
+{
+	float:left;
+	margin-left: 0;
+}
+
+#officeBrowserFeedbackMiddleFormContainer
+{
+	margin-left: 540px;
+}
+
+.officeBrowserFeedbackNarrowLayout #officeBrowserFeedbackMiddleFormContainer
+{
+	margin-left: 0;
+}
+
+.officeBrowserFeedbackFormContainer
+{
+	height: 100%;
+	width: 360px;
+}
+
+.officeBrowserFeedbackNarrowLayout .officeBrowserFeedbackFormContainer
+{
+	height: 100%;
+	width: 300px;
+}
+
+#officeBrowserFeedbackTitle
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#officeBrowserFeedbackColumnSeparatorDiv
+{
+	width: 100%;
+}
+
+.officeBrowserFeedbackShowRightBorder
+{
+	border-right: 1px solid #e0e0e0;
+}
+
+#officeBrowserFeedbackQuestionLeftText
+{
+	padding-top: 0;
+	padding-bottom: 18px;
+}
+
+#officeBrowserFeedbackQuestionMiddleText
+{
+	padding-top: 75px;
+	padding-bottom: 18px;
+}
+
+.officeBrowserFeedbackFontTitle
+{
+	font-size: 24px;
+	font-family: 'wf_SegoeUIRegular', 'wf_SegoeUI', 'Segoe UI Regular', 'Segoe UI', 'Segoe', 'Segoe WP', 'Tahoma', 'Verdana', 'Arial', 'sans-serif';
+}
+
+.officeBrowserFeedbackFontSubtitle
+{
+	font-size: 19px;
+	font-family: 'wf_SegoeUIRegular', 'wf_SegoeUI', 'Segoe UI Regular', 'Segoe UI', 'Segoe', 'Segoe WP', 'Tahoma', 'Verdana', 'Arial', 'sans-serif';
+}
+
+.officeBrowserFeedbackFontText
+{
+	font-size: 18px;
+	font-family: 'wf_SegoeUIRegular', 'wf_SegoeUI', 'Segoe UI Regular', 'Segoe UI', 'Segoe', 'Segoe WP', 'Tahoma', 'Verdana', 'Arial', 'sans-serif';
+}
+
+.officeBrowserFeedbackLineHeight
+{
+	line-height: 100%;
+}
+
+.officeBrowserFeedbackTextAlginLeft
+{
+	text-align: left;
+}
+
+.officeBrowserFeedbackPadLeft36px
+{
+	padding-left: 60px;
+}
+
+.officeBrowserFeedbackMarginLeft36px
+{
+	margin-left: 60px;
+}
+
+.officeBrowserFeedbackNarrowLayout .officeBrowserFeedbackMarginLeft36px
+{
+	margin-left: 0;
+}
+
+.officeBrowserFeedbackOverallAnchor:hover, .officeBrowserFeedbackOverallAnchor:focus
+{
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #0167b1 !important;
+}
+
+.officeBrowserFeedbackOverallAnchor
+{
+	color: #ffffff;
+	width: 300px;
+	height: 50px;
+	text-decoration: none !important;
+	display: table-row;
+}
+
+.officeBrowserFeedbackOverallImage
+{
+	width: 30px;
+	height: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border: none;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	display: table-cell;
+}
+
+.officeBrowserFeedbackOverallText
+{
+	color: #ffffff;
+	vertical-align: middle;
+	display: table-cell;
+	width: 250px;
+	text-decoration: none;
+}
+
+.officeBrowserFeedbackFullWidth20pxHeight
+{
+	width: 100%;
+	height: 20px;
+}
+
+#officeBrowserFeedbackPrivacyStatementLinkDiv
+{
+	width: 100%;
+	padding-bottom: 24px;
+    padding-top: 20px;
+}
+
+#officeBrowserFeedbackPrivacyStatementLink
+{
+	text-decoration: none;
+	color: #0044cc;
+}
+
+#officeBrowserFeedbackPrivacyStatementLink:hover, #officeBrowserFeedbackSubmitButton:focus
+{
+	cursor: pointer;
+	text-decoration: none;
+	color: #0044cc;
+}
+
+#officeBrowserFeedbackLeftFormContainer.slideLeft
+{
+	-moz-animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	-o-animation-duration: 2s; 
+	-ms-animation-duration: 2s;
+	animation-duration: 2s;
+
+	-moz-animation-name: officeBrowserFeedbackLeftFormContainerSlideLeft;
+	-webkit-animation-name: officeBrowserFeedbackLeftFormContainerSlideLeft;
+	-o-animation-name: officeBrowserFeedbackLeftFormContainerSlideLeft; 
+	-ms-animation-name: officeBrowserFeedbackLeftFormContainerSlideLeft;
+	animation-name: officeBrowserFeedbackLeftFormContainerSlideLeft;
+
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards; 
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@-moz-keyframes officeBrowserFeedbackLeftFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 180px;
+	}
+
+	to
+	{
+		margin-left: 0;
+	}
+}
+
+@-webkit-keyframes officeBrowserFeedbackLeftFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 180px;
+	}
+
+	to
+	{
+		margin-left: 0;
+	}
+}
+
+@-ms-keyframes officeBrowserFeedbackLeftFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 180px;
+	}
+
+	to
+	{
+		margin-left: 0;
+	}
+}
+
+@keyframes officeBrowserFeedbackLeftFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 180px;
+	}
+
+	to
+	{
+		margin-left: 0;
+	}
+}
+
+@-moz-keyframes officeBrowserFeedbackLeftFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 180px;
+	}
+
+	to
+	{
+		margin-left: 0;
+	}
+}
+
+#officeBrowserFeedbackMiddleFormContainer.slideLeft
+{
+	-moz-animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	-o-animation-duration: 2s; 
+	-ms-animation-duration: 2s;
+	animation-duration: 2s;
+
+	-moz-animation-name: officeBrowserFeedbackMiddleFormContainerSlideLeft;
+	-webkit-animation-name: officeBrowserFeedbackMiddleFormContainerSlideLeft;
+	-o-animation-name: officeBrowserFeedbackMiddleFormContainerSlideLeft; 
+	-ms-animation-name: officeBrowserFeedbackMiddleFormContainerSlideLeft;
+	animation-name: officeBrowserFeedbackMiddleFormContainerSlideLeft;
+
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards; 
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@-moz-keyframes officeBrowserFeedbackMiddleFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 540px;
+	}
+
+	to
+	{
+		margin-left: 360px;
+	}
+}
+
+@-webkit-keyframes officeBrowserFeedbackMiddleFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 540px;
+	}
+
+	to
+	{
+		margin-left: 360px;
+	}
+}
+
+@-ms-keyframes officeBrowserFeedbackMiddleFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 540px;
+	}
+
+	to
+	{
+		margin-left: 360px;
+	}
+}
+
+@keyframes officeBrowserFeedbackMiddleFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 540px;
+	}
+
+	to
+	{
+		margin-left: 360px;
+	}
+}
+
+@-moz-keyframes officeBrowserFeedbackMiddleFormContainerSlideLeft
+{
+	from
+	{
+		margin-left: 540px;
+	}
+
+	to
+	{
+		margin-left: 360px;
+	}
+}
+
+#officeBrowserFeedbackComment
+{
+	color: #444444;
+	width: 300px;
+	height: 120px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #b0b0b0;
+	overflow: auto;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	resize: none;
+}
+
+#officeBrowserFeedbackScreenshotContainer
+{
+	width: 300px;
+	height: 43px;
+}
+
+#officeBrowserFeedbackScreenshotCheckboxText
+{
+	display: table-row;
+}
+
+#officeBrowserFeedbackScreenshotCheckbox
+{
+	display: table-cell;
+	width: 18px;
+	vertical-align: baseline;
+	padding-right: 3px;
+}
+
+#officeBrowserFeedbackScreenshotText
+{
+	display: table-cell;
+	vertical-align: baseline;
+}
+
+#officeBrowserFeedbackSubmitButtonContainer
+{
+	width: 300px;
+	height: 34px;
+	margin-bottom: 24px;
+}
+
+#officeBrowserFeedbackSubmitButton
+{
+	width: 120px;
+	height: 34px;
+	float: right;
+	background-color: #0167b1;
+	color: #ffffff;
+	padding: 0;
+	border-radius: 0;
+	margin: 0;
+	box-shadow: none;
+	text-decoration: none;
+	border: none;
+}
+
+#officeBrowserFeedbackSubmitButton:hover, #officeBrowserFeedbackSubmitButton:focus
+{
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.officeBrowserFeedbackBackgroundBLue
+{
+	background-color: #0167b1 !important;
+}
+
+.officeBrowserFeedbackBackgroundGrey
+{
+	background-color: #666666 !important;
+}
+
+.officeBrowserFeedbackHidden
+{
+	display: none;
+}
+
+.officeBrowserFeedbackVisible
+{
+	display: block;
+}

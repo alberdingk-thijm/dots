@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Akaun"
+   },
+   "AppDescription": {
+      "message": "Lihat, edit dan cipta fail Office dalam pelayar anda."
+   },
+   "AppFolderName": {
+      "message": "Sambungan Office Online"
+   },
+   "AppLongDescription": {
+      "message": "Dibina untuk Chrome – Gunakan Word, Excel, PowerPoint, OneNote dan Sway Online tanpa memerlukan Office dipasangkan.\r\n\r\nCipta dengan keyakinan – Gunakan pilihan pemformatan dan susun atur yang biasa untuk menyatakan idea anda dalam ketepatan yang penuh.\r\n\r\nKerja sambil bergerak – Dapatkan fail anda di mana saja, terima kasih kepada penyepaduan dengan OneDrive dan OneDrive for Business.\r\n\r\nDengan memasang aplikasi ini, anda bersetuju kepada terma dan syarat berikut: http://aka.ms/officechromeextensionterms\r\n\r\nDasar Privasi: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online meletakkan ikon pada bar alat Microsoft Edge yang memberikan anda capaian terus kepada fail Office anda, sama ada ia disimpan dalam talian atau pada komputer anda.\r\n\r\nOffice Online boleh membuka fail yang disimpan dalam OneDrive dan OneDrive for Business.\r\n\r\nAnda mendapat ciri Word, Excel, PowerPoint, OneNote dan Sway terus dalam pelayar anda tanpa perlu memasangkan Office.\r\n\r\nDengan memasangkan aplikasi tersebut, anda bersetuju dengan terma dan syarat berikut: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Semak lalu"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Cipta akaun"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Anda belum melihat sebarang dokumen baru-baru ini."
+   },
+   "CreateNewLabel": {
+      "message": "Baru"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Kami tidak boleh mendapatkan senarai dokumen terbaru anda sekarang."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Sila taip komen anda"
+   },
+   "FeedbackDontLike": {
+      "message": "Saya tidak suka sesuatu"
+   },
+   "FeedbackLike": {
+      "message": "Saya suka sesuatu"
+   },
+   "FeedbackOverall": {
+      "message": "Apakah jenis maklum balas yang anda ingin berikan?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Pernyataan Privasi"
+   },
+   "FeedbackSubmit": {
+      "message": "Serah"
+   },
+   "FeedbackSuggestion": {
+      "message": "Saya ada cadangan"
+   },
+   "FeedbackTitle": {
+      "message": "Hantar maklum balas"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Apa yang anda tidak suka?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Apa yang anda suka?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Apa cadangan anda?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Jenis fail tidak disokong. Sila pilih dokumen Word, Excel atau PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Memuatkan..."
+   },
+   "NextLabel": {
+      "message": "Daftar masuk"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Jangan tunjukkan ini lagi"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Kami menyimpan fail anda dalam folder \"sambungan Office Online\" pada OneDrive anda."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Kami menyimpan fail anda dalam folder \"sambungan Office Online\" pada OneDrive for Business anda."
+   },
+   "NotificationFileAccess": {
+      "message": "Dalam seting sambungan Chrome, pilih kotak semak \"Benarkan capaian kepada URL fail\" jika anda mahu menyeret dan melepaskan fail ke dalam Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Sambungan Office Online untuk Chrome tidak dapat membuka dokumen anda kerana saiznya.  Sila muat naik terus ke OneDrive untuk membuka dokumen tersebut."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Maaf, kami tidak dapat membuka fail anda."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Maaf, kami tidak dapat membuka fail anda.  Sila cuba lagi kemudian."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Maaf, kami tidak dapat membuka fail anda.  Sila pilih satu fail yang dicipta dengan Word, Excel atau PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Kami sedang memuat naik dokumen(-dokumen) anda."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Langganan Office 365 anda mungkin tamat tempoh atau mungkin tidak menyertakan OneDrive for Business. Semak langganan anda atau log masuk dengan Account Microsoft pula."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Daftar masuk ke sambungan untuk melihat dan mengedit fail dalam Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "Dalam aplikasi Fail, ketik dokumen dengan kedua-dua jari untuk membuka dengan Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Pilih satu fail yang dicipta dengan Word, Excel atau PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "Daripada OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Anda berada di luar talian. Sila sambung semula untuk menggunakan sambungan Office Online untuk Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "Daripada OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Buka"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Dokumen-dokumen terbaru"
+   },
+   "SettingsLabel": {
+      "message": "Seting"
+   },
+   "ShareMessage": {
+      "message": "Kongsi"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Kebenaran diperlukan"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Anda tidak mempunyai kebenaran untuk berkongsi"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "Di mana anda hendak menyimpan fail anda?"
+   },
+   "SignInLabel": {
+      "message": "Daftar masuk"
+   },
+   "SignOutLabel": {
+      "message": "Daftar keluar"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Hantar data secara automatik untuk membantu kami mempertingkatkan produk-produk kami."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Muat naik ke OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Muat naik ke OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "Tidak mendaftar masuk"
+   },
+   "ViewMoreLabel": {
+      "message": "Lihat lagi"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

@@ -1,0 +1,242 @@
+{
+   "AccountLabel": {
+      "_message.comment": "Label text for account information",
+      "message": "Account"
+   },
+   "AppDescription": {
+      "_message.comment": "Application description",
+      "message": "View, edit, and create Office files in your browser."
+   },
+   "AppFolderName": {
+      "_message.comment": "Application folder name for uploaded documents",
+      "message": "Office Online extension"
+   },
+   "AppLongDescription": {
+      "_message.comment": "Application long description",
+      "message": "Built for Chrome – Use Word, Excel, PowerPoint, OneNote, and Sway Online without needing Office installed.\r\n\r\nCreate with confidence – Use familiar formatting and layout options to express your ideas in full fidelity.\r\n\r\nWork on the go – Get to your files from anywhere, thanks to integration with OneDrive and OneDrive for Business.\r\n\r\nBy installing the app, you agree to these terms and conditions: http://aka.ms/officechromeextensionterms\r\n\r\nPrivacy Policy: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "_message.comment": "Application long description for Microsoft Edge",
+      "message": "Office Online puts an icon on the Microsoft Edge toolbar that gives you direct access to your Office files, whether they are stored online or on your computer.\r\n\r\nOffice Online can open files stored in OneDrive and OneDrive for Business.\r\n\r\nYou get the features of Word, Excel, PowerPoint, OneNote, and Sway right in your browser without needing Office installed.\r\n\r\nBy installing the app, you agree to these terms and conditions: \r\n\r\n"
+   },
+   "AppName": {
+      "_message.comment": "Application name",
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "_message.comment": "Application short name",
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "_message.comment": "{locked}",
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "_message.comment": "Label text for file picker",
+      "message": "Browse"
+   },
+   "CopyrightLabel": {
+      "_message.comment": "Label text for copyright",
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "_message.comment": "Label text for account creation link",
+      "message": "Create an account"
+   },
+   "CreateDocsMessageLabel": {
+      "_message.comment": "Label text for document creation to appear in recents list",
+      "message": "You haven't viewed any documents recently."
+   },
+   "CreateNewLabel": {
+      "_message.comment": "Label text for creating new document",
+      "message": "New"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "_message.comment": "Message to display when we receive an error call the MRU service",
+      "message": "We can't get the list of your recent documents right now."
+   },
+   "ExcelOnlineAppName": {
+      "_message.comment": "Excel Online app name",
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Please type in your comment"
+   },
+   "FeedbackDontLike": {
+      "message": "I don't like something"
+   },
+   "FeedbackLike": {
+      "message": "I like something"
+   },
+   "FeedbackOverall": {
+      "message": "What kind of feedback do you have?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Privacy Statement"
+   },
+   "FeedbackSubmit": {
+      "message": "Submit"
+   },
+   "FeedbackSuggestion": {
+      "message": "I have a suggestion"
+   },
+   "FeedbackTitle": {
+      "message": "Send feedback"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "What did you not like?"
+   },
+   "FeedbackWhatLike": {
+      "message": "What did you like?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "What do you suggest?"
+   },
+   "FileTypeErrorMessage": {
+      "_message.comment": "Text for file type error message",
+      "message": "The file type is not supported. Please choose a Word, Excel or PowerPoint document."
+   },
+   "LoadingRecentsLabel": {
+      "_message.comment": "Label to display while getting recents list",
+      "message": "Loading..."
+   },
+   "NextLabel": {
+      "_message.comment": "Label text for next",
+      "message": "Sign in"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Do not show this again"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "We saved your file in the \"Office Online extension\" folder on your OneDrive."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "We saved your file in the \"Office Online extension\" folder on your OneDrive for Business."
+   },
+   "NotificationFileAccess": {
+      "message": "In the Chrome extension settings, select the \"Allow access to file URLs\" checkbox if you want to drag and drop files into Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Office Online extension for Chrome is unable to open your document because of the size.  Please upload directly to OneDrive to open the document."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Sorry, we were unable to open your file."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Sorry, we were unable to open your file.  Please try again at a later time."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Sorry, we were unable to open your file.  Please choose a file created with Word, Excel, or PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "We are currently uploading your document(s)."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Your Office 365 subscription may be expired or may not include OneDrive for Business. Check your subscription or log in with a Microsoft Account instead."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Sign in to the extension to view and edit files in Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "In the Files app, tap documents with two fingers to open with Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Choose a file created with Word, Excel, or PowerPoint."
+   },
+   "O365FilesLabel": {
+      "_message.comment": "Label text for O365 files",
+      "message": "From OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "_message.comment": "Text for directing to Office Online",
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "_message.comment": "Label to tell user they are working offline",
+      "message": "You're offline. Please re-connect to use Office Online extension for Chrome."
+   },
+   "OneDriveAppName": {
+      "_message.comment": "OneDrive app name",
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "_message.comment": "Label text for OneDrive files",
+      "message": "From OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "_message.comment": "OneNote Online app name",
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "_message.comment": "Label text for opening documents",
+      "message": "Open"
+   },
+   "PowerPointOnlineAppName": {
+      "_message.comment": "PowerPoint Online app name",
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "_message.comment": "Label text for opening recent documents",
+      "message": "Recent documents"
+   },
+   "SettingsLabel": {
+      "_message.comment": "Label text for settings",
+      "message": "Settings"
+   },
+   "ShareMessage": {
+      "_message.comment": "Accessibility text for sharing buttons",
+      "message": "Share"
+   },
+   "SharePermissionsErrorMessage": {
+      "_message.comment": "Text for on-hover error message (Edge only)",
+      "message": "Permission required"
+   },
+   "SharePermissionsTooltip": {
+      "_message.comment": "Text for HTML title attribute (Chrome only)",
+      "message": "You don't have permission to share"
+   },
+   "SharePointAppName": {
+      "_message.comment": "OneDrive for Business app name",
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "_message.comment": "Label text for sign in location",
+      "message": "Where do you want to save your files?"
+   },
+   "SignInLabel": {
+      "_message.comment": "Label text for Sign in link",
+      "message": "Sign in"
+   },
+   "SignOutLabel": {
+      "_message.comment": "Label text for Sign out link",
+      "message": "Sign out"
+   },
+   "SwayAppName": {
+      "_message.comment": "Sway app name",
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "_message.comment": "Label text for telemetry checkbox",
+      "message": "Automatically send data to help us improve our products."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "_message.comment": "Label text for local file picker in Edge for O365 users",
+      "message": "Upload to OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "_message.comment": "Label text for local file picker in Edge for MSA users",
+      "message": "Upload to OneDrive"
+   },
+   "UsernameLabel": {
+      "_message.comment": "Label text for username",
+      "message": "Not signed in"
+   },
+   "ViewMoreLabel": {
+      "_message.comment": "Label to view more recent documents",
+      "message": "View more"
+   },
+   "WordOnlineAppName": {
+      "_message.comment": "Word Online app name",
+      "message": "Word Online"
+   }
+}

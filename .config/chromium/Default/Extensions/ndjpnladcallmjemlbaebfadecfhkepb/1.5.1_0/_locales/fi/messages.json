@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Tili"
+   },
+   "AppDescription": {
+      "message": "Tarkastele, muokkaa ja luo Office-tiedostoja selaimessa."
+   },
+   "AppFolderName": {
+      "message": "Office Online -laajennus"
+   },
+   "AppLongDescription": {
+      "message": "Luotu Chromelle - Käytä Wordia, Excelia, PowerPointia, OneNotea ja Sway Onlinea ilman Officen asentamista.\r\n\r\nVarmuutta luomiseen - Käytä tuttuja muotoiluja ja asetteluvaihtoehtoja ideoidesi esilletuontiin.\r\n\r\nTyöskentele liikkeellä ollessa - Nouda tiedostosi mistä tahansa OneDrive- ja OneDrive for Business -integraation ansiosta.\r\n\r\nAsentamalla sovelluksen hyväksyt nämä käyttöehdot: http://aka.ms/officechromeextensionterms\r\n\r\nTietosuojakäytäntö: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online sijoittaa Microsoft Edge -työkaluriviin kuvakkeen, jonka avulla voit helposti käyttää sekä verkkoon että tietokoneeseen tallennettuja Office-tiedostoja.\r\n\r\nOffice Online pystyy avaamaan OneDriveen ja OneDrive for Businessiin tallennettuja tiedostoja.\r\n\r\nVoit käyttää Wordin, Excelin, PowerPointin, OneNoten ja Swayn eri ominaisuuksia selaimessa ilman erillistä Officen asentamista.\r\n\r\nAsentamalla sovelluksen hyväksyt nämä käyttöehdot: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Selaa"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Luo tili"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Et ole tarkastellut tiedostoja viime aikoina."
+   },
+   "CreateNewLabel": {
+      "message": "Uusi"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Viimeksi avattujen tiedostojen luettelon hakeminen ei onnistu."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Kirjoita kommenttisi"
+   },
+   "FeedbackDontLike": {
+      "message": "En pidä jostakin"
+   },
+   "FeedbackLike": {
+      "message": "Pidän jostakin"
+   },
+   "FeedbackOverall": {
+      "message": "Millaista palautetta sinulla on?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Tietosuojatiedot"
+   },
+   "FeedbackSubmit": {
+      "message": "Lähetä"
+   },
+   "FeedbackSuggestion": {
+      "message": "Minulla on ehdotus"
+   },
+   "FeedbackTitle": {
+      "message": "Lähetä palautetta"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Mistä et pitänyt?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Mistä pidit?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Mitä ehdotat?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Tiedostotyyppiä ei tueta. Valitse Word-, Excel- tai PowerPoint-asiakirja."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Ladataan..."
+   },
+   "NextLabel": {
+      "message": "Kirjaudu sisään"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Älä näytä tätä uudelleen"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Tallensimme tiedostosi Office Online -laajennus -kansioon OneDrivessa."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Tallensimme tiedostosi Office Online -laajennus -kansioon OneDrive for Businessissa."
+   },
+   "NotificationFileAccess": {
+      "message": "Valitse Chrome-laajennusasetuksissa Salli pääsy tiedoston URL-osoitteisiin -valintaruutu, jos haluat vetää ja pudottaa tiedostot Chromeen."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Office Online -laajennus Chromea varten ei voi avata asiakirjaasi sen koon takia. Avaa asiakirja lataamalla suoraan OneDriveen."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Valitettavasti emme voi avata tiedostoasi."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Valitettavasti emme voi avata tiedostoasi. Yritä myöhemmin uudelleen."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Valitettavasti emme voi avata tiedostoasi. Valitse Wordilla, Excelillä tai PowerPointilla luotu tiedosto."
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Lataamme parhaillaan asiakirjaasi/asiakirjojasi."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Office 365 -tilauksesi on ehkä vanhentunut tai se ei sisällä OneDrive for Businessia. Tarkista tilauksesi tai kirjaudu sisään sen sijaan Microsoft-tilillä."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Kirjaudu sisään laajennukseen, jotta voit tarkastella ja muokata tiedostoja Office Onlinessa."
+   },
+   "NotificationSetDefault": {
+      "message": "Avaa Office Online napauttamalla asiakirjoja kahdella sormella Tiedostot-sovelluksessa."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Valitse Wordilla, Excelillä tai PowerPointilla luotu tiedosto."
+   },
+   "O365FilesLabel": {
+      "message": "OneDrive for Businessista"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Olet offline-tilassa. Yhdistä uudelleen, jotta voit käyttää Office Online -laajennusta Chromea varten."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "OneDrivesta"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Avaa"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Viimeisimmät asiakirjat"
+   },
+   "SettingsLabel": {
+      "message": "Asetukset"
+   },
+   "ShareMessage": {
+      "message": "Jaa"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "Käyttöoikeus vaaditaan"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Sinulla ei ole jakamisoikeutta"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "Mihin haluat tallentaa tiedostosi?"
+   },
+   "SignInLabel": {
+      "message": "Kirjaudu sisään"
+   },
+   "SignOutLabel": {
+      "message": "Kirjaudu ulos"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Lähetä automaattisesti tietoja, jotta voit auttaa meitä parantamaan tuotteitamme."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "Lataa OneDrive for Businessiin"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "Lataa OneDriveen"
+   },
+   "UsernameLabel": {
+      "message": "Ei kirjautuneena sisään"
+   },
+   "ViewMoreLabel": {
+      "message": "Katso lisää"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

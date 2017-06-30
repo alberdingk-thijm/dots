@@ -1,0 +1,15 @@
+2017/05/20-10:55:42.333 1828 Reusing MANIFEST /home/tim/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/05/20-10:55:42.333 1828 Recovering log #835
+2017/05/20-10:55:42.333 1828 Reusing old log /home/tim/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000835.log 
+2017/05/20-10:55:52.203 2754 Level-0 table #839: started
+2017/05/20-10:55:52.225 2754 Level-0 table #839: 773988 bytes OK
+2017/05/20-10:55:52.253 2754 Delete type=0 #835
+2017/05/20-10:55:52.255 2754 Compacting 4@0 + 1@1 files
+2017/05/20-10:55:52.288 2754 Generated table #840@0: 16 keys, 388730 bytes
+2017/05/20-10:55:52.288 2754 Compacted 4@0 + 1@1 files => 388730 bytes
+2017/05/20-10:55:52.298 2754 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/05/20-10:55:52.298 2754 Delete type=2 #830
+2017/05/20-10:55:52.298 2754 Delete type=2 #827
+2017/05/20-10:55:52.298 2754 Delete type=2 #836
+2017/05/20-10:55:52.298 2754 Delete type=2 #833
+2017/05/20-10:55:52.298 2754 Delete type=2 #839

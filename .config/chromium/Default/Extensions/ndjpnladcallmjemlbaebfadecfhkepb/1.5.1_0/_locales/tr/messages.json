@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "Hesap"
+   },
+   "AppDescription": {
+      "message": "Tarayıcınızda Office dosyalarını görüntüleyin, düzenleyin ve oluşturun."
+   },
+   "AppFolderName": {
+      "message": "Office Online uzantısı"
+   },
+   "AppLongDescription": {
+      "message": "Chrome için Oluşturuldu – Office yüklemeye gerek kalmadan Word, Excel, PowerPoint, OneNote ve Sway Online kullanın.\r\n\r\nGüvenle oluşturun – Fikirlerinizi en uygun şekilde ifade etmek için tanıdık biçimlendirme ve düzen seçeneklerini kullanın.\r\n\r\nHareket halindeyken çalışın – OneDrive ve OneDrive İş tümleştirmesi sayesinde dosyalarınıza her yerden erişin.\r\n\r\nUygulamayı yükleyerek, bu hüküm ve koşulları kabul etmiş olursunuz: http://aka.ms/officechromeextensionterms\r\n\r\nGizlilik İlkesi: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online, Microsoft Edge araç çubuğuna, çevrimiçi depolanan veya bilgisayarınızda bulunan Office dosyalarınıza doğrudan erişmenizi sağlayan bir simge yerleştirir.\r\n\r\nOffice Online, OneDrive ve OneDrive İş'te depolanan dosyaları açabilir.\r\n\r\nOffice'i yüklemenize gerek kalmadan doğrudan tarayıcınızdan Word, Excel, PowerPoint, OneNote ve Sway uygulamalarının özelliklerine erişebilirsiniz.\r\n\r\nUygulamayı yüklediğinizde şu hüküm ve koşulları kabul etmiş olursunuz: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "Gözat"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "Hesap oluştur"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "Yakın zamanda görüntülediğiniz belge yok."
+   },
+   "CreateNewLabel": {
+      "message": "Yeni"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "Şu anda son kullanılan belgelerinizin listesini alamıyoruz."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "Lütfen yorumunuzu yazın"
+   },
+   "FeedbackDontLike": {
+      "message": "Beğenmediğim şeyler var"
+   },
+   "FeedbackLike": {
+      "message": "Beğendiğim şeyler var"
+   },
+   "FeedbackOverall": {
+      "message": "Ne tür bir geribildirimde bulunmak istersiniz?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "Gizlilik Bildirimi"
+   },
+   "FeedbackSubmit": {
+      "message": "Gönder"
+   },
+   "FeedbackSuggestion": {
+      "message": "Bir önerim var"
+   },
+   "FeedbackTitle": {
+      "message": "Geribildirim gönder"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "Neleri beğenmediniz?"
+   },
+   "FeedbackWhatLike": {
+      "message": "Neleri beğendiniz?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "Ne önerirsiniz?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "Dosya türü desteklenmiyor. Lütfen Word, Excel veya PowerPoint belgesi seçin."
+   },
+   "LoadingRecentsLabel": {
+      "message": "Yükleniyor..."
+   },
+   "NextLabel": {
+      "message": "Oturum açın"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "Bunu bir daha gösterme"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "Dosyanız OneDrive içindeki \"Office Online uzantısı\" klasörünüze kaydedildi."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "Dosyanız OneDrive İş içindeki \"Office Online uzantısı\" klasörünüze kaydedildi."
+   },
+   "NotificationFileAccess": {
+      "message": "Dosyaları sürükleyip Chrome'a bırakmak istiyorsanız Chrome uzantısı ayarlarında \"Dosya URL'lerine erişime izin ver\" onay kutusunu seçin."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "Belgeniz çok büyük olduğundan Chrome için Office Online uzantısı ile açılamıyor. Lütfen belgeyi açmak için doğrudan OneDrive'a yükleyin."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "Ne yazık ki dosyanızı açamadık."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "Ne yazık ki dosyanızı açamadık. Lütfen daha sonra yeniden deneyin."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "Ne yazık ki dosyanızı açamadık. Lütfen Word, Excel veya PowerPoint ile oluşturulan bir dosya seçin"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "Belgeleriniz şu anda karşıya yükleniyor."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "Office 365 aboneliğinizin süresi dolmuş veya aboneliğiniz OneDrive İş'i içermiyor olabilir. Aboneliğinizi denetleyin veya bir Microsoft Hesabıyla oturum açın."
+   },
+   "NotificationNotSignedIn": {
+      "message": "Office Online'da dosyaları görüntüleyip düzenlemek için uzantıda oturum açın."
+   },
+   "NotificationSetDefault": {
+      "message": "Office Online ile açmak için, Dosyalar uygulamasında belgelere iki parmakla dokunun."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "Word, Excel veya PowerPoint ile oluşturulan bir dosya seçin."
+   },
+   "O365FilesLabel": {
+      "message": "OneDrive İş'ten"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "Çevrimdışısınız. Chrome için Office Online uzantısını kullanmak için lütfen yeniden bağlanın."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "OneDrive'dan"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "Açık"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "Son kullanılan belgeler"
+   },
+   "SettingsLabel": {
+      "message": "Ayarlar"
+   },
+   "ShareMessage": {
+      "message": "Paylaş"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "İzin gerekiyor"
+   },
+   "SharePermissionsTooltip": {
+      "message": "Paylaşmak için izniniz yok"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive İş"
+   },
+   "SignInHeaderLabel": {
+      "message": "Dosyalarınızı nereye kaydetmek istiyorsunuz?"
+   },
+   "SignInLabel": {
+      "message": "Oturum açın"
+   },
+   "SignOutLabel": {
+      "message": "Oturumu kapat"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "Ürünlerimizi geliştirmemize yardımcı olmak üzere verileri otomatik olarak gönder."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "OneDrive İş'e yükle"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "OneDrive'a Yükle"
+   },
+   "UsernameLabel": {
+      "message": "Oturum açılmamış"
+   },
+   "ViewMoreLabel": {
+      "message": "Daha fazlasını görüntüleyin"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

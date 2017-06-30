@@ -1,0 +1,200 @@
+{
+   "AccountLabel": {
+      "message": "חשבון"
+   },
+   "AppDescription": {
+      "message": "הצג, ערוך וצור קבצי Office בדפדפן שלך."
+   },
+   "AppFolderName": {
+      "message": "הרחבת Office Online"
+   },
+   "AppLongDescription": {
+      "message": "תוכנן עבור Chrome – השתמש ב- Word,‏ Excel,‏ PowerPoint‏, OneNote ו- Sway Online מבלי להתקין את Office במחשב.\r\n\r\nצור בביטחון – השתמש באפשרויות עיצוב ופריסת מוכרות כדי לבטא את הרעיונות שלך בנאמנות מלאה.\r\n\r\nעבוד בדרכים – גש לקבצים שלך מכל מקום, הודות לשילוב עם OneDrive ו- OneDrive for Business.\r\n\r\nבעצם התקנת האפליקציה, אתה מסכים לתנאים ולהתניות אלה: http://aka.ms/officechromeextensionterms\r\n\r\nמדיניות פרטיות: http://aka.ms/privacy\r\n"
+   },
+   "AppLongDescriptionEdge": {
+      "message": "Office Online מציב סמל בסרגל הכלים של Microsoft Edge המעניק לך גישה ישירה לקבצי Office שלך, בין אם הם מאוחסנים באינטרנט או במחשב שלך.\r\n\r\nOffice Online יכול לפתוח קבצים המאוחסנים ב- OneDrive וב- OneDrive for Business.\r\n\r\nאתה מקבל את התכונות של Word‏, Excel‏, PowerPoint‏, OneNote ו- Sway ישירות בדפדפן ללא צורך בהתקנת Office.\r\n\r\nבעצם התקנת היישום, אתה מביע את הסכמתך לתנאים ולהתניות אלה: \r\n\r\n"
+   },
+   "AppName": {
+      "message": "Office Online"
+   },
+   "AppShortName": {
+      "message": "Office Online"
+   },
+   "AppTermsOfServiceLCA": {
+      "message": "PLEASE NOTE: Refer to your license terms for Microsoft Office Online software (the \"software\") to identify the entity licensing this supplement to you and for support information. You may use a copy of this supplement with each validly licensed copy of the software. You may not use the supplement if you do not have a license for the software. The license terms for the software apply to your use of this supplement."
+   },
+   "BrowseToOpenLabel": {
+      "message": "עיון"
+   },
+   "CopyrightLabel": {
+      "message": "Microsoft Corporation 2015"
+   },
+   "CreateAccountLabel": {
+      "message": "צור חשבון"
+   },
+   "CreateDocsMessageLabel": {
+      "message": "לא הצגת מסמכים לאחרונה."
+   },
+   "CreateNewLabel": {
+      "message": "חדש"
+   },
+   "DocumentsNotFoundMessageLabel": {
+      "message": "אין אפשרות לקבל את רשימת המסמכים האחרונים שלך כעת."
+   },
+   "ExcelOnlineAppName": {
+      "message": "Excel Online"
+   },
+   "FeedbackCommentPlaceholder": {
+      "message": "הקלד את ההערה שלך"
+   },
+   "FeedbackDontLike": {
+      "message": "אני לא אוהב משהו"
+   },
+   "FeedbackLike": {
+      "message": "אני אוהב משהו"
+   },
+   "FeedbackOverall": {
+      "message": "איזה סוג משוב ברצונך לתת?"
+   },
+   "FeedbackPrivacyStatement": {
+      "message": "הצהרת פרטיות"
+   },
+   "FeedbackSubmit": {
+      "message": "שלח"
+   },
+   "FeedbackSuggestion": {
+      "message": "יש לי הצעה"
+   },
+   "FeedbackTitle": {
+      "message": "שליחת משוב"
+   },
+   "FeedbackWhatDontLike": {
+      "message": "מה לא אהבת?"
+   },
+   "FeedbackWhatLike": {
+      "message": "מה אהבת?"
+   },
+   "FeedbackWhatSuggest": {
+      "message": "מה אתה מציע?"
+   },
+   "FileTypeErrorMessage": {
+      "message": "סוג הקובץ אינו נתמך. בחר מסמך Word,‏ Excel או PowerPoint."
+   },
+   "LoadingRecentsLabel": {
+      "message": "טוען..."
+   },
+   "NextLabel": {
+      "message": "היכנס"
+   },
+   "NotificationAutoSaveButton": {
+      "message": "אל תציג זאת שוב"
+   },
+   "NotificationAutoSaveToOneDrive": {
+      "message": "שמרנו את הקובץ בתיקיית \"הרחבת Office Online\" ב- OneDrive שלך."
+   },
+   "NotificationAutoSaveToSharePoint": {
+      "message": "שמרנו את הקובץ בתיקיית \"הרחבת Office Online\" ב- OneDrive for Business שלך."
+   },
+   "NotificationFileAccess": {
+      "message": "בהגדרות התוספים של Chrome, בחר את תיבת הסימון \"אפשר גישה לכתובות אתרים של קבצים\" אם ברצונך לגרור ולשחרר קבצים לתוך Chrome."
+   },
+   "NotificationFileMaxSizeByteLimitReached": {
+      "message": "להרחבת Office Online עבור Chrome אין אפשרות לפתוח את המסמך בשל גודלו. העלה ישירות ל- OneDrive כדי לפתוח את המסמך."
+   },
+   "NotificationFileUploadFailureGeneric": {
+      "message": "מצטערים, לא היתה אפשרות לפתוח את הקובץ."
+   },
+   "NotificationFileUploadFailureServer": {
+      "message": "מצטערים, לא היתה אפשרות לפתוח את הקובץ. נסה שוב במועד מאוחר יותר."
+   },
+   "NotificationFileUploadFailureUnsupportedMedia": {
+      "message": "מצטערים, לא היתה אפשרות לפתוח את הקובץ. בחר קובץ שנוצר באמצעות Word‏, Excel או PowerPoint"
+   },
+   "NotificationFileUploadInProgress": {
+      "message": "אנו מעלים כעת את המסמכים שלך."
+   },
+   "NotificationInvalidSubscription": {
+      "message": "ייתכן שתוקפו של מנוי Office 365 שלך פג או שהוא אינו כולל את OneDrive for Business. בדוק את המנוי או היכנס באמצעות חשבון Microsoft במקום זאת."
+   },
+   "NotificationNotSignedIn": {
+      "message": "היכנס להרחבה כדי להציג ולערוך קבצים ב- Office Online."
+   },
+   "NotificationSetDefault": {
+      "message": "באפליקציה 'Files', הקש על מסמכים בשתי אצבעות כדי לפתוח אותם באמצעות Office Online."
+   },
+   "NotificationUnsupportedFileType": {
+      "message": "בחר קובץ שנוצר באמצעות Word‏, Excel או PowerPoint."
+   },
+   "O365FilesLabel": {
+      "message": "מ- OneDrive for Business"
+   },
+   "OfficeOnlineAppName": {
+      "message": "Office Online"
+   },
+   "OfflineLabel": {
+      "message": "אתה במצב לא מקוון. התחבר מחדש כדי להשתמש בהרחבת Office Online עבור Chrome."
+   },
+   "OneDriveAppName": {
+      "message": "OneDrive"
+   },
+   "OneDriveFilesLabel": {
+      "message": "מ- OneDrive"
+   },
+   "OneNoteOnlineAppName": {
+      "message": "OneNote Online"
+   },
+   "OpenDocumentLabel": {
+      "message": "פתח"
+   },
+   "PowerPointOnlineAppName": {
+      "message": "PowerPoint Online"
+   },
+   "RecentDocsLabel": {
+      "message": "מסמכים אחרונים"
+   },
+   "SettingsLabel": {
+      "message": "הגדרות"
+   },
+   "ShareMessage": {
+      "message": "שתף"
+   },
+   "SharePermissionsErrorMessage": {
+      "message": "נדרשת הרשאה"
+   },
+   "SharePermissionsTooltip": {
+      "message": "אין לך הרשאה לשתף"
+   },
+   "SharePointAppName": {
+      "message": "OneDrive for Business"
+   },
+   "SignInHeaderLabel": {
+      "message": "היכן ברצונך לשמור את הקבצים שלך?"
+   },
+   "SignInLabel": {
+      "message": "היכנס"
+   },
+   "SignOutLabel": {
+      "message": "צא"
+   },
+   "SwayAppName": {
+      "message": "Sway"
+   },
+   "TelemetrySettingLabel": {
+      "message": "שלח נתונים באופן אוטומטי כדי לעזור לנו לשפר את המוצרים שלנו."
+   },
+   "UploadToOneDriveBusinessLabel": {
+      "message": "העלה אל OneDrive for Business"
+   },
+   "UploadToOneDriveLabel": {
+      "message": "העלה אל OneDrive"
+   },
+   "UsernameLabel": {
+      "message": "לא נכנס"
+   },
+   "ViewMoreLabel": {
+      "message": "הצג עוד"
+   },
+   "WordOnlineAppName": {
+      "message": "Word Online"
+   }
+}

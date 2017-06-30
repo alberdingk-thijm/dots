@@ -1,0 +1,215 @@
+<div class="popup_view" data-ng-style="{direction: ctrl.rtl ? 'rtl' : 'ltr'}" data-bind-drag-and-drop data-ng-model="ctrl.filesSelected" data-ng-change="ctrl.onFileInputChange()">
+    <!--
+        Fading Panel
+        It is used to fade out the popup when the menu is dropped.
+        Clicking on the panel hides the menu
+    -->
+    <div class="fading_panel"
+         data-ng-style="{visibility: ctrl.currentViewMode === ctrl.constants.MENU_VIEWMODE.NONE && ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.SIGNEDIN ? 'hidden' : 'visible'}"
+         data-ng-click="ctrl.currentViewMode = ctrl.constants.MENU_VIEWMODE.NONE">
+    </div>
+
+    <!-- Top horizontal menu items -->
+    <div class="ribbon_panel">
+        <div class="animate-repeat ribbon_button" data-ng-repeat="menu_item in ctrl.menuItems">
+            <div class="{{focusClass}}" data-ng-blur="focusClass = 'ribbon_button_group'" data-ng-click="ctrl.onMenuItemClick(menu_item.viewMode); focusClass = 'ribbon_button_group_nofocus'" tabindex="{{ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.SIGNEDIN ? 0 : -1}}">
+                <em class="{{ menu_item.iconClass }} ribbon_button_icon"></em>
+                <div>{{ menu_item.label | i18n }}</div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+        Angular switch to display and animate menus. NOTE: could not get ctrl.constants.MENU_VIEWMODE to evaluate in the data-ng-switch-when properties,
+        so using hardcoded values
+    -->
+    <div class="menu_group" data-ng-switch="ctrl.currentViewMode">
+
+        <!-- Simple div to add the horizontal line -->
+        <div class="menu_panel_closed" data-ng-if="ctrl.currentViewMode === ctrl.constants.MENU_VIEWMODE.NONE">
+        </div>
+
+        <!-- New documents -->
+        <div class="menu_panel menu-switch-animation" data-ng-switch-when="1">
+            <div class="action_group">
+                <div class="animate-repeat" data-ng-repeat="app in ctrl.appLaunchers">
+                    <div class="list_row" data-ng-click="ctrl.createDocument(app, $event)" tabindex="0">
+                        <div>
+                            <img class="list_image" data-i18n-attr="{{ app.label }}|alt" data-ng-src="{{ app.imageSource }}" />
+                        </div>
+                        <div class="list_end">
+                            <label class="app_name">{{ app.label | i18n }}</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_chevron" data-ng-click="ctrl.onMenuItemClick(ctrl.constants.MENU_VIEWMODE.NONE)" tabindex="0">
+                <em class="o365-Icon--chevronThickUp"></em>
+            </div>
+        </div>
+
+        <!-- Open documents -->
+        <div class="menu_panel menu-switch-animation" data-ng-switch-when="2">
+            <div class="action_group">
+                <div data-ng-repeat="filePicker in ctrl.filePickers">
+                    <div data-ng-if="!filePicker.isLocal && filePicker.id === userType" class="list_row" data-ng-click="ctrl.openDocument()" tabindex="0">
+                        <div>
+                            <em data-ng-class="filePicker.fontClass"></em>
+                        </div>
+                        <div class="list_end_open">
+                            <label class="app_name">{{ filePicker.label | i18n }}</label>
+                        </div>
+                    </div>
+                    <div class="list_row" data-ng-if="filePicker.isLocal && filePicker.isChrome" data-bind-file-input-container-click tabindex="0">
+                        <div>
+                            <em data-ng-class="filePicker.fontClass"></em>
+                        </div>
+                        <div class="list_end_open">
+                            <label class="app_name">{{ filePicker.label | i18n }}</label>
+                        </div>
+                        <input data-bind-file-change type="file" id="file_picker" title="file_picker" style="display: none;" data-ng-model="ctrl.filesSelected" data-ng-change="ctrl.onFileInputChange()" accept=".doc,.dot,.docx,.dotx,.odt,.ppt,.pot,.pps,.pptx,.ppsx,.odp,.xlsx,.xlsm,.xlsb,.ods" />
+                    </div>
+                    <div class="list_row" data-ng-if="filePicker.isLocal && filePicker.isEdge && filePicker.id === userType" data-bind-file-input-container-click tabindex="0">
+                        <div>
+                            <em data-ng-class="filePicker.fontClass"></em>
+                        </div>
+                        <div class="list_end_open">
+                            <label class="app_name">{{ filePicker.label | i18n }}</label>
+                        </div>
+                        <input data-bind-file-change type="file" id="file_picker" title="file_picker" style="display: none;" data-ng-model="ctrl.filesSelected" data-ng-change="ctrl.onFileInputChange()" accept=".doc,.dot,.docx,.dotx,.odt,.ppt,.pot,.pps,.pptx,.ppsx,.odp,.xlsx,.xlsm,.xlsb,.ods" />
+                    </div>
+                </div>
+            </div>
+            <div class="menu_chevron" data-ng-click="ctrl.onMenuItemClick(ctrl.constants.MENU_VIEWMODE.NONE)" tabindex="0">
+                <em class="o365-Icon--chevronThickUp"></em>
+            </div>
+        </div>
+
+        <!-- Account info page -->
+        <div class="menu_panel menu-switch-animation" data-ng-switch-when="3">
+            <div class="account_group">
+                <div class="profile_circle" ng-if="ctrl.profilePicture === ''">
+                    <div class="profile_circle_inner">
+                        <em class="o365-Icon--person2"></em>
+                    </div>
+                </div>
+                <img class="profile_picture" ng-if="ctrl.profilePicture !== ''" ng-src="{{ctrl.profilePicture}}" />
+                <div class="account_name" title="{{ctrl.username}}">
+                    <label data-ng-bind="ctrl.username"></label>
+                </div>
+                <div class="menu_button" href="" data-ng-click="ctrl.onAccountSignInClick()" data-ng-bind="(ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.SIGNEDIN ? 'SignOutLabel' : 'SignInLabel') | i18n" tabindex="0"></div>
+            </div>
+            <div class="menu_chevron" data-ng-click="ctrl.onMenuItemClick(ctrl.constants.MENU_VIEWMODE.NONE)" tabindex="0">
+                <em class="o365-Icon--chevronThickUp"></em>
+            </div>
+        </div>
+
+        <!-- Settings page -->
+        <div class="menu_panel menu-switch-animation" data-ng-switch-when="4">
+            <div class="settings_group">
+                <div class="feedback_button_group">
+                    <div class="menu_button" href="" data-ng-click="ctrl.onFeedbackClick()" tabindex="0">{{ 'FeedbackTitle' | i18n }}</div>
+                </div>
+                <div class="checkbox_group">
+                    <div class="checkbox_start">
+                        <input type="checkbox" id="telemetry_input" class="checkbox_input" data-ng-model="ctrl.telemetryInputChecked" data-ng-checked="ctrl.telemetryInputChecked" data-ng-change="ctrl.onTelemetryInputChange()">
+                    </div>
+                    <div>
+                        <label for="telemetry_input" class="checkbox_field">{{ 'TelemetrySettingLabel' | i18n }}</label>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_chevron" data-ng-click="ctrl.onMenuItemClick(ctrl.constants.MENU_VIEWMODE.NONE)" tabindex="0">
+                <em class="o365-Icon--chevronThickUp"></em>
+            </div>
+        </div>
+
+    </div>
+
+    <!--
+        Masking Panel
+        This is used to give the effects of darkening the underlying menu when the login panel is present
+    -->
+    <div class="masking_panel" data-ng-show="ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.NONE">
+    </div>
+
+    <!-- Login "dialog" -->
+    <div class="login_panel" data-ng-show="ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.NONE">
+        <div class="signin_header">
+            <label>{{ 'SignInHeaderLabel' | i18n }}</label>
+        </div>
+        <div class="selector">
+            <select ng-model="ctrl.selectedUserType">
+                <option value="msaUserService">{{ 'OneDriveAppName' | i18n }}</option>
+                <option value="o365UserService">{{ 'SharePointAppName' | i18n }}</option>
+            </select>
+        </div>
+        <div class="login_option">
+            <div id="signin" class="login_button" href="" data-ng-click="ctrl.onWelcomeSignInClick()" tabindex="0">{{ 'NextLabel' | i18n }}</div>
+        </div>
+        <div class="login_option">
+            <div class="create_account" data-ng-click="ctrl.onSignupLinkClick()" tabindex="0">
+                <label>{{ 'CreateAccountLabel' | i18n }}</label>
+            </div>
+            <div class="create_account" data-ng-click="ctrl.onFeedbackClick()" tabindex="0">
+                <label>{{ 'FeedbackTitle' | i18n }}</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="mru_panel" data-ng-controller="MruController as mructrl" data-ng-init="mructrl.onLoad()" data-ng-show="ctrl.hasSignedIn !== ctrl.constants.SIGNINSTATUS.NONE && ctrl.hasSignedIn !== ctrl.constants.SIGNINSTATUS.UNKNOWN">
+        <div class="mru_label">{{ 'RecentDocsLabel' | i18n }}</div>
+        <div class="animate-repeat mru_message_panel" data-ng-if="mructrl.currentDisplayPanel === mructrl.constants.RECENTS.DISPLAY_PANEL.LOADING">
+            <div class="mru_message_content">
+                <div>{{ 'LoadingRecentsLabel' | i18n }}</div>
+                <div class="fading-circle-spinner fading-circle-spinner-mru">
+                    <div class="fading-circle1 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle2 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle3 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle4 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle5 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle6 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle7 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle8 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle9 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle10 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle11 fading-circle fading-circle-mru"></div>
+                    <div class="fading-circle12 fading-circle fading-circle-mru"></div>
+                </div>
+            </div>
+        </div>
+        <div class="animate-repeat mru_message_panel" data-ng-if="mructrl.currentDisplayPanel === mructrl.constants.RECENTS.DISPLAY_PANEL.NO_DOCS">
+            <div class="mru_message_content">
+                {{ 'CreateDocsMessageLabel' | i18n }}
+            </div>
+        </div>
+        <div class="animate-repeat mru_message_panel" data-ng-if="mructrl.currentDisplayPanel === mructrl.constants.RECENTS.DISPLAY_PANEL.ERROR">
+            <div class="mru_message_content">
+                {{ 'DocumentsNotFoundMessageLabel' | i18n }}
+            </div>
+        </div>
+
+        <!--Pull SharingController outside of ng-repeat to avoid instantiating it multiple times-->
+        <div class="animate-repeat" data-ng-if="mructrl.currentDisplayPanel === mructrl.constants.RECENTS.DISPLAY_PANEL.LIST" data-ng-controller="SharingController as sharingctrl">
+            <div class="action_panel" data-ng-model="mructrl.recentDocuments">
+                <div class="mru_group">
+                    <div class="animate-repeat mru_container" data-ng-repeat="doc in mructrl.recentDocuments" tabindex="{{ctrl.currentViewMode === ctrl.constants.MENU_VIEWMODE.NONE && ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.SIGNEDIN ? 0 : -1}}">
+                        <div class="list_row">
+                            <div>
+                                <img class="list_image" data-ng-src="{{ doc.imageSource }}" data-i18n-attr="{{ doc.appLabel }}|alt" />
+                            </div>
+                            <div class="list_middle" />
+                            <div class="list_end">
+                                <!--Sharing experiment-->
+                                <div class="sharing_experiment" ng-include="sharingctrl.flightView"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mru_view_more" data-ng-if="userType !== mructrl.constants.USER_TYPE.NONE && mructrl.recentDocuments.length > 0" data-ng-click="ctrl.browseToRecents()" tabindex="{{ctrl.currentViewMode === ctrl.constants.MENU_VIEWMODE.NONE && ctrl.hasSignedIn === ctrl.constants.SIGNINSTATUS.SIGNEDIN ? 0 : -1}}">
+                <label>{{ 'ViewMoreLabel' | i18n }}</label>
+            </div>
+        </div>
+    </div>
+</div>
