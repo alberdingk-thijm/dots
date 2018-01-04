@@ -1,1 +1,0 @@
-!function(){"use strict";function t(t){this.setEnabledSetting=function(n){t.appInsights.config.disableTelemetry=!n},this.trackEvent=function(n,i,e){t.appInsights.trackEvent(n,i,e)},this.trackTrace=function(n,i){t.appInsights.trackTrace(n,i)}}angular.module("app.diagnostics").service("applicationInsightsTelemetry",["$window",t])}();

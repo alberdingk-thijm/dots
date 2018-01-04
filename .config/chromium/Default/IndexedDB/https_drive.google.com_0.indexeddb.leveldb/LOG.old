@@ -1,6 +1,0 @@
-2017/05/01-18:52:14.148 7626 Reusing MANIFEST /home/tim/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2017/05/01-18:52:14.149 7626 Recovering log #832
-2017/05/01-18:52:14.149 7626 Reusing old log /home/tim/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000832.log 
-2017/05/01-18:52:15.094 14849 Level-0 table #836: started
-2017/05/01-18:52:15.111 14849 Level-0 table #836: 629563 bytes OK
-2017/05/01-18:52:15.117 14849 Delete type=0 #832
