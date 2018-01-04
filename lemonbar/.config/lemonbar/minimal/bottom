@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source ~/.config/lemonbar/setup
+
+while true; do
+    echo "%{l}%{O 2} %{O 2} $(title)\
+          %{r}$(_date) %{O 2} $(_time)"
+    sleep 1s
+done |
+
+lemonbar\
+    -b\
+    -g "x32"\
+    -F "#ffffff"\
+    -B "#19000000"\
+    -f "$PANEL_FONT_FAMILY"\
+    -f "$ICON_FONT" | bash
