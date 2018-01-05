@@ -3,8 +3,8 @@ dunst &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
 tint2 &
-# plank &
 conky -c ~/.config/conky/conky.conf &
 ~/bin/greenclip daemon &
-# cbatticon -i symbolic &
+cbatticon -i symbolic &
 lxpolkit &
+mopidy &

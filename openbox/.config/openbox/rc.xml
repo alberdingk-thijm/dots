@@ -73,7 +73,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Lato Medium</name>
+      <name>TamzenForPowerline</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -82,7 +82,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>Lato Medium</name>
+      <name>TamzenForPowerline</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -91,13 +91,13 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Lato Medium</name>
+      <name>TamzenForPowerline</name>
       <size>8</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Lato Medium</name>
+      <name>TamzenForPowerline</name>
       <size>8</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
@@ -145,10 +145,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>2</top>
-    <bottom>0</bottom>
-    <left>0</left>
-    <right>0</right>
+    <top>24</top>
+    <bottom>1</bottom>
+    <left>2</left>
+    <right>2</right>
   </margins>
   <dock>
     <position>BottomRight</position>
