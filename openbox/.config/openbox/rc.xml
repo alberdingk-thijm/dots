@@ -342,7 +342,7 @@
     </keybind>
     <keybind key="W-l">
       <action name="Execute">
-        <command>i3lock-fancy -p -- scrot -z</command>
+        <command>lxlock</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>lock</name>

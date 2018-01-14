@@ -5,6 +5,6 @@ compton --config ~/.config/compton.conf -b &
 tint2 &
 conky -c ~/.config/conky/conky.conf &
 ~/bin/greenclip daemon &
-cbatticon -i symbolic &
+cbatticon -i standard &
 lxpolkit &
 mopidy &
