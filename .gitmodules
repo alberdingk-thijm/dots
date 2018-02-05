@@ -22,3 +22,9 @@
 [submodule "vim/.vim/bundle/vim-fugitive"]
 	path = vim/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/.vim/bundle/ack.vim"]
+	path = vim/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "vim/.vim/bundle/lightline-buffer"]
+	path = vim/.vim/bundle/lightline-buffer
+	url = https://github.com/taohex/lightline-buffer.git
