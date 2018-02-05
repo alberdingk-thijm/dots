@@ -58,3 +58,6 @@
 [submodule "zathura/.config/zathura/base16-zathura"]
 	path = zathura/.config/zathura/base16-zathura
 	url = https://github.com/esn89/base16-zathura.git
+[submodule "zsh/.oh-my-zsh"]
+	path = zsh/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
