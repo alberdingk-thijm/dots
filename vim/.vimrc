@@ -18,6 +18,14 @@ if version >= 700
     set nospell
 endif
 
+" Backup files
+" Create backup directory
+if filewritable(".") && ! filewritable(".backup")
+    silent execute '!umask 002; mkdir .backup'
+endif
+set backupdir=./.backup//,.,/tmp//
+set directory=.,./.backup//,/tmp//
+
 set encoding=utf-8
 
 " Tracking where we are
