@@ -5,7 +5,7 @@
 ! | modified by Tim		  |
 ! \-----------------------/
 
-!#include </home/tim/.termcolors/scag>
+!#include </home/tim/.termcolors/rosespectr>
 
 Xft.dpi:                        109
 Xft.antialias:                  1
@@ -34,59 +34,49 @@ URxvt.perl-ext-common:          default
 URxvt.keysym.Control-Left:		\033[1;5D
 URxvt.keysym.Control-Right:		\033[1;5C
 
-! Colors
-! Base16 Atelier Sulphurpool Light
-! Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+/* ! Rofi */
+/* rofi.font:						Envy Code for Powerline 8 */
+/* rofi.color-enabled:				false */
+/* !								bg,fg,bgalt,hlbg,hlfg */
+/* rofi.color-normal:				base00,base05,base03,base0C,base00 */
+/* rofi.color-urgent:				base00,base08,base03,base0C,base08 */
+/* rofi.color-active:				base00,base0D,base03,base0C,base05 */
+/* rofi.color-window:				base00,base03 */
+/* rofi.separator-style:           solid */
 
-#define base00 #f5f7ff
-#define base01 #dfe2f1
-#define base02 #979db4
-#define base03 #898ea4
-#define base04 #6b7394
-#define base05 #5e6687
-#define base06 #293256
-#define base07 #202746
-#define base08 #c94922
-#define base09 #c76b29
-#define base0A #c08b30
-#define base0B #ac9739
-#define base0C #22a2c9
-#define base0D #3d8fd1
-#define base0E #6679cc
-#define base0F #9c637a
+! special
+*.foreground:   #1f1218
+*.background:   #fff5fa
+*.cursorColor:  #1f1218
 
-*foreground:   base05
-#ifdef background_opacity
-*background:   [background_opacity]base00
-#else
-*background:   base00
-#endif
-*cursorColor:  base05
+! black
+*.color0:       #fff5fa
+*.color8:       #997f8c
 
-*color0:       base00
-*color1:       base08
-*color2:       base0B
-*color3:       base0A
-*color4:       base0D
-*color5:       base0E
-*color6:       base0C
-*color7:       base05
+! red
+*.color1:       #e04d38
+*.color9:       #e07638
 
-*color8:       base03
-*color9:       base09
-*color10:      base01
-*color11:      base02
-*color12:      base04
-*color13:      base06
-*color14:      base0F
-*color15:      base07
+! green
+*.color2:       #699e34
+*.color10:      #f0dde6
 
-! Rofi
-rofi.font:						Envy Code for Powerline 8
-rofi.color-enabled:				false
-!								bg,fg,bgalt,hlbg,hlfg
-rofi.color-normal:				base00,base05,base03,base0C,base00
-rofi.color-urgent:				base00,base08,base03,base0C,base08
-rofi.color-active:				base00,base0D,base03,base0C,base05
-rofi.color-window:				base00,base03
-rofi.separator-style:           solid
+! yellow
+*.color3:       #e0b738
+*.color11:      #997f8c
+
+! blue
+*.color4:       #4286c9
+*.color12:      #7d5e6d
+
+! magenta
+*.color5:       #a565c9
+*.color13:      #33222b
+
+! cyan
+*.color6:       #349e90
+*.color14:      #e0708c
+
+! white
+*.color7:       #7d5e6d
+*.color15:      #1f1218

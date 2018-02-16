@@ -53,7 +53,7 @@ set nohidden
 " to ensure plugins correctly use paths in bash
 set shellslash
 
-colo base16-atelier-sulphurpool-light
+" colo base16-atelier-sulphurpool-light
 
 " Syntax
 syntax on
