@@ -1,0 +1,3 @@
+#!/bin/bash
+
+notify-send 'Date' "`date`" -t 4000 -i "dialog-information"
