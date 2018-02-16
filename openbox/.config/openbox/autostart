@@ -4,7 +4,7 @@ volumeicon &
 compton --config ~/.config/compton.conf -b &
 tint2 &
 conky -c ~/.config/conky/conky.conf &
-~/bin/greenclip daemon &
+~/.local/bin/greenclip daemon &
 cbatticon -i standard &
 lxpolkit &
 mopidy &
