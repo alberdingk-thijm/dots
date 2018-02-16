@@ -1,4 +1,4 @@
-nitrogen --restore &
+~/.fehbg &
 dunst &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
@@ -8,3 +8,5 @@ conky -c ~/.config/conky/conky.conf &
 cbatticon -i standard &
 lxpolkit &
 mopidy &
+urxvtd &
+xrdb ~/.Xresources
