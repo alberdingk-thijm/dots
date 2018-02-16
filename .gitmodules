@@ -64,3 +64,6 @@
 [submodule "vim/.vim/bundle/vim-racer"]
 	path = vim/.vim/bundle/vim-racer
 	url = https://github.com/racer-rust/vim-racer.git
+[submodule "vim/.vim/bundle/vimspectr"]
+	path = vim/.vim/bundle/vimspectr
+	url = https://github.com/nightsense/vimspectr.git
