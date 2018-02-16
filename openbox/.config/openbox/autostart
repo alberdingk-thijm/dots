@@ -9,4 +9,6 @@ cbatticon -i standard &
 lxpolkit &
 mopidy &
 urxvtd &
+nm-applet &
+pasystray &
 xrdb ~/.Xresources

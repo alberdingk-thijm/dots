@@ -279,7 +279,7 @@
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>pcmanfm-qt</command>
+        <command>pcmanfm</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>File Manager</name>
@@ -463,17 +463,17 @@
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c up -i 5%</command>
+          <command>/home/tim/.local/bin/vol.sh -c up -i 5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c down -i 5%</command>
+          <command>/home/tim/.local/bin/vol.sh -c down -i 5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c mute</command>
+          <command>/home/tim/.local/bin/vol.sh -c mute</command>
       </action>
     </keybind>
     <keybind key="XF86ScreenSaver">
