@@ -45,13 +45,13 @@ URxvt.keysym.Control-Right:		\033[1;5C
 /* rofi.separator-style:           solid */
 
 ! special
-*.foreground:   #1f1218
-*.background:   #fff5fa
-*.cursorColor:  #1f1218
+*.foreground:   #1f121f
+*.background:   #fff5ff
+*.cursorColor:  #1f121f
 
 ! black
-*.color0:       #fff5fa
-*.color8:       #997f8c
+*.color0:       #fff5ff
+*.color8:       #967d96
 
 ! red
 *.color1:       #e04d38
@@ -59,19 +59,19 @@ URxvt.keysym.Control-Right:		\033[1;5C
 
 ! green
 *.color2:       #699e34
-*.color10:      #f0dde6
+*.color10:      #f0ddf0
 
 ! yellow
 *.color3:       #e0b738
-*.color11:      #997f8c
+*.color11:      #967d96
 
 ! blue
 *.color4:       #4286c9
-*.color12:      #7d5e6d
+*.color12:      #7d5e7d
 
 ! magenta
 *.color5:       #a565c9
-*.color13:      #33222b
+*.color13:      #332233
 
 ! cyan
 *.color6:       #349e90
@@ -79,4 +79,4 @@ URxvt.keysym.Control-Right:		\033[1;5C
 
 ! white
 *.color7:       #7d5e6d
-*.color15:      #1f1218
+*.color15:      #1f121f
