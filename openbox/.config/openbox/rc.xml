@@ -383,7 +383,7 @@
     </keybind>
     <keybind key="W-S-c">
       <action name="Execute">
-        <command>rofi -modi "clipboard:~/bin/greenclip print" -show clipboard</command>
+          <command>rofi -modi "clipboard:~/.local/bin/greenclip print" -show clipboard</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>greenclip</name>
