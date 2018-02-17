@@ -9,6 +9,6 @@ cbatticon -i standard &
 lxpolkit &
 mopidy &
 urxvtd &
-nm-applet &
+wpa_gui -t &
 pasystray &
 xrdb ~/.Xresources
