@@ -58,6 +58,8 @@ colo base16-gruvbox-dark-medium
 
 " Syntax
 syntax on
+set hidden
+let g:racer_cmd = "/home/tim/.cargo/bin/racer"
 
 " Tab navigation
 nnoremap <F7> :tabn<CR>
