@@ -7,7 +7,7 @@ export ZSH=/home/tim/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="kennethreitz"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -88,8 +88,9 @@ source ~/.zsh-aliases
 export SVN_EDITOR=vim
 export EDITOR=vim
 
-# Add bin/ and cargo to PATH
+# Add bin/ and cargo to PATH, and RUST_SRC_PATH
 export PATH=$PATH:$HOME/bin/:$HOME/.cargo/bin/
+export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
 
 # cd implicitly
 AUTO_CD="true"
