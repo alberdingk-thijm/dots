@@ -11,4 +11,5 @@ mopidy &
 urxvtd &
 wpa_gui -t &
 pasystray &
+octoxbps-notifier &
 xrdb ~/.Xresources
