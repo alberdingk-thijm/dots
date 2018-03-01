@@ -1,0 +1,93 @@
+/*
+ * A simple theme to match haumea.
+ * User: sprig
+ */
+* {
+    pink:               #ffadd2;
+    yellow:             #ffddc6;
+    blue:               #8ec6d9;
+    purple:             #b486e1;
+    white:              #fff5ff;
+    transp:             #00000000;
+
+    spacing:            2;
+    background-color:   @transp;
+    border-color:       @blue;
+    anchor:             north;
+    location:           center;
+}
+#window {
+    transparency:       "real";
+    background-color:   @transp;
+    width:              30%;
+    border:             0;
+    padding:            2px;
+    x-offset:           0;
+    y-offset:           -10%;
+}
+#mainbox {
+    padding:            4px;
+    border:             0;
+    spacing:            1%;
+}
+#message {
+    border:             2px;
+    padding:            2px;
+    background-color:   @white;
+    text-color:         @blue;
+}
+#textbox normal {
+    text-color:         @purple;
+    padding:            0;
+    border:             0;
+}
+#listview {
+    spacing:            0px;
+    border:             2px;
+    reverse:            false;
+    columns:            1;
+    background-color:   @white;
+}
+#element {
+    border:             0;
+    padding:            2px;
+    highlight:          bold;
+}
+#element normal.normal {
+    text-color:         @blue;
+}
+#element normal.urgent {
+    text-color:         @purple;
+}
+#element normal.active {
+    text-color:         @pink;
+}
+#element selected {
+    background-color:   @yellow;
+}
+#element selected.normal {
+    text-color:         @blue;
+}
+#element selected.urgent {
+    text-color:         @purple;
+}
+#element selected.active {
+    text-color:         @pink;
+}
+#element alternate {
+    background-color:   @blue;
+}
+#element alternate.normal {
+    text-color:         @white;
+}
+#element alternate.urgent {
+    text-color:         @yellow;
+}
+#element alternate.active {
+    text-color:         @purple;
+}
+#inputbar {
+    text-color:         @pink;
+    background-color:   @white;
+    border:             2px;
+}
