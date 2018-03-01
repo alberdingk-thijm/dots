@@ -1,0 +1,5 @@
+# ignore ncmpcpp error log
+ncmpcpp/.ncmpcpp/error.log
+
+# ignore zsh-update
+zsh/.zsh-update
