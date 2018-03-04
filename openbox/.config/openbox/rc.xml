@@ -120,7 +120,7 @@
       <name>3</name>
       <name>4</name>
     </names>
-    <popupTime>875</popupTime>
+    <popupTime>475</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
@@ -245,7 +245,7 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>rofi -show run -width 25</command>
+        <command>rofi -show run -config /home/tim/.config/rofi/themes/squall.rasi</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>rofi</name>
