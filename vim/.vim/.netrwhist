@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/tim/.vim'
-let g:netrw_dirhist_2='/home/tim/.termcolors'
-let g:netrw_dirhist_3='/home/tim/.config/autostart'
-let g:netrw_dirhist_4='/home/tim/.config/openbox/pipemenus'
-let g:netrw_dirhist_5='/home/tim/.local/bin'
-let g:netrw_dirhist_6='/home/tim/dots/theming/.themes/color_other'
