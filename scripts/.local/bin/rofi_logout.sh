@@ -5,7 +5,7 @@
 
 OPTIONS="cancel|logout|shutdown|restart|hibernate|suspend|lock"
 
-choice=$(echo "$OPTIONS" | rofi -sep '|' -i -dmenu -p "Exit: ")
+choice=$(echo "$OPTIONS" | rofi -sep '|' -i -dmenu -p "Exit: " -config ~/.config/rofi/themes/haumea-dmenu.rasi)
 
 case $choice in
     "cancel") ;;
