@@ -245,7 +245,7 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>rofi -show run -width 25</command>
+        <command>rofi -show run -config /home/tim/.config/rofi/themes/haumea-run.rasi</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>rofi</name>
