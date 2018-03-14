@@ -3,7 +3,7 @@
 # logout script for use with rofi
 # options: cancel, logout, shut down, restart, hibernate, suspend, lock
 
-OPTIONS="cancel|logout|shutdown|restart|hibernate|suspend|lock"
+OPTIONS="cancel|logout|shutdown|reboot|hibernate|suspend|lock"
 
 choice=$(echo "$OPTIONS" | rofi -sep '|' -i -dmenu -p "Exit: " -config ~/.config/rofi/themes/haumea-dmenu.rasi)
 
@@ -16,7 +16,7 @@ case $choice in
         # execute shutdown
         sudo shutdown -h now
         ;;
-    "restart")
+    "reboot")
         # execute restart
         sudo reboot
         ;;

@@ -1,6 +1,6 @@
 #
 [global]
-    font = lucy tewi 8
+    font = Ubuntu Mono - Bront 10
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -145,11 +145,11 @@
     icon_position = left
 
     # Paths to default icons.
-    icon_folders = /usr/share/icons/Numix-Square-Light/16/apps/
+    icon_path = /usr/share/icons/Numix/16/status/
 
     # Frame configuration
     frame_width = 1
-    frame_color = "#413f43"
+    frame_color = "#fdd9ff"
 
 [shortcuts]
 
@@ -175,24 +175,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    # background = "#eeeeee"
-    # foreground = "#a6a28c"
-	background = "#25232b"
-	foreground = "#566e6b"
+	background = "#fdd9ff"
+	foreground = "#56c7b8"
     timeout = 10
 
 [urgency_normal]
-    # background = "#eeeeee"
-    # foreground = "#41403b"
-	background = "#25232b"
-	foreground = "#b1b1b1"
+	background = "#fdd9ff"
+	foreground = "#1f121f"
     timeout = 10
 
 [urgency_critical]
-    # background = "#eeeeee"
-    # foreground = "#d73737"
-	background = "#25232b"
-	foreground = "#93503e"
+	background = "#fdd9ff"
+	foreground = "#e04d38"
     timeout = 0
 
 
@@ -249,17 +243,3 @@
 #    urgency = normal
 #
 # vim: ft=cfg
-[base16_low]
-    msg_urgency = low
-    background = "#252525"
-    foreground = "#525252"
-
-[base16_normal]
-    msg_urgency = normal
-    background = "#464646"
-    foreground = "#b9b9b9"
-
-[base16_critical]
-    msg_urgency = critical
-    background = "#7c7c7c"
-    foreground = "#e3e3e3"

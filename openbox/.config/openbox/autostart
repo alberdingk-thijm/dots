@@ -7,7 +7,7 @@ conky -c ~/.config/conky/conky.conf &
 ~/.local/bin/greenclip daemon &
 cbatticon -i standard &
 lxpolkit &
-mopidy &
+# mopidy &
 urxvtd &
 wpa_gui -t &
 pasystray &
