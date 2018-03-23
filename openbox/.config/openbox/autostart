@@ -9,7 +9,8 @@ cbatticon -i standard &
 lxpolkit &
 # mopidy &
 urxvtd &
-wpa_gui -t &
+# wpa_gui -t &
 pasystray &
-octoxbps-notifier &
+dhcpcd-gtk &
+# octoxbps-notifier &
 xrdb ~/.Xresources

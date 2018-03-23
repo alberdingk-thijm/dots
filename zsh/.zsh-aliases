@@ -2,3 +2,7 @@ alias 'git lg'=
 alias 'ssh cdf'='ssh alberdi1@teach.cs.toronto.edu'
 alias 'ff'='firefox-nightly'
 alias 'grep'='rg'
+alias 'x'='exit'
+alias 'pkgs'='xbps-query -Rs'
+alias 'voidup'='sudo xbps-install -Su'
+alias 'pkgi'='sudo xbps-install -S'

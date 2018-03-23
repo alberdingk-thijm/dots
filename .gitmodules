@@ -25,9 +25,6 @@
 [submodule "vim/.vim/bundle/ack.vim"]
 	path = vim/.vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "vim/.vim/bundle/lightline-buffer"]
-	path = vim/.vim/bundle/lightline-buffer
-	url = https://github.com/taohex/lightline-buffer.git
 [submodule "vim/.vim/bundle/limelight.vim"]
 	path = vim/.vim/bundle/limelight.vim
 	url = https://github.com/junegunn/limelight.vim.git
@@ -64,3 +61,6 @@
 [submodule "vim/.vim/bundle/vimspectr"]
 	path = vim/.vim/bundle/vimspectr
 	url = https://github.com/nightsense/vimspectr.git
+[submodule "vim/.vim/bundle/lightline-bufferline"]
+	path = vim/.vim/bundle/lightline-bufferline
+	url = https://github.com/mgee/lightline-bufferline.git
