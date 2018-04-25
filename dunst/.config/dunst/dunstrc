@@ -190,9 +190,13 @@
     timeout = 0
 
 # hide overly-eager network notifications
-[ignore]
+[ignore-access-point]
     # This notification will not be displayed
-    summary = "New Access Point*|Network event"
+    summary = "*New Access Point*"
+    format = ""
+
+[ignore-network-event]
+    summary = "*Network event*"
     format = ""
 
 # Every section that isn't one of the above is interpreted as a rules to

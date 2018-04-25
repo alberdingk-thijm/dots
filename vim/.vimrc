@@ -38,17 +38,18 @@ set showmatch
 
 " Indentation
 set ai
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=10
-nnoremap <F4> :IndentGuidesToggle<CR>
+let g:indentLine_color_term = 10
+" let g:indent_guides_enable_on_vim_startup = 1
+" let g:indent_guides_auto_colors = 0
+" autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
+" autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=10
+nnoremap <F4> :IndentLinesToggle<CR>
 
 " Searching
 set hlsearch
 nnoremap <F3> :noh<CR>
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
+if executable('rg')
+  let g:ackprg = 'rg --vimgrep'
 endif
 
 set nohidden

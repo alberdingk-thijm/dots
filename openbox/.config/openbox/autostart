@@ -13,4 +13,5 @@ urxvtd &
 pasystray &
 dhcpcd-gtk &
 # octoxbps-notifier &
+dropbox start
 xrdb ~/.Xresources
