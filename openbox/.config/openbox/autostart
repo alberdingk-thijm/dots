@@ -1,4 +1,4 @@
-nitrogen --restore &
+~/.fehbg &
 dunst &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
