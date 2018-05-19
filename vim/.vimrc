@@ -7,10 +7,10 @@ set encoding=utf-8
 " Rebind leader key
 let mapleader=","
 " Tabbing controls
-set tabstop=4
-set softtabstop=4 " insert and delete go by 4 space increments
+set tabstop=2
+set softtabstop=2 " insert and delete go by 4 space increments
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 
 " Spellcheck
 if version >= 700
@@ -232,7 +232,11 @@ let g:limelight_conceal_ctermfg = 240
 
 " ALE
 " Disable for XML since files are usually huge and xmllint is tempermental
-let g:ale_pattern_options = {'\.xml$': {'ale_enabled': 0}}
+" Disable for header files since they are too finicky.
+let g:ale_pattern_options = {
+\   '\.xml$': {'ale_enabled': 0},
+\   '\.h$': {'ale_enabled': 0},
+\}
 
 " Only run once something has changed (or :AleLint is entered)
 let g:ale_lint_on_enter = 0
