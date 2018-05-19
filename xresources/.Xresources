@@ -1,16 +1,21 @@
-Xft.dpi:                        109
-Xft.antialias:                  1
-Xft.autohint:                   0
-Xft.hinting:                    1
-Xft.hintstyle:                  hintfull
-Xft.lcdfilter:                  lcddefault
-Xft.rgba:                       rgb
+! Xorg
+
+Xft.dpi:                96
+!Xft.dpi:                        109
+Xft.antialias:          1
+Xft.autohint:           0
+Xft.hinting:            1
+Xft.hintstyle:          hintfull
+Xft.lcdfilter:          lcddefault
+Xft.rgba:               rgb
 
 URxvt*termName:                 rxvt-256color
+!URxvt.font: xft:nerdypepper scientifica:size=9
+!URxvt.boldFont: xft:nerdypepper scientifica:size=9
 URxvt*font:                     xft:tamzenforpowerline:size=9,xft:Envy\ Code\ R\ for\ Powerline:pixelsize=12, xft:Dejavu\ Sans\ Mono:pixelsize=11, xft:Bitstream\ Vera\ Sans\ Mono:pixelsize=11
-!URxvt*font:                     xft:Envy\ Code\ R\ for\ Powerline:pixelsize=12
 URxvt.depth:                    32
 URxvt*lineSpace:                1
+!URxvt*letterSpace:              1
 !URxvt.iso14755:                 false
 !URxvt.iso14755_52:              false
 URxvt.geometry:                 80x28
