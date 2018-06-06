@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc">
   <resistance>
     <strength>10</strength>
@@ -383,7 +382,7 @@
     </keybind>
     <keybind key="W-S-c">
       <action name="Execute">
-        <command>rofi -modi "clipboard:~/bin/greenclip print" -show clipboard</command>
+        <command>rofi -modi &quot;clipboard:~/bin/greenclip print&quot; -show clipboard</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>greenclip</name>
@@ -499,6 +498,11 @@
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
         <command>xbacklight -dec 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86Display">
+      <action name="Execute">
+        <command>arandr</command>
       </action>
     </keybind>
     <keybind key="W-F11">
@@ -877,6 +881,10 @@
       </position>
       <focus>yes</focus>
       <maximized>no</maximized>
+    </application>
+    <!-- hide all decorations -->
+    <application class="*">
+      <decor>no</decor>
     </application>
     <application class="Firefox">
       <decor>no</decor>
