@@ -97,6 +97,8 @@ AUTO_CD="true"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+[ -f ~/.telegram_api.zsh ] && source ~/.telegram_api.zsh
+
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))
 }

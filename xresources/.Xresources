@@ -17,10 +17,10 @@ URxvt*termName:                 rxvt-256color
 URxvt*font:                     xft:tamzenforpowerline:size=9,xft:Envy\ Code\ R\ for\ Powerline:pixelsize=12, xft:Dejavu\ Sans\ Mono:pixelsize=11, xft:Bitstream\ Vera\ Sans\ Mono:pixelsize=11
 URxvt.depth:                    32
 URxvt*lineSpace:                1
-URxvt.geometry:                 80x28
+URxvt.geometry:                 64x20
 URxvt.scrollBar:                false
 URxvt*loginShell:               true
-URxvt.internalBorder:           24
+URxvt.internalBorder:           16
 URxvt.perl-ext-common:          default,matcher,keyboard-select
 URxvt.url-launcher:             firefox
 URxvt.keysym.C-Delete:          perl:matcher:last
