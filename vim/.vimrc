@@ -38,7 +38,7 @@ set ai
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=235
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=18
 nnoremap <F4> :IndentGuidesToggle<CR>
 
 " Searching
@@ -53,7 +53,12 @@ set nohidden
 " to ensure plugins correctly use paths in bash
 set shellslash
 
-colo base16-harmonic-dark
+" Appearance
+colo desert
+" Cursor shapes (VTE terminals)
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
 
 " Syntax
 syntax on

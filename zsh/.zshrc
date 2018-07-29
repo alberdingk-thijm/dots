@@ -102,3 +102,12 @@ AUTO_CD="true"
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))
 }
+
+# Base16-shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+  [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+    eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+# OPAM configuration
+. /home/tim/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc">
   <resistance>
     <strength>10</strength>
@@ -39,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>colorbamboo_squall</name>
+    <name>Natura</name>
     <titleLayout>LIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -144,7 +145,7 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>24</top>
+    <top>22</top>
     <bottom>1</bottom>
     <left>2</left>
     <right>2</right>
@@ -244,7 +245,7 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>rofi -show run -config /home/tim/.config/rofi/themes/squall.rasi</command>
+        <command>rofi -show drun</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>rofi</name>
@@ -382,7 +383,7 @@
     </keybind>
     <keybind key="W-S-c">
       <action name="Execute">
-        <command>rofi -modi &quot;clipboard:~/bin/greenclip print&quot; -show clipboard</command>
+        <command>rofi -modi "clipboard:~/bin/greenclip print" -show clipboard</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>greenclip</name>
@@ -477,7 +478,7 @@
     </keybind>
     <keybind key="XF86ScreenSaver">
       <action name="Execute">
-        <command>i3lock-fancy -p -- scrot -z</command>
+        <command>dm-tool lock</command>
       </action>
     </keybind>
     <keybind key="XF86Sleep">
