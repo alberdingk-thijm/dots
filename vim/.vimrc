@@ -3,6 +3,7 @@ filetype plugin indent on
 
 set rtp+=~/.fzf
 
+set clipboard=unnamedplus
 set encoding=utf-8
 " Rebind leader key
 let mapleader=","

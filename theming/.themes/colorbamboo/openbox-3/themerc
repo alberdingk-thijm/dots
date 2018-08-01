@@ -1,10 +1,5 @@
-
-border.width: 0
-padding.height: 5
-window.label.text.justify: Center
-window.client.padding.width: 0
-window.handle.width: 0
-
+#openbox themerc edited with obtheme
+border.width: 3
 menu.border.width: 0
 menu.items.active.bg: Solid Flat
 menu.items.active.bg.color: #8c8da3
@@ -21,31 +16,24 @@ menu.title.bg.color: #b0b1cd
 menu.title.text.color: #fefbff
 menu.title.text.font: shadow=n
 menu.title.text.justify: Left
-
 osd.bg: flat border vertical gradient
 osd.bg.color: #b0b1cd
 osd.bg.colorTo: #b0b1cd
 osd.bg.border.color: #8c8da3
-osd.border.color: #8c8da3
 osd.border.width: 3
 osd.label.bg: parentrelative
 osd.label.text.color: #fefbff
-
+padding.height: 5
 window.active.border.color: #8c8da3
-window.inactive.border.color: #606170
 window.active.button.disabled.bg: Solid Flat
 window.active.button.disabled.bg.color: #8c8da3
 window.active.button.disabled.bg.border.color: #8c8da3
 window.active.button.disabled.image.color: #8c8da3
-window.active.button.hover.bg: Solid Flat
-window.active.button.hover.bg.color: #8c8da3
-window.active.button.hover.bg.border.color: #8c8da3
 window.active.button.hover.image.color: #606170
 window.active.button.pressed.bg: Solid Flat
 window.active.button.pressed.bg.color: #8c8da3
 window.active.button.pressed.bg.border.color: #8c8da3
 window.active.button.pressed.image.color: #606170
-Window.active.button.toggled.bg: Solid Flat
 window.active.button.toggled.bg.color: #8c8da3
 window.active.button.toggled.bg.border.color: #8c8da3
 window.active.button.toggled.image.color: #fefbff
@@ -63,20 +51,16 @@ window.active.label.text.color: #fefbff
 window.active.label.text.font: shadow=n
 window.active.title.bg: Solid Flat
 window.active.title.bg.color: #8c8da3
-
-
+window.client.padding.width: 0
+window.handle.width: 0
+window.inactive.border.color: #606170
 window.inactive.button.disabled.bg: Solid Flat
 window.inactive.button.disabled.bg.color: #606170
 window.inactive.button.disabled.bg.border.color: #606170
 window.inactive.button.disabled.image.color: #606170
-window.inactive.button.hover.bg: Solid Flat
-window.inactive.button.hover.bg.color: #606170
-window.inactive.button.hover.bg.border.color: #606170
 window.inactive.button.hover.image.color: #2E2920
 window.inactive.button.pressed.bg: Solid Flat
 window.inactive.button.pressed.bg.color: #606170
-window.inactive.button.pressed.image.color: #606170
-window.inactive.button.toggled.image.color: #606170
 window.inactive.button.unpressed.bg: Solid Flat
 window.inactive.button.unpressed.bg.color: #606170
 window.inactive.button.unpressed.bg.border.color: #606170
@@ -87,7 +71,8 @@ window.inactive.grip.bg.color: #606170
 window.inactive.handle.bg: Solid Flat
 window.inactive.handle.bg.color: #606170
 window.inactive.label.bg: Parentrelative
-window.inactive.label.text.color: #606170
+window.inactive.label.text.color: #FFFFFF
 window.inactive.label.text.font: shadow=n
 window.inactive.title.bg: Solid Flat
 window.inactive.title.bg.color: #606170
+window.label.text.justify: Center
