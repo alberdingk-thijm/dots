@@ -73,3 +73,6 @@
 [submodule "vim/.vim/bundle/coq.vim"]
 	path = vim/.vim/bundle/coq.vim
 	url = https://github.com/jvoorhis/coq.vim.git
+[submodule "emacs/.emacs.d/lisp/PG"]
+	path = emacs/.emacs.d/lisp/PG
+	url = https://github.com/ProofGeneral/PG
