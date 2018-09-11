@@ -94,11 +94,19 @@ export PATH=$PATH:$HOME/bin/:$HOME/.cargo/bin/:$HOME/.local/bin/
 # cd implicitly
 AUTO_CD="true"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))
 }
 
 # mail
 export MAIL=/var/spool/mail/tim
+
+# fzf
+# default file
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Auto completion
+[ -f /usr/share/doc/fzf/completion.zsh ] && source /usr/share/doc/fzf/completion.zsh
+
+# Key bindings
+[ -f /usr/share/doc/fzf/key-bindings.zsh ] && source /usr/share/doc/fzf/key-bindings.zsh
