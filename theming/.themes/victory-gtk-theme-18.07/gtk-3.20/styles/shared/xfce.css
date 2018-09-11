@@ -1,0 +1,169 @@
+/* ************************* */
+/*    Whisker panel menu     */
+/* ************************* */
+
+
+#whiskermenu-window {
+color: shade (@theme_bg_color, 0.85);
+}
+
+
+#whiskermenu-window label {
+color: @theme_fg_color;
+}
+
+#whiskermenu-window separator
+{
+margin: 6px 10px 6px 10px;
+background-color: shade (@theme_bg_color, 0.92);
+}
+
+/* Make sidebar buttons match */
+#whiskermenu-window button {
+margin-bottom: -1px;
+padding: 4px 8px 4px 4px;
+margin-right: 3px;
+border-left: 6px solid transparent;
+border-top: 1px solid transparent;
+border-right: 1px solid transparent;
+border-bottom: 1px solid transparent;
+border-radius: 0;
+}
+#whiskermenu-window button:hover {
+background-color: @button_normal_bg;
+	color: @button_normal_fg;
+    border-color: @button_normal_border;
+    border-left: 6px solid @menu_item_border_highlight;
+}
+
+#whiskermenu-window button:checked {
+background-color: @button_normal_bg;
+	color: @button_normal_fg;
+    border-color: @button_normal_border;
+    border-left: 6px solid @menu_item_border_highlight;
+}
+
+/* Make treeview match */
+#whiskermenu-window treeview {
+padding-left: 4px;
+    border-color: shade (@menu_item_border_highlight, 0.6);
+}
+
+#whiskermenu-window treeview:hover {
+background-color: shade (@menu_item_border_highlight, 1.3);
+    border-color: @menu_item_border_highlight;
+}
+
+
+#whiskermenu-window frame,
+#whiskermenu-window .frame
+{
+margin-bottom: -1px;
+}
+
+
+/* ************************* */
+/* xfdesktop - Desktop Icons */
+/* ************************* */
+
+XfdesktopIconView.view {
+border-radius: 3px;
+	background-color: rgba(35, 40, 54, 0.2);
+    color: rgba(255, 255, 255, 1.0);
+}
+
+/*
+XfdesktopIconView.view:focus {
+	background-color: rgba(10, 10, 10, 1.0);
+	color: #3D7BC7;
+}
+*/
+
+XfdesktopIconView.rubberband {
+	background-color: rgba(35, 40, 54, 0.5);
+    border-color: rgba(50, 50, 50, 1.0);
+}
+
+XfdesktopIconView.label:active {
+	background-color: rgba(241, 250, 277, 0.6);
+	color: rgba(65, 65, 65, 1.0);
+	font-weight: bold;
+}
+
+
+
+/* ************************* */
+/*         xfce4-panel       */
+/* ************************* */
+
+
+.xfce4-panel.panel
+{
+ background-color: @panel_bg_color;
+}
+
+.xfce4-panel.panel button,
+.xfce4-panel.panel button.flat,
+.xfce4-panel.panel button.sidebar-button
+{
+ -gtk-icon-shadow: 0 -1px rgba(0, 0, 0, 0.7);
+ padding: 0;
+ background-color: transparent;
+ color: @panel_fg_color;
+ border-radius: 0;
+ border-width: 0 1px 0 1px;
+ border-style: solid;
+ border-color: transparent;
+}
+
+.xfce4-panel.panel button:hover,
+.xfce4-panel.panel button.flat:hover,
+.xfce4-panel.panel button.sidebar-button:hover
+{
+ -gtk-icon-shadow: none;
+ color: shade (@panel_fg_color, 1.05);
+ background-color: @panel_hover_color;
+}
+
+.xfce4-panel.panel button:active,
+.xfce4-panel.panel button:checked,
+.xfce4-panel.panel button.flat:active,
+.xfce4-panel.panel button.sidebar-button:active,
+.xfce4-panel.panel button.flat:checked,
+.xfce4-panel.panel button.sidebar-button:checked
+{
+ -gtk-icon-shadow: none;
+ color: shade (@panel_fg_color, 1.05);
+ background-color: @panel_hover_color;
+}
+
+
+
+/* ************************* */
+/*       xfce4-settings      */
+/* Generic, may break stuff  */
+/* ************************* */
+
+.XfceHeading
+{
+background-image: linear-gradient(to top, #ffffff, #f7f7f7);
+}
+
+.background .vertical.vertical .dialog-vbox .frame .view .vertical .vertical separator
+{
+margin: 6px 2px;
+background-color: shade (@theme_bg_color, 0.98);
+}
+
+/*Thunar custom actions window*/
+.background .dialog-vbox frame toolbar.vertical
+{
+border-left: 1px solid @theme_border_color;
+}
+
+/*Thunar removes extra border in icon view */
+.thunar .standard-view
+{
+border-width: 0 0 1px 1px;
+border-radius: 0;
+}

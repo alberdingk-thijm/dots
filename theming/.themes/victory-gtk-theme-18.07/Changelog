@@ -1,0 +1,326 @@
+
+
+ [[ 2016-11-21 ]]
+
+
+++ Initial Release ++
+
+
+-----------------------------------
+
+
+ [[ 2016-12-11 ]]
+
+
+  [ New ]
+
++ Added Medium, Medium Dark, and Dark Window Borders for XFWM4/XFCE
+
+
+-----------------------------------
+
+
+ [[ 2016-12-12 ]]
+
+
+  [ New ]
+
++ Added Victory 16.10 Theme with initial Gtk 3.20 support.
+
+
+  [ Changes ]
+
++ Moved the hidpi xfwm4 theme into its own directory (was in the main Victory theme folder, couldn't be used without renaming and moving folder to new dir).
++ Changed panel colors
+
+
+  [ Notes ]
+
+With the Gtk 3.20 theme I ditched the old Gtk 3.18 code. Gtk 3.20 is now based on the great Vertex theme sourced from Solus OS (https://github.com/horst3180/vertex-theme) (https://solus-project.com/). I'm considering this in Alpha. While it should blend very well with the Gtk 2 theme and is become its own theme, some elements from Vertex likely remain. The Solus OS specific code is still almost entirely Vertex. The Dark version of the theme is in pre-alpha testing (and is named as such so it can't be enabled by default without renaming it).
+
+
+-----------------------------------
+
+
+ [[ 2017-12-01 ]]
+ 
+
+  [ New ]
+
++ Themed Caja Gtk3 File Browser for MATE
++ Added Gtk-3.20 folder from Victory 16.10 to the Gtk2 Medium, Dark, and Medium-Dark themes, versioned those folders accordingly.
+
+
+  [ Notes ]
+
+While all 16.10 versions of this theme support Gtk-3.20 now, the color variationed themes only use dark borders for Gtk2. Gtk3 uses, for the most part, its own borders where buttons are built in. So to theme a dark top border is a lot more difficult and not complete for now.
+
+
+-----------------------------------
+
+
+ [[ 2017-08-03 ]]
+ 
+
+  [ New ]
+
++ Updated themes for 17.04
++ Recreated scrollbars
+
+
+  [ Changes ]
+
++ Moved all 16.10 themes to the PreviousVersions directory
++ Fixed missing scrollbars in Firefox
+
+
+  [ Notes ]
+
+I had a better updated version of this theme but my Hard Drive was damaged and I lost it. This is the latest work-in-progress I could find and update so there are bound to be some bugs.
+
+
+-----------------------------------
+
+
+ [[ 2017-08-26 ]]
+ 
+
+  [ Changes ]
+
++ Changed variant theme names
++ Gtk3 Menubars now match the Gtk2 Menubars on the variant themes. Please note this will only look good with matching Openbox and XFWM4 window borders. For Gnome or purely Gtk3 environments, stick with the main Victory-17.04 theme.
+
+
+-----------------------------------
+
+
+ [[ 2017-09-08 ]]
+ 
+
+  [ New ]
+
++ Added theme for XFCE4's new Gtk3 notification system
+
+
+-----------------------------------
+
+
+ [[ 2017-09-25 ]]
+
+
+  [ New ]
+
++ New (experimental) Gtk3 Popover menu style
+
+
+  [ Changes ]
+
++ Cleaned up and removed some extra code (hopefully didn't break anything)
++ Hopefully brought everything up to Gtk3.22 css standards
++ Renamed Victory medium border variant to Charcoal
++ Cleaned up file structure some
++ Changed colors of Openbox window themes to add more contrast/clarity
++ Shrunk Gtk3 headerbar some
+
+
+  [ Fixes ]
+
++ Fixed a problem with XFCE Whisker menu icon being squished
+
+
+  [ Removed ]
+
++ Removed old Metacity theme files
++ Removed "Dark" theme variant in favor of Midnight
+
+
+-----------------------------------
+
+
+ [[ 2017-10 ]]
+
+
+  [ New ]
+
++ New Popover Menu style
++ New Progressbar style
+
+
+  [ Changes ]
+
++ Began changing some hardcoded colors to reference colors to make changing them via gtk.css easier
++ Should be updated to work with Gtk 3.26
++ Added text back to switches - should be better for people with color blindness
+
+
+  [ Fixes ]
+
++ Fixed Horizontal scrollbars to match vertical ones
+
+
+  [ Notes ]
+
++ Next release will probably use more color when highlighting things, hopefully by then the theme will not be so hardcoded so people can change the colors to whatever they'd like via gtk.css
+
+
+-----------------------------------
+
+
+ [[ 2017-11 ]]
+
+
+  [ Changes ]
+
++ Changed inline toolbar and buttons to match the flatter style of the theme
++ Refined progressbar style, added color
++ Scrollbars in text windows had slight colored border. Made white to match base color. Should look invisible, hopefully this won't cause problems elsewhere
++ Treeview headerbars (the ones you click to sort in detailed view) in Gtk2 should now match closely to the newer Gtk3 style
+
+
+  [ Fixes ]
+
++ Fixed the center-linked inline toolbar buttons (when hovering before it added a left and right border making the button jump)
+
+
+  [ Notes ]
+
++ Can't seem to get inline-toolbar buttons to stay dark when clicked. If anyone has any idea let me know.
+
+
+-----------------------------------
+
+
+ [[ 2018-01 ]]
+
+
+  [ Changes ]
+
++ Added subtle highlight color (blue) to things like text entry frames, buttons, tabs.
++ Clicking on a button now uses highlight color
++ New right click menu style, uses highlight
++ Treeview row selection now lighter in color.
++ Changed selection color when selecting icons to match new highlight color
++ Changed scrolling over/undershoot color to match the new highlight color
++ Changed Nautilus sidebar item spacing (now smaller, can fit more items)
+
+
+  [ Fixes ]
+
++ Nautilus Tabs were conflicting with global tab style. Now looks much cleaner.
++ App icons in top left of CSD windows weren't following global button style. Should be fixed.
+
+
+  [ Notes ]
+
+
+
+-----------------------------------
+
+
+ [[ 2018-03 ]]
+
+
+  [ Changes ]
+
++ Added theme stuff for Thunar Gtk3 branch (Sidebar, tabs, navigation buttons, treeview style)
++ Changed sidebar style, selected is now bright white instead of dark grey
++ Added light background/border for list or treeview items when hovering
++ Expander icons for treeview now traditional > type arrow icons
++ Changed the pathbar/location bar/breadcrumbs style, now uses the highlight color
++ Adjustments to right click menu style
++ New Popover menu style to match new right click menu style
++ Changed Minimize, Maximize, Close buttons with csd. Now allows for "Fitt's Law" (jam mouse to the top right and close)
++ Added themeing for Nemo
++ Updated for Caja
++ Added hover effects for most actions
+
+
+
+  [ Fixes ]
+
++ Fixed spacing around dialog buttons
++ Fixed Catfish sidebar to match other sidebars (font was too dark)
++ Expander icon when expanded was miscolored and using > instead of the down arrow
++ Pathbar icon spacing was wrong. Borders caused some jumpiness
++ Fixed spacing with dialog box buttons
++ Fixed inline or lower toolbar (File Chooser File Type bar)
++ Fixed inline toolbar linked buttons to match other buttons
++ The new style option for right-click menus when not using compositing fixes menus looking empty when you're using a DE without compositing (openbox, or xfwm4 without compositing)
+
+
+  [ Removed ]
+
++ Removed legacy Budgie/Raven/Solus stuff
++ Removed legacy Unity stuff.
++ Lots of image assets in the code
++ All the gedit code, it works best without any extra code now
+
+  [ Notes ]
+
++ Gtk2 will likely not get any more updates. It's only had a few since last year. Focus is on Gtk3 theme now, and some of the new effects in Gtk3 can't be replicated to match using Gtk2. I don't want to avoid adding things to the Gtk3 theme just because the Gtk2 theme needs to match.
+
+
+-----------------------------------
+
+
+ [[ 2018-04 ]]
+
+
+  [ Changes ]
+
++ Added new optional theme for Thunar, hides navigation buttons and extends location box to the edge of the window.
++ Added new optional light theme for XFCE Notification popup osd
++ Added new style option for right-click menus when not using compositing.
++ Added new style option for Tilix. Removes bottom right and left borders on the terminal part. Use Alt+Right click to resize.
++ Changed the Victory and Victory-HiDPI window borders to match the background color of the current theme. Should now be able to use these borders with any other theme and still have them match.
++ Reduced horizontal padding in tabs. Not as nice looking but more compact and functional.
++ Update openbox right click border menu to match newer style
+
+
+
+  [ Fixes ]
+
++ Fixed a lot of tab issues. Still a few here and there in dialogue boxes, but much better than it was everywhere else.
++ Fixed some menu issues. Like with the tab issues, there are still a few here and there (firefox), but now it works with compositing and without while still looking the same.
++ Fixed menu styling, should look identical with or without compositing.
++ gzip icon wasn't showing in newer apps
+
+
+
+  [ Notes ]
+
++ Linked a lot more hard-coded colors to colors defined in gtk.css for easier customization
+
+
+
+
+-----------------------------------
+
+
+ [[ 2018-05 ]]
+
+
+  [ Changes ]
+
++ Added new styling to fix some tab stuff in Marlin (pantheon-files, the elementary file browser)
++ Redid scrollbar, should now use transparent background when using gtk3 overlay scrollbars
+
+
+
+
+-----------------------------------
+
+
+ [[ 2018-06 ]]
+
+
+  [ Changes ]
+
++ Fixed disabled menu item font color not applying
++ Changed openbox button hover colors to match other window borders
++ Lots of updates to Nemo file manager (including new icons in the victory icon theme)
++ Updates to Caja
++ Fixed Catfish sidebar border divider being too wide
++ Started expirmenting with re-adding the midnight window border theme
++ Worked on right click menus, items should now be a bit thinner. Keyboard modifiers are now not as pronounced as main entry text.
++ Whisker menu - category items now smaller, spaced better

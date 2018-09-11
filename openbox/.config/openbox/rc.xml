@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>colorbamboo</name>
+    <name>Natura</name>
     <titleLayout>LIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -245,7 +245,7 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>rofi -show run -config /home/tim/.config/rofi/themes/haumea-run.rasi</command>
+        <command>rofi -show drun -config /home/tim/.config/rofi/themes/haumea-run.rasi</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>rofi</name>
