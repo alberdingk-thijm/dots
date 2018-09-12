@@ -1,0 +1,34 @@
+! duneboat (based on atelierdune)
+#define bg		#eeeeee
+#define blk		#141414
+! #define blk	#20201d
+#define	fg		#41403b
+! #define bblk	#7d7a68
+#define bblk	#a6a28c
+#define red		#d73737
+#define grn		#60ac39
+#define ylw		#cfb017
+#define blu		#6684e1
+#define mag		#b854d4
+#define cyn		#4595a0
+! #define wht		#a6a28c
+#define wht		#ecedee
+! Colors  
+*background:   bg  
+*foreground:   fg  
+*color0:      blk  
+*color8:      bblk  
+*color1:      red  
+*color9:      bred  
+*color2:      grn  
+*color10:     bgrn  
+*color3:      ylw  
+*color11:     bylw  
+*color4:      blu  
+*color12:     bblu  
+*color5:      mag  
+*color13:     bmag  
+*color6:      cyn  
+*color14:     bcyn  
+*color7:      wht  
+*color15:     bwht  

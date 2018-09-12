@@ -1,0 +1,37 @@
+#define bg #141720
+#define fg #7186a0
+#define blk #141720
+#define red #667ca0
+#define grn #647fa0
+#define ylw #667fa0
+#define blu #6983a0
+#define mag #6984a0
+#define cyn #6d85a0
+#define wht #7186a0
+#define bblk #6a7c8f
+#define bred #9ab0c8
+#define bgrn #a0b2c8
+#define bylw #a7b3c8
+#define bblu #aeb9c8
+#define bmag #b4bbc8
+#define bcyn #c1c7d2
+#define bwht #d2d7dd
+! Colors  
+*background:   bg  
+*foreground:   fg  
+*color0:      blk  
+*color8:      bblk  
+*color1:      red  
+*color9:      bred  
+*color2:      grn  
+*color10:     bgrn  
+*color3:      ylw  
+*color11:     bylw  
+*color4:      blu  
+*color12:     bblu  
+*color5:      mag  
+*color13:     bmag  
+*color6:      cyn  
+*color14:     bcyn  
+*color7:      wht  
+*color15:     bwht  

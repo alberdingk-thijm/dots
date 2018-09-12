@@ -1,0 +1,41 @@
+! -- Title:     poly 
+! -- Author:    dkeg
+! -- Created:   2015 (revised 2016)
+
+#define bg    #231c0d
+#define fg    #a5a39d
+#define blk   #241e0e
+#define bblk  #3f392a
+#define red   #a47b3d
+#define grn   #7b9764
+#define ylw   #aead5d
+#define blu   #628e8f
+#define mag   #ad9d52
+#define cyn   #709681
+#define wht   #a5a39d
+#define bred  #a47b3d
+#define bgrn  #7b9764
+#define bylw  #aead5d
+#define bblu  #628e8f
+#define bmag  #ad9d52
+#define bcyn  #709681
+#define bwht  #a5a39d
+! Colors  
+*background:   bg  
+*foreground:   fg  
+*color0:      blk  
+*color8:      bblk  
+*color1:      red  
+*color9:      bred  
+*color2:      grn  
+*color10:     bgrn  
+*color3:      ylw  
+*color11:     bylw  
+*color4:      blu  
+*color12:     bblu  
+*color5:      mag  
+*color13:     bmag  
+*color6:      cyn  
+*color14:     bcyn  
+*color7:      wht  
+*color15:     bwht  

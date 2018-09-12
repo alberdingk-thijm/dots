@@ -1,0 +1,42 @@
+! -- Title:     novmbr 
+! -- Author:    dkeg 
+! -- Created:   2015 
+! -- Modified:  2016
+
+#define bg    #241d1a
+#define blk   #251e1b
+#define fg    #c7b8ac
+#define bblk  #50413a
+#define red   #9f6434
+#define grn   #9dac5f
+#define ylw   #cca75f
+#define blu   #2f7d7c
+#define mag   #b5896e
+#define cyn   #52877f
+#define wht   #c7b8ac
+#define bred  #9f6434
+#define bgrn  #9dac5f
+#define bylw  #cca75f
+#define bblu  #2f7d7c
+#define bmag  #b5896e
+#define bcyn  #52877f
+#define bwht  #c7b8ac
+! Colors  
+*background:   bg  
+*foreground:   fg  
+*color0:      blk  
+*color8:      bblk  
+*color1:      red  
+*color9:      bred  
+*color2:      grn  
+*color10:     bgrn  
+*color3:      ylw  
+*color11:     bylw  
+*color4:      blu  
+*color12:     bblu  
+*color5:      mag  
+*color13:     bmag  
+*color6:      cyn  
+*color14:     bcyn  
+*color7:      wht  
+*color15:     bwht  
