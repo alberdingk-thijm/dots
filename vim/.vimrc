@@ -139,7 +139,7 @@ highlight link ALEErrorSign Title
 
 " Lightline
 let g:lightline = { 
-\   'colorscheme': '16color',
+\   'colorscheme': 'default',
 \   'active': {
 \     'left': 
 \       [ ['mode', 'paste'], ['filename', 'modified'] ],
