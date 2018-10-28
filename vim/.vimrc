@@ -27,6 +27,7 @@ set backupdir=./.backup//,.,/tmp//
 set directory=.,./.backup//,/tmp//
 
 set encoding=utf-8
+set clipboard=unnamedplus
 
 " Tracking where we are
 set number
