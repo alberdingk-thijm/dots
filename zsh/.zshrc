@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/tim/.oh-my-zsh
+export ZSH=/Users/tim/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -97,8 +97,6 @@ AUTO_CD="true"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-[ -f ~/.telegram_api.zsh ] && source ~/.telegram_api.zsh
-
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))
 }
@@ -110,4 +108,6 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
     eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 # OPAM configuration
-. /home/tim/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+. $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+fpath+=$HOME/.zsh_functions
