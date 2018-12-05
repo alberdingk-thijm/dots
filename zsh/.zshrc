@@ -95,8 +95,6 @@ export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
 # cd implicitly
 AUTO_CD="true"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))
 }
@@ -108,6 +106,17 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
     eval "$("$BASE16_SHELL/profile_helper.sh")"
 
 # OPAM configuration
-. $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+OPAM=$HOME/.opam/opam-init/init.zsh
+[ -f $OPAM ] && source $OPAM > /dev/null 2> /dev/null || true
 
 fpath+=$HOME/.zsh_functions
+
+# fzf
+# default file
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Auto completion
+[ -f /usr/share/doc/fzf/completion.zsh ] && source /usr/share/doc/fzf/completion.zsh
+
+# Key bindings
+[ -f /usr/share/doc/fzf/key-bindings.zsh ] && source /usr/share/doc/fzf/key-bindings.zsh

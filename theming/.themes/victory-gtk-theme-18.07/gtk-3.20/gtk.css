@@ -1,0 +1,211 @@
+@define-color theme_bg_color #f7f7f7;
+@define-color theme_fg_color #3c3c3e;
+@define-color theme_base_color #ffffff;
+@define-color theme_text_color #525252;
+@define-color theme_selected_bg_color #87C7E4;
+/* 75C1FF C4C9CC 6CACDE for flat  E0F3FF 83CBD9
+ * 9ECAEB 81BBE6 6DB2E5 C2C5CA 4080fb 6893B8
+ * 78C0DD 5B97CA 7EADD5 8CACC0 4C9ED9 6FB6E8
+ * 89C4E9 99CDED 97BCD5 84CBF4 */
+@define-color theme_selected_fg_color #ffffff;
+@define-color theme_border_color #c7c7c7;
+@define-color theme_border_color_lighter #E9E9E9;
+@define-color theme_border_color_medium #B9B9B9;
+@define-color theme_border_color_darker #AAAEB0;
+@define-color wm_title #575757;
+@define-color wm_unfocused_title #BABABA;
+@define-color theme_fg_disabled_color #ababab;
+@define-color statusbar_fg_color #858585;
+
+
+/* Unused Begin */
+@define-color fg_color #3c3c3e;
+@define-color text_color #3c3c3e;
+@define-color bg_color #f7f7f7;
+@define-color base_color #ffffff;
+@define-color selected_bg_color #75C1FF;
+@define-color selected_fg_color #ffffff;
+@define-color insensitive_bg_color #f4f4f4;
+@define-color insensitive_fg_color blue;
+@define-color insensitive_base_color #ffffff;
+@define-color theme_unfocused_fg_color #3c3c3e;
+@define-color theme_unfocused_text_color #3c3c3e;
+@define-color theme_unfocused_bg_color #f7f7f7;
+@define-color theme_unfocused_selected_bg_color #75C1FF;
+@define-color borders #b9b9b9;
+@define-color unfocused_borders #b9b9b9;
+@define-color warning_color #f57900;
+@define-color error_color #cc0000;
+@define-color success_color #73d216;
+@define-color wm_title_highlight white;
+@define-color wm_title_highlight_dark transparent;
+@define-color wm_title_shadow white;
+@define-color metacity_bg_a #f7f7f7;
+@define-color metacity_bg_b #f7f7f7;
+@define-color wm_border #6d6d6d;
+@define-color content_view_bg #ffffff;
+/* Unused End */
+
+/* Forced to be used */
+@define-color theme_unfocused_base_color #FFFFFF; /*calculator gnome */
+
+/* Buttons */
+
+@define-color button_disabled_fg #c8c8c8;
+
+@define-color button_normal_bg #FFFFFF;
+@define-color button_normal_fg #575757;
+@define-color button_normal_border #BCBCBC;
+
+@define-color button_focus_bg #FFFFFF;
+@define-color button_focus_fg #575757;
+@define-color button_focus_border #87C7E4;
+@define-color button_focus_boxshadow #FFFFFF;
+
+@define-color view_progress_border #ADADAD;
+@define-color view_progress_border_selected #A1A1A1;
+@define-color view_progress_empty_bg_color #FFFFFF;
+@define-color view_progress_empty_fg_color #687075;
+@define-color view_progress_full_fg_color #545B5F;
+@define-color view_progress_selected_fg_color #474747;
+@define-color view_progress_fill_inner_border_color #FFFFFF;
+@define-color view_progress_fill_bg_color #E0F3FF; /* B3E2FF */
+
+/*
+@define-color button_focus_bg #EDF8FF;
+@define-color button_focus_fg #474747;
+@define-color button_focus_border #A3C6D6;
+@define-color button_focus_boxshadow #FFFFFF;
+*/
+
+@define-color button_hover_bg #FFFFFF;
+@define-color button_hover_fg #575757;
+@define-color button_hover_border #6EBEE3;
+
+@define-color button_active_bg #E0F3FF;
+@define-color button_active_fg #474747;
+@define-color button_active_border #5EAACD;
+@define-color button_active_boxshadow #E0F3FF;
+
+@define-color button_checked_bg #F4FBFF;
+
+/* Scrollbar Colors */
+
+@define-color scrollbar_trough_bg rgba(255, 255, 255, 0.5);
+@define-color scrollbar_overlay_bg #C7C7C7;
+@define-color scrollbar_normal_bg #C7C7C7;
+@define-color scrollbar_hover_bg #979797; /* 979797  87C7E4 A6D2EF */
+@define-color scrollbar_active_bg #979797;
+
+
+
+/* File Browser Colors */
+
+@define-color iconview_bg #FFFFFF;
+
+@define-color theme_selection_bg_color rgba(135, 199, 228, 0.3);
+/*
+@define-color listview_item_bg #EDF7FC;
+@define-color listview_item_border #7EC5E6;
+*/
+
+@define-color listview_item_bg #EFF1F2;
+@define-color listview_item_border #99A9B0;
+@define-color listview_item_bg_hover #F8F9FA;
+
+
+/*
+@define-color menubar_item_bg #6EBEE3;
+@define-color menubar_item_fg #FFFFFF;
+@define-color menubar_item_border #5BAACF;
+
+
+@define-color menubar_item_bg #E0F3FF;
+@define-color menubar_item_fg #474747;
+@define-color menubar_item_border #6EBEE3;
+*/
+
+
+@define-color menubar_item_bg #F7F7F7;
+@define-color menubar_item_fg #575757;
+@define-color menubar_item_border #C7C7C7;
+
+@define-color menu_bg #FFFFFF;
+@define-color menu_item_bg #FFFFFF;
+@define-color menu_item_fg #474747;
+@define-color menu_item_hover_bg #FFFFFF;
+@define-color menu_item_hover_fg #474747;
+@define-color menu_border #CECECE; /* 6EBEE3 */
+@define-color menu_border_darker #b9b9b9; /* 6EBEE3 */
+@define-color menu_item_border #C7C7C7;
+@define-color menu_item_border_highlight #80CEFF;
+
+/* Midnight */
+@define-color midnight_menubar_fg #e6e6e6;
+@define-color midnight_menubar_selected_bg #25272E;
+@define-color midnight_menu_bg #31343D;
+@define-color midnight_menu_fg #C7C7C7;
+@define-color midnight_menu_border #191A1F;
+
+/* Charcoal
+@define-color midnight_menu_bg #404346;
+@define-color midnight_menubar_fg #e6e6e6;
+@define-color midnight_menu_border #282A2B;
+@define-color midnight_menubar_selected_bg #383A3D;
+@define-color midnight_menu_fg #C7C7C7;
+*/
+
+
+@define-color view_selected_bg_color rgba(135, 199, 228, 0.2);
+@define-color view_selected_border_color rgba(135, 199, 228, 1.0);
+/*0e5ffa*/
+
+@define-color scroll_overshoot_start_color rgba(135, 199, 228, 0.4);
+@define-color scroll_overshoot_end_color rgba(135, 199, 228, 0);
+
+@define-color suggested_button_border_color #63DBD6;
+@define-color destructive_button_border_color #D29094;
+@define-color destructive_button_fg #CA2630;
+
+@define-color sidebar_bg_color #F7F7F7;
+@define-color sidebar_fg_color #858585;
+@define-color sidebar_selected_bg_hover_color #F4F6F7;
+@define-color sidebar_selected_bg_color #ffffff;
+@define-color sidebar_selected_bg_border_color #c7c7c7;
+@define-color sidebar_selected_fg_color #5C6A70;
+
+
+@define-color panel_bg_color #232836;    /* rgba(35, 40, 54, 0.5); <-Transparent*/
+@define-color panel_fg_color #F5F5F5;
+@define-color panel_hover_color #505B75; /* rgba(174, 198, 255, 0.2); <-Transparent*/
+
+
+
+
+
+/* Default Theme Stuff */
+@import url("gtk-widgets.css");
+/* Scrollbars */
+@import url("styles/shared/scrollbars-rounded-light.css");
+/* Buttons */
+@import url("styles/shared/buttons.css");
+/* Menus */
+@import url("styles/menus.css");
+/* Mate Stuff*/
+@import url("styles/shared/mate.css");
+/* XFCE Stuff (some also in gtk-widgets.css) */
+@import url("styles/shared/xfce.css");
+/* Cinnamon/Mint Stuff */
+@import url("styles/shared/cinnamon.css");
+/* Misc Apps */
+@import url("styles/shared/other-apps.css");
+/* Tilix Terminal Emulator (edit file for custom colors) */
+@import url("styles/shared/tilix.css");
+
+/* *************************************************************** */
+/* Thunar - Uncomment to remove navigation buttons                 */
+/* in Thunar (location bar will fill the width of the window)      */
+/* See file for some extra optional styles                         */
+/* *************************************************************** */
+/*@import url("styles/shared/thunar-custom-view.css");             */
+/* *************************************************************** */

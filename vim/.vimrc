@@ -3,12 +3,13 @@ filetype plugin indent on
 
 set rtp+=~/.fzf
 
+set clipboard=unnamedplus
 set encoding=utf-8
 " Rebind leader key
 let mapleader=","
 " Tabbing controls
 set tabstop=2
-set softtabstop=2 " insert and delete go by 4 space increments
+set softtabstop=2 " insert and delete go by 2 space increments
 set expandtab
 set shiftwidth=2
 
@@ -36,17 +37,18 @@ set showmatch
 
 " Indentation
 set ai
+" let g:indentLine_color_term = 10
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=232
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=10
 nnoremap <F4> :IndentGuidesToggle<CR>
 
 " Searching
 set hlsearch
 nnoremap <F3> :noh<CR>
-if executable('ag')
-  let g:ackprg = 'ag --vimgrep'
+if executable('rg')
+  let g:ackprg = 'rg --vimgrep'
 endif
 
 set nohidden
@@ -117,20 +119,6 @@ nmap <Leader>r :Tags<CR>
 " Statusline config
 set noshowmode
 set laststatus=2
-"let g:airline_powerline_fonts = 1
-"let g:airline_theme='bubblegum'
-"let g:airline#extensions#tabline#enabled = 1
-
-" let g:airline_left_sep='>'
-" let g:airline_left_alt_sep = '>'
-" let g:airline_right_sep='<'
-" let g:airline_right_alt_sep = '<'
-" let g:airline_symbols.crypt = '#'
-" let g:airline_symbols.branch = '\'
-" let g:airline_symbols.readonly = '='
-" let g:airline_symbols.linenr = '+'
-" let g:airline_symbols.maxlinenr = ''
-
 
 " ALE
 let g:ale_sign_warning = '▲'
@@ -148,50 +136,25 @@ let g:lightline = {
 \       [ ['lineinfo'], ['percent'], ['readonly', 'linter_warnings', 'linter_errors', 'linter_ok'] ]
 \   },
 \   'tabline': {
-\     'left': [ [ 'bufferinfo' ], [ 'bufferbefore', 'buffercurrent', 'bufferafter'], ],
+\     'left': [ [ 'buffers' ] ],
 \     'right': [ [ 'close' ], ],
 \   },
 \   'component_expand': {
 \     'linter_warnings': 'LightlineLinterWarnings',
 \     'linter_errors': 'LightlineLinterErrors',
 \     'linter_ok': 'LightlineLinterOK',
-\     'buffercurrent': 'lightline#buffer#buffercurrent2',
+\     'buffers': 'lightline#bufferline#buffers',
 \   },
 \   'component_type': {
 \     'readonly': 'error',
 \     'linter_warnings': 'warning',
 \     'linter_errors': 'error',
-\     'buffercurrent': 'tabsel'
+\     'buffers': 'tabsel'
 \   },
-\   'component_function': {
-\     'bufferbefore': 'lightline#buffer#bufferbefore',
-\     'bufferafter': 'lightline#buffer#bufferafter',
-\     'bufferinfo': 'lightline#buffer#bufferinfo',
-\   } }
-
-" lightline-buffer ui settings
-let g:lightline_buffer_logo = ''
-let g:lightline_buffer_readonly_icon = 'RO'
-let g:lightline_buffer_modified_icon = '*'
-let g:lightline_buffer_git_icon = ''
-let g:lightline_buffer_ellipsis_icon = '..'
-let g:lightline_buffer_expand_left_icon = '< '
-let g:lightline_buffer_expand_right_icon = ' >'
-let g:lightline_buffer_active_buffer_left_icon = ''
-let g:lightline_buffer_active_buffer_right_icon = ''
-let g:lightline_buffer_separator_icon = '  '
-
-" lightline-buffer function settings
-let g:lightline_buffer_show_bufnr = 1
-let g:lightline_buffer_rotate = 0
-let g:lightline_buffer_fname_mod = ':t'
-let g:lightline_buffer_excludes = ['vimfiler']
-
-let g:lightline_buffer_maxflen = 30
-let g:lightline_buffer_maxfextlen = 3
-let g:lightline_buffer_minflen = 16
-let g:lightline_buffer_minfextlen = 3
-let g:lightline_buffer_reservelen = 20
+\   }
+" Lightline tabline settings
+" hi LightlineLeft_tabline_0_1
+" hi LightlineRight_tabline
 
 function! LightlineLinterWarnings() abort
   let l:counts = ale#statusline#Count(bufnr(''))

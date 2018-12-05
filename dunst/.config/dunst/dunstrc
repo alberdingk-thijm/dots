@@ -1,6 +1,6 @@
 #
 [global]
-    font = scientifica 8
+    font = Ubuntu Mono - Bront 10
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -194,8 +194,6 @@
     # foreground = "#d73737"
 	background = "#e6e7e8"
 	foreground = "#f7cac0"
-    timeout = 0
-
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.

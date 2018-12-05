@@ -1,0 +1,188 @@
+.nemo-window .primary-toolbar
+{
+padding: 4 6;
+}
+
+.nemo-window .primary-toolbar entry
+{
+margin: -1 0;
+border-color: @button_normal_border;
+box-shadow: none;
+}
+
+.nemo-window .primary-toolbar entry:focus
+{
+margin: -1 0;
+border-color: @button_focus_border;
+}
+
+.nemo-places-sidebar
+{
+border-style: none;
+}
+
+.nemo-window .sidebar .frame
+{
+border-style: none;
+margin-top: -1px;
+}
+
+.nemo-window-pane
+{
+margin-top: -1px;
+margin-left: -1px;
+margin-right: -1px;
+margin-bottom: -1px;
+}
+
+.nemo-canvas-item
+{
+padding: 0;
+border-radius: 3px;
+}
+
+.nemo-canvas-item:active
+{
+background-color: @theme_selected_bg_color;
+}
+
+.nemo-canvas-item:selected
+{
+background-color: @theme_selected_bg_color;
+color: @theme_selected_fg_color;
+text-shadow: none;
+border-style: solid;
+border-width: 1px;
+border-color: shade (@theme_selected_bg_color, 0.8);
+}
+
+.nemo-window-pane .entry
+{
+border-style: solid;
+border-width: 1px;
+border-color: @theme_selected_bg_color;
+}
+
+.nemo-window-pane .entry:selected
+{
+background-color: @theme_selected_bg_color;
+color: @theme_selected_fg_color;
+}
+
+.nemo-window-pane .frame
+{
+background-color: @sidebar_bg_color;
+margin: 0;
+padding: 0;
+}
+
+.nemo-window .places-treeview treeview.view
+{
+padding-top: 2px;
+padding-bottom: 2px;
+}
+
+.nemo-window .places-treeview treeview.view:hover
+{
+border-width: 1px 0;
+border-style: solid;
+background-color: @sidebar_selected_bg_color;
+color: @sidebar_selected_fg_color;
+border-color: shade (@sidebar_selected_bg_border_color, 1.1);
+}
+
+.nemo-window .places-treeview treeview.view:selected
+{
+border-width: 1px 0;
+border-style: solid;
+background-color: @sidebar_selected_bg_color;
+color: @sidebar_selected_fg_color;
+border-color: @sidebar_selected_bg_border_color;
+}
+/*
+.places-treeview label
+{
+color: red;
+padding-left: 20px;
+}
+*/
+
+.nemo-window .linked:not(.vertical) > button:first-child, .nemo-window .linked:not(.vertical) > button:last-child
+{
+  min-height: 16px;
+  min-width: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: shade (@button_normal_fg, 1.5);
+}
+
+.nemo-window .linked:not(.vertical) > button:first-child:disabled, .nemo-window .linked:not(.vertical) > button:last-child:disabled
+{
+  min-height: 16px;
+  min-width: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: @button_disabled_fg;
+}
+
+.nemo-window .primary-toolbar button.image-button, .nemo-window .primary-toolbar button.image-button:first-child, .nemo-window .primary-toolbar button.image-button:last-child
+{
+  min-height: 16px;
+  min-width: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: @button_normal_fg;
+}
+
+.nemo-window .primary-toolbar button.image-button:disabled, .nemo-window .primary-toolbar button.image-button:first-child:disabled, .nemo-window .primary-toolbar button.image-button:last-child:disabled
+{
+  min-height: 16px;
+  min-width: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: @button_disabled_fg;
+}
+
+.nemo-properties-dialog .frame scrolledwindow
+{
+border-style: solid;
+}
+
+.nemo-properties-dialog toolbar
+{
+border-style: none;
+}
+
+.nemo-properties-dialog scrolledwindow separator
+{
+background-color: shade (@theme_base_color, 0.96);
+}
+
+.nemo-window statusbar .horizontal label
+{
+color: @statusbar_fg_color;
+}
+
+.nemo-window .toolbar.horizontal scale slider {
+    min-width: 12px;
+    min-height: 12px;
+    margin: -6px;
+    border-radius: 30px;
+    }
+
+/* Maybe later
+.nemo-window .toolbar.horizontal button
+{
+
+padding: 2px 0;
+margin: 2px;
+}
+*/

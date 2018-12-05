@@ -1,0 +1,43 @@
+/*
+ * A simple theme to match haumea.
+ * User: sprig
+ */
+* {
+    pink:               #ffadd2;
+    yellow:             #ffddc6;
+    blue:               #8ec6d9;
+    purple:             #b486e1;
+    white:              #fff5ff;
+    transp:             #00000000;
+    font-color:         @8f7ba3;
+
+    background-color:   @white;
+    text-color:         @font-color;
+    font:               "Ubuntu Mono - Bront 10";
+}
+window {
+    anchor:             north;
+    location:           north;
+    width:              100%;
+    border:             0;
+    padding:            4px;
+    children:           [ horibox ];
+}
+horibox {
+    orientation:        horizontal;
+    children:           [ prompt, entry, listview ];
+}
+listview {
+    layout:             horizontal;
+    spacing:            4px;
+}
+element {
+    padding:            0px 2px;
+}
+element selected {
+    background-color:   @blue;
+}
+entry {
+    expand:             false;
+    width:              10em;
+}

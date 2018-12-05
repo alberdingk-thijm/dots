@@ -21,6 +21,7 @@ URxvt.geometry:                 80x24
 URxvt.scrollBar:                false
 URxvt*loginShell:               true
 URxvt.internalBorder:           16
+URxvt.perl-lib:                 /usr/lib/urxvt/perl/
 URxvt.perl-ext-common:          default,matcher,keyboard-select
 URxvt.url-launcher:             firefox
 URxvt.keysym.C-Delete:          perl:matcher:last

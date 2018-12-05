@@ -58,18 +58,27 @@
 [submodule "vim/.vim/bundle/vim-racer"]
 	path = vim/.vim/bundle/vim-racer
 	url = https://github.com/racer-rust/vim-racer.git
-[submodule "vim/.vim/bundle/vimspectr"]
-	path = vim/.vim/bundle/vimspectr
-	url = https://github.com/nightsense/vimspectr.git
 [submodule "vim/.vim/pack/git-plugins/start/ale"]
 	path = vim/.vim/pack/git-plugins/start/ale
 	url = https://github.com/w0rp/ale.git
 [submodule "vim/.vim/bundle/snow"]
 	path = vim/.vim/bundle/snow
 	url = https://github.com/nightsense/snow.git
+[submodule "vim/.vim/bundle/vimspectr"]
+	path = vim/.vim/bundle/vimspectr
+	url = https://github.com/nightsense/vimspectr.git
+[submodule "vim/.vim/bundle/lightline-bufferline"]
+	path = vim/.vim/bundle/lightline-bufferline
+	url = https://github.com/mgee/lightline-bufferline.git
 [submodule "vim/.vim/bundle/vimtex"]
 	path = vim/.vim/bundle/vimtex
 	url = https://github.com/lervag/vimtex.git
-[submodule "vim/.vim/bundle/lightline-bufferline"]
-	path = vim/.vim/bundle/lightline-bufferline
-	url = https://github.com/mgee/lightline-bufferline
+[submodule "vim/.vim/bundle/ron.vim"]
+	path = vim/.vim/bundle/ron.vim
+	url = https://github.com/ron-rs/ron.vim
+[submodule "vim/.vim/bundle/coq.vim"]
+	path = vim/.vim/bundle/coq.vim
+	url = https://github.com/jvoorhis/coq.vim.git
+[submodule "emacs/.emacs.d/lisp/PG"]
+	path = emacs/.emacs.d/lisp/PG
+	url = https://github.com/ProofGeneral/PG

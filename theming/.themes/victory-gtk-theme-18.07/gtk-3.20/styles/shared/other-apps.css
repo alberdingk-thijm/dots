@@ -1,0 +1,90 @@
+/* 
+ * For pantheon-files / Marlin / elementary file browser
+ * Without the last entry, the border under the tabs will not appear on first launch
+ * until the window is unfocused.
+ * Somewhat generic styling css stuff, may have some effect on other apps,
+ * if so will disable in future
+*/
+
+.background .titlebar .horizontal .pathbar,
+.background.csd .titlebar .horizontal .pathbar {
+border-color: @theme_border_color_medium;
+box-shadow: none;
+}
+
+.background .titlebar .horizontal .pathbar,
+.background.csd .titlebar .horizontal .pathbar  {
+color: red;
+padding-top: 6px;
+padding-bottom: 6px;
+}
+
+.background .dynamic-notebook notebook > header > tabs > tab,
+.background.csd .dynamic-notebook notebook > header > tabs > tab
+{
+border-top: none;
+}
+
+.background .dynamic-notebook notebook > header > tabs > tab button,
+.background.csd .dynamic-notebook notebook > header > tabs > tab button
+{
+margin-left: 0;
+margin-top: 2px;
+margin-bottom: 0;
+}
+
+.background .dynamic-notebook notebook > header > tabs > tab label,
+.background.csd .dynamic-notebook notebook > header > tabs > tab label
+{
+margin-top: 1px;
+}
+
+.background .dynamic-notebook notebook > stack,
+.background.csd .dynamic-notebook notebook > stack
+{
+border-top: 1px solid @theme_border_color_medium;
+margin-top: 0;
+margin-left: -1px;
+margin-right: -1px;
+margin-bottom: -1px;
+}
+
+.background .dynamic-notebook notebook > header button,
+.background.csd .dynamic-notebook notebook > header button
+{
+margin-top: -1px;
+margin-bottom: -1px;
+}
+
+
+/* 
+ * For Gnome Calculator
+*/
+
+.history-entry
+{
+padding: 2px 2px;
+border-top: 1px solid shade (@theme_base_color, 0.90);
+border-bottom: none;
+background-color: shade (@theme_base_color, 1.0);
+color: shade (@theme_text_color, 1.8);
+}
+
+.history-entry:hover
+{
+background-color: shade (@theme_base_color, 0.98);
+color: shade (@theme_text_color, 1.0);
+}
+
+
+
+/* 
+ * For Gnome Usage
+*/
+/*
+stack box.vertical paned scrolledwindow .frame list
+{
+border-style: none;
+border-color: transparent;
+}
+*/

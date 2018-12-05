@@ -22,15 +22,15 @@
 #
 ##### connection settings #####
 #
-#mpd_host = localhost
+mpd_host = 127.0.0.1
 #
-#mpd_port = 6600
+mpd_port = 6600
 #
 #mpd_connection_timeout = 5
 #
 ## Needed for tag editor and file operations to work.
 ##
-#mpd_music_dir = ~/music
+mpd_music_dir = /data/music
 #
 #mpd_crossfade_time = 5
 #
@@ -49,7 +49,7 @@
 ## }
 ##
 #
-#visualizer_fifo_path = /tmp/mpd.fifo
+visualizer_fifo_path = /tmp/mpd.fifo
 #
 ##
 ## Note: Below parameter is needed for ncmpcpp to determine which output
@@ -57,12 +57,12 @@
 ## sound as currently there are some problems with it.
 ##
 #
-#visualizer_output_name = Visualizer feed
+visualizer_output_name = Visualizer feed
 #
 ##
 ## If you set format to 44100:16:2, make it 'yes'.
 ##
-#visualizer_in_stereo = yes
+visualizer_in_stereo = yes
 #
 ##
 ## Note: Below parameter defines how often ncmpcpp has to "synchronize"
@@ -71,7 +71,7 @@
 ## that sane values start with >=10.
 ##
 #
-#visualizer_sync_interval = 30
+visualizer_sync_interval = 30
 #
 ##
 ## Note: To enable spectrum frequency visualization you need to compile ncmpcpp
@@ -80,11 +80,11 @@
 #
 ## Available values: spectrum, wave, wave_filled, ellipse.
 ##
-#visualizer_type = wave
+visualizer_type = spectrum
 #
 #visualizer_look = ●▮
 #
-#visualizer_color = blue, cyan, green, yellow, magenta, red
+visualizer_color = blue, cyan, green, yellow, magenta, red
 #
 ## Alternative subset of 256 colors for terminals that support it.
 ##
@@ -109,11 +109,11 @@
 ## Time of inactivity (in seconds) after playlist highlighting will be disabled
 ## (0 = always on).
 ##
-#playlist_disable_highlight_delay = 5
+playlist_disable_highlight_delay = 1
 #
 ## Defines how long messages are supposed to be visible.
 ##
-#message_delay_time = 5
+message_delay_time = 1
 #
 ##### song format #####
 ##
@@ -270,7 +270,7 @@
 ## Note: Custom command that will be executed each time song changes. Useful for
 ## notifications etc.
 ##
-#execute_on_song_change = ""
+execute_on_song_change = ~/.local/bin/art-light.sh && notify-send "Now Playing ♫" "$(mpc current)"
 #
 ##
 ## Note: Custom command that will be executed each time player state
@@ -291,13 +291,13 @@
 ##
 ## Note: Possible display modes: classic, columns.
 ##
-#playlist_display_mode = columns
+playlist_display_mode = classic
 #
-#browser_display_mode = classic
+browser_display_mode = classic
 #
 #search_engine_display_mode = classic
 #
-#playlist_editor_display_mode = classic
+playlist_editor_display_mode = classic
 #
 #discard_colors_if_item_is_selected = yes
 #
@@ -309,7 +309,7 @@
 #
 #volume_change_step = 2
 #
-#autocenter_mode = no
+autocenter_mode = yes
 #
 #centered_cursor = no
 #
@@ -325,34 +325,26 @@
 #
 ## Available values: classic, alternative.
 ##
-#user_interface = classic
+user_interface = alternative
 #
 #data_fetching_delay = yes
 #
 ## Available values: artist, album_artist, date, genre, composer, performer.
 ##
-#media_library_primary_tag = artist
+media_library_primary_tag = artist
 #
 #media_library_albums_split_by_date = yes
 #
 ## Available values: wrapped, normal.
 ##
 #default_find_mode = wrapped
-#
 #default_tag_editor_pattern = %n - %t
-#
-#header_visibility = yes
-#
-#statusbar_visibility = yes
-#
-#titles_visibility = yes
-#
+header_visibility = no
+statusbar_visibility = no
+titles_visibility = no
 #header_text_scrolling = yes
-#
 #cyclic_scrolling = no
-#
 #lines_scrolled = 2
-#
 #lyrics_fetchers = lyricwiki, azlyrics, genius, sing365, lyricsmania, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, internet
 #
 #follow_now_playing_lyrics = no
@@ -400,9 +392,7 @@
 ## above or an empty value for no slave screen.
 ##
 #startup_slave_screen = ""
-#
 #startup_slave_screen_focus = no
-#
 ##
 ## Default width of locked screen (in %).  Acceptable values are from 20 to 80.
 ##
@@ -447,15 +437,10 @@
 #mouse_list_scroll_whole_page = yes
 #
 #empty_tag_marker = <empty>
-#
 #tags_separator = " | "
-#
 #tag_editor_extended_numeration = no
-#
 #media_library_sort_by_mtime = no
-#
-#enable_window_title = yes
-#
+enable_window_title = no
 ##
 ## Note: You can choose default search mode for search engine. Available modes
 ## are:
@@ -472,11 +457,11 @@
 #
 #search_engine_default_search_mode = 1
 #
-#external_editor = nano
+external_editor = vim
 #
 ## Note: set to yes if external editor is a console application.
 ##
-#use_console_editor = yes
+use_console_editor = yes
 #
 ##### colors definitions #####
 ##
@@ -508,7 +493,7 @@
 ## are used there is a possibility that you'll be able to use only colors with
 ## transparent background.
 #
-#colors_enabled = yes
+colors_enabled = yes
 #
 #empty_tag_color = cyan
 #

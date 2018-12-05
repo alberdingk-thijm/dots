@@ -1,0 +1,90 @@
+/*
+ * A simple theme to match haumea.
+ * User: sprig
+ */
+* {
+    pink:               #ffadd2;
+    mauve:              #f0ddf9;
+    yellow:             #ffddc6;
+    blue:               #8ec6d9;
+    purple:             #b486e1;
+    white:              #fff5ff;
+    transp:             #00000000;
+    font-color:         #8f7ba3;
+
+    spacing:            2;
+    background-color:   @transp;
+    border-color:       @blue;
+    text-color:         @font-color;
+    lines:              10;
+    anchor:             north;
+    location:           center;
+}
+window {
+    font:               "Ubuntu Mono - Bront 10";
+    transparency:       "real";
+    background-color:   @transp;
+    width:              25%;
+    border:             0;
+    padding:            2px;
+    x-offset:           0;
+    y-offset:           -10%;
+}
+mainbox {
+    padding:            2px;
+    border:             0;
+    spacing:            0%;
+}
+message {
+    border:             2px;
+    padding:            2px;
+    background-color:   @white;
+}
+textbox normal {
+    padding:            0;
+    border:             0;
+}
+listview {
+    spacing:            0px;
+    padding:            2px;
+    border:             0px;
+    reverse:            false;
+    columns:            1;
+    background-color:   @white;
+    dynamic:            true;
+    fixed-height:       false;
+}
+element {
+    border:             0;
+    padding:            2px;
+    highlight:          bold;
+}
+element urgent {
+    text-color:         @purple;
+}
+element active {
+    text-color:         @pink;
+}
+element selected {
+    background-color:   @yellow;
+}
+element alternate {
+    background-color:   @mauve;
+}
+inputbar {
+    text-color:         @pink;
+    background-color:   @white;
+    border:             0px;
+    padding:            4px;
+    children:           [ prompt, textbox-prompt-arrows, entry, case-indicator ];
+}
+entry {
+    spacing:            0;
+}
+prompt {
+    enabled:             false;
+}
+textbox-prompt-arrows {
+    expand:             false;
+    str:                ">>>";
+}
