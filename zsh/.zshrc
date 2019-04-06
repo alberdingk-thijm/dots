@@ -88,9 +88,6 @@ source ~/.zsh-aliases
 export SVN_EDITOR=vim
 export EDITOR=vim
 
-# Add bin/ and cargo to PATH
-export PATH=$PATH:$HOME/bin/:$HOME/.cargo/bin/:$HOME/.local/bin/
-
 # cd implicitly
 AUTO_CD="true"
 
@@ -110,3 +107,10 @@ export MAIL=/var/spool/mail/tim
 
 # Key bindings
 [ -f /usr/share/doc/fzf/key-bindings.zsh ] && source /usr/share/doc/fzf/key-bindings.zsh
+fpath+=.zsh_functions
+
+# Use additional paths
+source ~/.zshenv
+
+# wine debug: turn off warnings
+export WINE_DEBUG=-all

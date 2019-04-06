@@ -13,7 +13,10 @@ set tabstop=4
 set softtabstop=4 " insert and delete go by 4 space increments
 set expandtab
 set shiftwidth=4
-" Alternatives (TODO: set for certain file types, e.g. xml and json)
+" Alternatives
+au FileType xml setl sw=2 ts=2 sts=2 et
+au FileType json setl sw=2 ts=2 sts=2 et
+au FileType ron setl sw=2 ts=2 sts=2 et
 " set ts=2:sts=2:sw=2:et
 
 " Spellcheck
@@ -21,6 +24,11 @@ if version >= 700
     set spl=en spell
     set nospell
 endif
+
+" VIM server
+"if empty(v:servername) && exists('*remote_startserver')
+"    call remote_startserver('VIM')
+"endif
 
 " Backup files
 " Create backup directory
@@ -37,13 +45,22 @@ set number
 set cursorline
 set showmatch
 
+" NERDTree
+nmap <F10> :NERDTreeToggle<CR>
+" Close NERDTree if it's the last window
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 " Indentation
+" Test indent guides
+        " x
+            " y
+                " z
 set ai
 " let g:indentLine_color_term = 10
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=10
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=7
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=15
 nnoremap <F4> :IndentGuidesToggle<CR>
 
 " Searching
@@ -54,11 +71,10 @@ if executable('rg')
 endif
 
 set nohidden
-
 " to ensure plugins correctly use paths in bash
 set shellslash
 
-colo desert
+colo default
 
 " Syntax
 syntax on
@@ -123,7 +139,7 @@ highlight link ALEErrorSign Title
 
 " Lightline
 let g:lightline = { 
-\   'colorscheme': '16color',
+\   'colorscheme': 'default',
 \   'active': {
 \     'left': 
 \       [ ['mode', 'paste'], ['filename', 'modified'] ],
@@ -132,7 +148,7 @@ let g:lightline = {
 \   },
 \   'tabline': {
 \     'left': [ [ 'buffers' ] ],
-\     'right': [ [ 'close' ], ],
+\     'right': [ ],
 \   },
 \   'component_expand': {
 \     'linter_warnings': 'LightlineLinterWarnings',
@@ -202,6 +218,12 @@ let g:ale_lint_on_enter = 0
 " and don't go hogwild so battery can last
 let g:ale_lint_on_text_changed = 'normal'
 
+" RLS settings
+"let g:ale_rust_rls_executable = "/home/tim/.cargo/bin/rls"
+" let g:ale_linters = {
+" \   'rust': ['rls'],
+" \}
+
 let g:ale_fixers = {
 \   'rust': ['cargo'],
 \   'python': ['autopep8'],
@@ -210,6 +232,8 @@ let g:ale_fixers = {
 let g:autofmt_autosave = 1
 
 let g:ale_rust_cargo_use_check=1
+let g:ale_rust_cargo_check_tests=1
+let g:ale_rust_cargo_check_examples=1
 
 " Integrate with airline
 "let g:airline#extensions#ale#enabled = 1
@@ -218,3 +242,6 @@ let g:ale_rust_cargo_use_check=1
 packloadall
 " Load all helptags silently
 silent! helptags ALL
+
+" Load local .vimlocal if found
+silent! so .vimlocal

@@ -3,24 +3,21 @@
  * User: sprig
  */
 * {
-    pink:               #ffadd2;
-    yellow:             #ffddc6;
-    blue:               #8ec6d9;
-    purple:             #b486e1;
-    white:              #fff5ff;
+    blue:               #90dcdd;
+    white:              #f7f8f3;
     transp:             #00000000;
-    font-color:         @8f7ba3;
+    font-color:         @6d777d;
 
     background-color:   @white;
     text-color:         @font-color;
-    font:               "Ubuntu Mono - Bront 10";
+    font:               "Iosevka Regular 10";
 }
 window {
     anchor:             north;
     location:           north;
     width:              100%;
     border:             0;
-    padding:            4px;
+    padding:            6px;
     children:           [ horibox ];
 }
 horibox {

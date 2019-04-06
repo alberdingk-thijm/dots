@@ -6,11 +6,11 @@
     pink:               #ffadd2;
     mauve:              #f0ddf9;
     yellow:             #ffddc6;
-    blue:               #8ec6d9;
     purple:             #b486e1;
-    white:              #fff5ff;
-    transp:             #00000000;
-    font-color:         #8f7ba3;
+    blue:               #90dcdd;
+    white:              #f7f8f3;
+    transp:             #ffffff50;
+    font-color:         @6d777d;
 
     spacing:            2;
     background-color:   @transp;
@@ -21,7 +21,7 @@
     location:           center;
 }
 window {
-    font:               "Ubuntu Mono - Bront 10";
+    font:               "Iosevka Regular 10";
     transparency:       "real";
     background-color:   @transp;
     width:              25%;
@@ -69,7 +69,7 @@ element selected {
     background-color:   @yellow;
 }
 element alternate {
-    background-color:   @mauve;
+    background-color:   @blue;
 }
 inputbar {
     text-color:         @pink;

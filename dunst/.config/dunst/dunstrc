@@ -145,11 +145,11 @@
     icon_position = left
 
     # Paths to default icons.
-    icon_path = /usr/share/icons/Numix/16/status/
+    icon_path = /usr/share/icons/Haiku/scalable/apps/:/usr/share/icons/Haiku/scalable/status/:/usr/share/icons/Numix/16/status
 
     # Frame configuration
     frame_width = 1
-    frame_color = "#fdd9ff"
+    frame_color = "#f7f8f3"
 
 [shortcuts]
 
@@ -175,18 +175,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-	background = "#fdd9ff"
-	foreground = "#56c7b8"
+	background = "#f7f8f3"
+	foreground = "#12b8a2"
     timeout = 10
 
 [urgency_normal]
-	background = "#fdd9ff"
-	foreground = "#1f121f"
+	background = "#f7f8f3"
+	foreground = "#787e82"
     timeout = 10
 
 [urgency_critical]
-	background = "#fdd9ff"
-	foreground = "#e04d38"
+	background = "#f7f8f3"
+	foreground = "#ba636e"
     timeout = 0
 
 # hide overly-eager network notifications

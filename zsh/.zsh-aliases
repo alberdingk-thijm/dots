@@ -1,13 +1,21 @@
-alias 'git lg'=
 alias 'ssh cdf'='ssh alberdi1@teach.cs.toronto.edu'
 alias 'ff'='firefox-nightly'
 alias 'grep'='rg'
 alias 'x'='exit'
-alias 'xbq'='xbps-query -R'
-alias 'xbqq'='xbps-query -Rs'
-alias 'xbup'='sudo xbps-install -Su'
-alias 'xbi'='sudo xbps-install'
-alias 'vim'='vim-huge-python3'
+alias 'qaac'='wine ~/.wine/drive_c/qaac/qaac.exe'
+alias 'refalac'='wine ~/.wine/drive_c/qaac/refalac.exe'
+alias 'img'='feh -F -d'
+
+source /etc/os-release
+
+if [ $ID = 'void' ]
+then
+    alias 'xbq'='xbps-query -R'
+    alias 'xbqq'='xbps-query -Rs'
+    alias 'xbup'='sudo xbps-install -Su'
+    alias 'xbi'='sudo xbps-install'
+    alias 'vim'='vim-huge-python3'
+fi
 
 # Save copies of the files in your boot directory.
 function boot_archive() {

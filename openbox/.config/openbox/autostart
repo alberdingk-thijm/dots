@@ -1,3 +1,4 @@
+light-locker &
 ~/.fehbg &
 dunst &
 volumeicon &
@@ -15,3 +16,4 @@ dhcpcd-gtk &
 syncthing &
 xrdb ~/.Xresources
 mpd &
+~/.local/bin/mpd-notify.sh &
