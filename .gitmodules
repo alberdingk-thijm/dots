@@ -73,3 +73,6 @@
 [submodule "vim/.vim/bundle/lightline-bufferline"]
 	path = vim/.vim/bundle/lightline-bufferline
 	url = https://github.com/mgee/lightline-bufferline
+[submodule "vim/.vim/bundle/lightline-ale"]
+	path = vim/.vim/bundle/lightline-ale
+	url = https://github.com/maximbaz/lightline-ale.git

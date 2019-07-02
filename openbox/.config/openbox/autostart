@@ -7,4 +7,4 @@ conky -c ~/.config/conky/conky.conf &
 ~/bin/greenclip daemon &
 cbatticon -i symbolic &
 lxpolkit &
-mopidy &
+mpd ~/.config/mpd.conf &

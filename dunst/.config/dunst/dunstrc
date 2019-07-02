@@ -193,7 +193,7 @@
     # background = "#eeeeee"
     # foreground = "#d73737"
 	background = "#e6e7e8"
-	foreground = "#f7cac0"
+	foreground = "#60000c"
     timeout = 0
 
 
