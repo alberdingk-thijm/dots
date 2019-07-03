@@ -82,3 +82,12 @@
 [submodule "emacs/.emacs.d/lisp/PG"]
 	path = emacs/.emacs.d/lisp/PG
 	url = https://github.com/ProofGeneral/PG
+[submodule "vim/.vim/bundle/xterm-color-table.vim"]
+	path = vim/.vim/bundle/xterm-color-table.vim
+	url = https://github.com/guns/xterm-color-table.vim
+[submodule "tmux/.tmux.d/tmux-resurrect"]
+	path = tmux/.tmux.d/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect
+[submodule "vim/.vim/bundle/lightline-ale"]
+	path = vim/.vim/bundle/lightline-ale
+	url = https://github.com/maximbaz/lightline-ale.git

@@ -120,3 +120,6 @@ fpath+=$HOME/.zsh_functions
 
 # Key bindings
 [ -f /usr/share/doc/fzf/key-bindings.zsh ] && source /usr/share/doc/fzf/key-bindings.zsh
+
+# Rust src
+export RUST_SRC_PATH=$(rustc --print sysroot)/lib/rustlib/src/rust/src/

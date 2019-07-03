@@ -1,9 +1,21 @@
 execute pathogen#infect()
 filetype plugin indent on
 
-set rtp+=~/.fzf
+set rtp+=/usr/local/opt/fzf
 
-set clipboard=unnamedplus
+" Clipboard settings
+if has('mac')
+  set clipboard=unnamed
+else
+  set clipboard=unnamedplus
+endif
+
+" Netrw settings
+let g:netrw_banner = 0
+" Open files in new horizontal split
+" let g:netrw_browse_split = 1
+let g:netrw_winsize = 50
+
 set encoding=utf-8
 " Rebind leader key
 let mapleader=","
@@ -28,7 +40,6 @@ set backupdir=./.backup//,.,/tmp//
 set directory=.,./.backup//,/tmp//
 
 set encoding=utf-8
-set clipboard=unnamedplus
 
 " Tracking where we are
 set number
@@ -41,7 +52,7 @@ set ai
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=10
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=236
 nnoremap <F4> :IndentGuidesToggle<CR>
 
 " Searching
@@ -125,6 +136,8 @@ let g:ale_sign_warning = '▲'
 let g:ale_sign_error = '✗'
 highlight link ALEWarningSign String
 highlight link ALEErrorSign Title
+nmap g> :ALENextWrap<CR>
+nmap g< :ALEPreviousWrap<CR>
 
 " Lightline
 let g:lightline = { 
@@ -133,28 +146,28 @@ let g:lightline = {
 \     'left': 
 \       [ ['mode', 'paste'], ['filename', 'modified'] ],
 \     'right':
-\       [ ['lineinfo'], ['percent'], ['readonly', 'linter_warnings', 'linter_errors', 'linter_ok'] ]
+\       [ ['lineinfo'], ['percent'], ['readonly', 'linter_checking', 'linter_warnings', 'linter_errors', 'linter_ok'] ]
 \   },
 \   'tabline': {
-\     'left': [ [ 'buffers' ] ],
-\     'right': [ [ 'close' ], ],
+\       'left': [ [ 'buffers' ] ],
+\       'right': [ [ ] ],
 \   },
 \   'component_expand': {
-\     'linter_warnings': 'LightlineLinterWarnings',
-\     'linter_errors': 'LightlineLinterErrors',
-\     'linter_ok': 'LightlineLinterOK',
-\     'buffers': 'lightline#bufferline#buffers',
+\     'linter_checking': 'lightline#ale#checking',
+\     'linter_warnings': 'lightline#ale#warnings',
+\     'linter_errors': 'lightline#ale#errors',
+\     'linter_ok': 'lightline#ale#ok',
+\     'buffercurrent': 'lightline#bufferline#buffers',
 \   },
 \   'component_type': {
 \     'readonly': 'error',
-\     'linter_warnings': 'warning',
+\     'linter_checking': 'left',
 \     'linter_errors': 'error',
+\     'linter_warnings': 'warning',
+\     'linter_ok': 'left',
 \     'buffers': 'tabsel'
 \   },
-\   }
-" Lightline tabline settings
-" hi LightlineLeft_tabline_0_1
-" hi LightlineRight_tabline
+\}
 
 function! LightlineLinterWarnings() abort
   let l:counts = ale#statusline#Count(bufnr(''))
@@ -219,6 +232,16 @@ let g:ale_fixers = {
 let g:autofmt_autosave = 1
 
 let g:ale_rust_cargo_use_check=1
+
+" Rusty-tags integration
+autocmd BufRead *.rs :setlocal tags=./rusty-tags.vi;/,$RUST_SRC_PATH/rusty-tags.vi
+autocmd BufWritePost *.rs :silent! exec "!rusty-tags vi --quiet --start-dir=" . expand('%:p:h') . "&" | redraw!
+
+" OCaML Merlin integration
+let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
+execute "set rtp+=" . g:opamshare . "/merlin/vim"
+" Fix ocaml commenting
+autocmd FileType ocaml setlocal commentstring=(*\ %s\ *)
 
 " Integrate with airline
 "let g:airline#extensions#ale#enabled = 1
