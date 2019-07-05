@@ -136,6 +136,8 @@ let g:ale_sign_warning = '▲'
 let g:ale_sign_error = '✗'
 highlight link ALEWarningSign String
 highlight link ALEErrorSign Title
+nmap <Leader>j :ALENextWrap<CR>
+nmap <Leader>k :ALEPrevWrap<CR>
 
 " Lightline
 let g:lightline = { 
