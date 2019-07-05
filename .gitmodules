@@ -76,3 +76,9 @@
 [submodule "vim/.vim/bundle/lightline-ale"]
 	path = vim/.vim/bundle/lightline-ale
 	url = https://github.com/maximbaz/lightline-ale.git
+[submodule "fonts/.local/share/fonts/curie"]
+	path = fonts/.local/share/fonts/curie
+	url = https://github.com/nerdypepper/curie.git
+[submodule "fonts/.local/share/fonts/scientifica"]
+	path = fonts/.local/share/fonts/scientifica
+	url = https://github.com/nerdypepper/scientifica

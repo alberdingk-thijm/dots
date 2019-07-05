@@ -90,7 +90,10 @@ export EDITOR=vim
 
 # Add .local/bin/ and cargo to PATH, and RUST_SRC_PATH
 export PATH=$PATH:$HOME/.local/bin/:$HOME/.cargo/bin/
-export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+if [ "$(command -v rustc)" >/dev/null 2>&1 ];
+then
+    export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+fi
 
 # cd implicitly
 AUTO_CD="true"
