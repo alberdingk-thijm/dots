@@ -1,0 +1,2 @@
+rofi.modi:  window,run,ssh,drun
+rofi.theme: /home/tim/.config/rofi/themes/algonquin.rasi

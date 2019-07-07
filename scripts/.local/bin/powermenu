@@ -1,0 +1,31 @@
+#!/bin/sh
+# Choose to log off, power off or reboot
+# TODO: add locking?
+
+LOGOFF=""
+POWERDOWN=""
+RESTART=""
+LOCK=""
+
+OPTIONS="$LOGOFF|$LOCK|$POWERDOWN|$RESTART"
+
+choice=$(echo "$OPTIONS" | rofi -sep '|' -i -dmenu -config ~/.config/rofi/powermenu.rasi)
+
+case $choice in
+    "$LOGOFF")
+        # quit awesome
+        pkillall awesome
+        ;;
+    "$POWERDOWN")
+        # execute shutdown
+        systemctl poweroff
+        ;;
+    "$RESTART")
+        # execute reboot
+        systemctl reboot
+        ;;
+    "$LOCK")
+        # execute lock
+        light-locker-command -l
+        ;;
+esac
