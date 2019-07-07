@@ -1,0 +1,93 @@
+/*
+ * A simple theme to match algonquin.
+ * User: sprig
+ */
+configuration {
+    show-icons:         true;
+}
+* {
+    background:         #e5e6ea;
+    foreground:         #222c31;
+    black:              #161b19;
+    red:                #99716e;
+    green:              #6c756e;
+    blue:               #8c9596;
+    white:              #eaebee;
+    transp:             #ffffff00;
+
+    spacing:            2;
+    background-color:   @transp;
+    border-color:       @green;
+    text-color:         @foreground;
+    lines:              10;
+    anchor:             north;
+    location:           center;
+}
+window {
+    font:               "Iosevka Regular 10";
+    transparency:       "real";
+    background-color:   @transp;
+    width:              25%;
+    border:             0;
+    padding:            2px;
+    x-offset:           0;
+    y-offset:           -10%;
+}
+mainbox {
+    padding:            2px;
+    border:             0;
+    spacing:            0%;
+}
+message {
+    border:             2px;
+    padding:            2px;
+    background-color:   @background;
+}
+textbox normal {
+    padding:            0;
+    border:             0;
+}
+listview {
+    spacing:            0px;
+    padding:            2px;
+    border:             0px;
+    reverse:            false;
+    columns:            1;
+    background-color:   @background;
+    dynamic:            true;
+    fixed-height:       false;
+}
+element {
+    border:             0;
+    padding:            2px;
+    highlight:          bold;
+}
+element urgent {
+    text-color:         @red;
+}
+element active {
+    text-color:         @green;
+}
+element selected {
+    background-color:   @blue;
+}
+element alternate {
+    background-color:   @white;
+}
+inputbar {
+    text-color:         @foreground;
+    background-color:   @white;
+    border:             0px;
+    padding:            4px;
+    children:           [ prompt, textbox-prompt, entry, case-indicator ];
+}
+entry {
+    spacing:            0;
+}
+prompt {
+    enabled:             false;
+}
+textbox-prompt {
+    expand:             false;
+    str:                ":";
+}
