@@ -279,7 +279,7 @@
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>pcmanfm-qt</command>
+        <command>pcmanfm</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>File Manager</name>
@@ -373,12 +373,12 @@
     </keybind>
     <keybind key="W-s">
       <action name="Execute">
-        <command>/home/tim/bin/todo</command>
+          <command>/home/tim/.local/bin/todo</command>
       </action>
     </keybind>
     <keybind key="W-S-s">
       <action name="Execute">
-        <command>/home/tim/bin/todo -p</command>
+          <command>/home/tim/.local/bin/todo -p</command>
       </action>
     </keybind>
     <keybind key="W-S-c">
@@ -397,7 +397,7 @@
     </keybind>
     <keybind key="W-g">
       <action name="Execute">
-        <command>/home/tim/bin/datenotify</command>
+          <command>/home/tim/.local/bin/datenotify</command>
       </action>
     </keybind>
     <keybind key="W-a">
@@ -463,17 +463,17 @@
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c up -i 5%</command>
+          <command>/home/tim/.local/bin/vol.sh -c up -i 5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c down -i 5%</command>
+          <command>/home/tim/.local/bin/vol.sh -c down -i 5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c mute</command>
+          <command>/home/tim/.local/bin/vol.sh -c mute</command>
       </action>
     </keybind>
     <keybind key="XF86ScreenSaver">
@@ -488,7 +488,7 @@
     </keybind>
     <keybind key="XF86TouchpadToggle">
       <action name="Execute">
-        <command>/home/tim/bin/touchpad.sh</command>
+          <command>/home/tim/.local/bin/touchpad.sh</command>
       </action>
     </keybind>
     <keybind key="W-F11">
