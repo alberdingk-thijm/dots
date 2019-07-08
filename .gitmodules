@@ -25,9 +25,6 @@
 [submodule "vim/.vim/bundle/ack.vim"]
 	path = vim/.vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "vim/.vim/bundle/lightline-buffer"]
-	path = vim/.vim/bundle/lightline-buffer
-	url = https://github.com/taohex/lightline-buffer.git
 [submodule "vim/.vim/bundle/limelight.vim"]
 	path = vim/.vim/bundle/limelight.vim
 	url = https://github.com/junegunn/limelight.vim.git
@@ -49,9 +46,6 @@
 [submodule "vim/.vim/bundle/vim-surround"]
 	path = vim/.vim/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
-[submodule "vim/.vim/pack/git-plugins/start/ale"]
-	path = vim/.vim/pack/git-plugins/start/ale
-	url = https://github.com/w0rp/ale.git
 [submodule "xresources/.termcolors/base16-xresources"]
 	path = xresources/.termcolors/base16-xresources
 	url = https://github.com/chriskempson/base16-xresources.git
@@ -61,6 +55,30 @@
 [submodule "zsh/.oh-my-zsh"]
 	path = zsh/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "vim/.vim/bundle/vim-racer"]
+	path = vim/.vim/bundle/vim-racer
+	url = https://github.com/racer-rust/vim-racer.git
 [submodule "vim/.vim/bundle/vimspectr"]
 	path = vim/.vim/bundle/vimspectr
 	url = https://github.com/nightsense/vimspectr.git
+[submodule "vim/.vim/pack/git-plugins/start/ale"]
+	path = vim/.vim/pack/git-plugins/start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "vim/.vim/bundle/snow"]
+	path = vim/.vim/bundle/snow
+	url = https://github.com/nightsense/snow.git
+[submodule "vim/.vim/bundle/vimtex"]
+	path = vim/.vim/bundle/vimtex
+	url = https://github.com/lervag/vimtex.git
+[submodule "vim/.vim/bundle/lightline-bufferline"]
+	path = vim/.vim/bundle/lightline-bufferline
+	url = https://github.com/mgee/lightline-bufferline
+[submodule "vim/.vim/bundle/lightline-ale"]
+	path = vim/.vim/bundle/lightline-ale
+	url = https://github.com/maximbaz/lightline-ale.git
+[submodule "fonts/.local/share/fonts/curie"]
+	path = fonts/.local/share/fonts/bdf/curie
+	url = https://github.com/nerdypepper/curie.git
+[submodule "fonts/.local/share/fonts/scientifica"]
+	path = fonts/.local/share/fonts/bdf/scientifica
+	url = https://github.com/nerdypepper/scientifica

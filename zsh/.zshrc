@@ -7,7 +7,7 @@ export ZSH=/home/tim/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="lambda"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -88,14 +88,33 @@ source ~/.zsh-aliases
 export SVN_EDITOR=vim
 export EDITOR=vim
 
-# Add bin/ and cargo to PATH
-export PATH=$PATH:$HOME/bin/:$HOME/.cargo/bin/
+# Add .local/bin/ and cargo to PATH, and RUST_SRC_PATH
+export PATH=$PATH:$HOME/.local/bin/:$HOME/.cargo/bin/
+if [ "$(command -v rustc)" >/dev/null 2>&1 ];
+then
+    export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+fi
 
 # cd implicitly
 AUTO_CD="true"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# find fzf
+if [ "$(command -v fzf)" >/dev/null 2>&1 ];
+then
+    [ -f /usr/share/doc/fzf/completion.zsh ] && source /usr/share/doc/fzf/completion.zsh
+    [ -f /usr/share/doc/fzf/key-bindings.zsh ] && source /usr/share/doc/fzf/key-bindings.zsh
+    [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+fi
 
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))
 }
+
+# Base16-shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+  [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+    eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+# OPAM configuration
+. /home/tim/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

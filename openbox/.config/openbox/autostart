@@ -1,10 +1,10 @@
-nitrogen --restore &
+~/.fehbg &
 dunst &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
 tint2 &
 conky -c ~/.config/conky/conky.conf &
 ~/bin/greenclip daemon &
-cbatticon -i standard &
+cbatticon -i symbolic &
 lxpolkit &
-mopidy &
+mpd ~/.config/mpd.conf &

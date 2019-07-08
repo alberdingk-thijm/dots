@@ -1,6 +1,6 @@
 #
 [global]
-    font = lucy tewi 8
+    font = scientifica 8
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
@@ -145,11 +145,12 @@
     icon_position = left
 
     # Paths to default icons.
-    icon_folders = /usr/share/icons/Numix-Square-Light/16/apps/
+    icon_path = /usr/share/icons/Haiku/scalable/apps/:/usr/share/icons/Haiku/scalable/status/:/usr/share/icons/Surfn/16/notifications/
+    max_icon_size = 16
 
     # Frame configuration
     frame_width = 1
-    frame_color = "#413f43"
+    frame_color = "#9fa0a2"
 
 [shortcuts]
 
@@ -177,22 +178,22 @@
     # Otherwise the "#" and following would be interpreted as a comment.
     # background = "#eeeeee"
     # foreground = "#a6a28c"
-	background = "#25232b"
-	foreground = "#566e6b"
+	background = "#e6e7e8"
+	foreground = "#9fa0a2"
     timeout = 10
 
 [urgency_normal]
     # background = "#eeeeee"
     # foreground = "#41403b"
-	background = "#25232b"
-	foreground = "#b1b1b1"
+	background = "#e6e7e8"
+	foreground = "#58595b"
     timeout = 10
 
 [urgency_critical]
     # background = "#eeeeee"
     # foreground = "#d73737"
-	background = "#25232b"
-	foreground = "#93503e"
+	background = "#e6e7e8"
+	foreground = "#60000c"
     timeout = 0
 
 
@@ -249,17 +250,3 @@
 #    urgency = normal
 #
 # vim: ft=cfg
-[base16_low]
-    msg_urgency = low
-    background = "#252525"
-    foreground = "#525252"
-
-[base16_normal]
-    msg_urgency = normal
-    background = "#464646"
-    foreground = "#b9b9b9"
-
-[base16_critical]
-    msg_urgency = critical
-    background = "#7c7c7c"
-    foreground = "#e3e3e3"

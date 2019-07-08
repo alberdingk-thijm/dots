@@ -1,0 +1,103 @@
+/* Squall rofi theme
+ * for use with -show run
+ */
+
+* {
+    white:              #e6e7e8;
+    cyan:               #d6e9ef;
+    blue:               #d3e2f3;
+    black:              #58595b;
+    red:                #f7cac0;
+    magenta:            #eebbd2;
+    grey:               #9fa0a2;
+
+    background-color:   @white;
+    text-color:         @black;
+    spacing:            2;
+    border-color:       @grey;
+    lines:              10;
+}
+window {
+    border:             1;
+    padding:            5;
+    width:              25%;
+    font:               "curie 10";
+}
+mainbox {
+    border:             0;
+    padding:            0;
+}
+message {
+    border:             1px;
+    padding:            1px;
+}
+textbox {
+    text-color:         @black;
+}
+listview {
+    fixed-height:       0;
+    border:             0;
+    spacing:            2px;
+    scrollbar:          true;
+    padding:            2px 0px 0px;
+}
+element {
+    border:             0;
+    padding:            1px;
+}
+element.normal.normal {
+    background-color: @white;
+    text-color:       @black;
+}
+element.normal.urgent {
+    background-color: @white;
+    text-color:       @red;
+}
+element.normal.active {
+    background-color: @white;
+    text-color:       @magenta;
+}
+element.selected.normal {
+    background-color: @grey;
+    text-color:       @black;
+}
+element.selected.urgent {
+    background-color: @grey;
+    text-color:       @red;
+}
+element.selected.active {
+    background-color: @grey;
+    text-color:       @magenta;
+}
+element.alternate.normal {
+    background-color: @cyan;
+    text-color:       @black;
+}
+element.alternate.urgent {
+    background-color: @cyan;
+    text-color:       @red;
+}
+element.alternate.active {
+    background-color: @cyan;
+    text-color:       @magenta;
+}
+inputbar {
+    spacing:            2;
+    text-color:         @grey;
+    children:           [ prompt, textbox-prompt-arrows, entry, case-indicator ];
+}
+entry {
+    spacing:            0;
+    text-color:         @grey;
+}
+prompt {
+    enabled:            false;
+    spacing:            0;
+    text-color:         @grey;
+}
+textbox-prompt-arrows {
+    text-color:         @grey;
+    expand:             false;
+    margin:             0px 0.3em 0em 0em;
+    str:                ">>>";
+}

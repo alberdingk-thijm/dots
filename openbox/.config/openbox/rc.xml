@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>colorbamboo_squall</name>
+    <name>victory-gtk-theme-18.07</name>
     <titleLayout>LIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -55,8 +55,8 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>TamzenForPowerline</name>
-      <size>8</size>
+      <name>curie</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -64,8 +64,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>TamzenForPowerline</name>
-      <size>8</size>
+      <name>curie</name>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -73,7 +73,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>TamzenForPowerline</name>
+      <name>curie</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -82,7 +82,7 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>TamzenForPowerline</name>
+      <name>curie</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -91,13 +91,13 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>TamzenForPowerline</name>
+      <name>curie</name>
       <size>8</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>TamzenForPowerline</name>
+      <name>curie</name>
       <size>8</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
@@ -120,7 +120,7 @@
       <name>3</name>
       <name>4</name>
     </names>
-    <popupTime>875</popupTime>
+    <popupTime>475</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
@@ -145,7 +145,7 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>24</top>
+    <top>22</top>
     <bottom>1</bottom>
     <left>2</left>
     <right>2</right>
@@ -245,7 +245,7 @@
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
-        <command>rofi -show run -width 25</command>
+        <command>rofi -show drun</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>rofi</name>
@@ -288,7 +288,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>firefox</command>
+        <command>firefox-nightly</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Web Browser</name>
@@ -297,17 +297,18 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>/home/tim/bin/urxvtc</command>
+        <command>alacritty</command>
+        <!-- <command>/home/tim/.local/bin/urxvtc</command> -->
         <startupnotify>
           <enabled>yes</enabled>
-          <name>urxvt</name>
+          <name>alacritty</name>
           <icon>xterm</icon>
         </startupnotify>
       </action>
     </keybind>
     <keybind key="W-grave">
       <action name="Execute">
-        <command>/home/tim/bin/urxvtq</command>
+        <command>/home/tim/.local/bin/urxvtq</command>
       </action>
     </keybind>
     <keybind key="W-q">
@@ -373,17 +374,17 @@
     </keybind>
     <keybind key="W-s">
       <action name="Execute">
-        <command>/home/tim/bin/todo</command>
+        <command>/home/tim/.local/bin/todo</command>
       </action>
     </keybind>
     <keybind key="W-S-s">
       <action name="Execute">
-        <command>/home/tim/bin/todo -p</command>
+        <command>/home/tim/.local/bin/todo -p</command>
       </action>
     </keybind>
     <keybind key="W-S-c">
       <action name="Execute">
-        <command>rofi -modi "clipboard:~/bin/greenclip print" -show clipboard</command>
+        <command>rofi -modi "clipboard:~/.local/bin/greenclip print" -show clipboard</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>greenclip</name>
@@ -397,7 +398,7 @@
     </keybind>
     <keybind key="W-g">
       <action name="Execute">
-        <command>/home/tim/bin/datenotify</command>
+        <command>/home/tim/.local/bin/datenotify</command>
       </action>
     </keybind>
     <keybind key="W-a">
@@ -463,22 +464,22 @@
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c up -i 5%</command>
+        <command>/home/tim/.local/bin/vol.sh -c up -i 5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c down -i 5%</command>
+        <command>/home/tim/.local/bin/vol.sh -c down -i 5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>/home/tim/bin/vol.sh -c mute</command>
+        <command>/home/tim/.local/bin/vol.sh -c mute</command>
       </action>
     </keybind>
     <keybind key="XF86ScreenSaver">
       <action name="Execute">
-        <command>i3lock-fancy -p -- scrot -z</command>
+        <command>dm-tool lock</command>
       </action>
     </keybind>
     <keybind key="XF86Sleep">
@@ -488,7 +489,22 @@
     </keybind>
     <keybind key="XF86TouchpadToggle">
       <action name="Execute">
-        <command>/home/tim/bin/touchpad.sh</command>
+        <command>/home/tim/.local/bin/touchpad.sh</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <command>xbacklight -inc 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>xbacklight -dec 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86Display">
+      <action name="Execute">
+        <command>arandr</command>
       </action>
     </keybind>
     <keybind key="W-F11">
@@ -867,6 +883,10 @@
       </position>
       <focus>yes</focus>
       <maximized>no</maximized>
+    </application>
+    <!-- hide all decorations -->
+    <application class="*">
+      <decor>no</decor>
     </application>
     <application class="Firefox">
       <decor>no</decor>
