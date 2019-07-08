@@ -98,9 +98,13 @@ fi
 # cd implicitly
 AUTO_CD="true"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-[ -f ~/.telegram_api.zsh ] && source ~/.telegram_api.zsh
+# find fzf
+if [ "$(command -v fzf)" >/dev/null 2>&1 ];
+then
+    [ -f /usr/share/doc/fzf/completion.zsh ] && source /usr/share/doc/fzf/completion.zsh
+    [ -f /usr/share/doc/fzf/key-bindings.zsh ] && source /usr/share/doc/fzf/key-bindings.zsh
+    [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+fi
 
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))

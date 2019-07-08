@@ -125,12 +125,41 @@ font:
 debug:
   render_timer: false
 
-# Colors (Tomorrow Night Bright)
+# # Colors (Seagull)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0xffffff'
+#     foreground: '0x61707a'
+
+#   # Normal colors
+#   normal:
+#     black:   '0x0b141a'
+#     red:     '0xff4053'
+#     green:   '0x11ab00'
+#     yellow:  '0xbf8c00'
+#     blue:    '0x0099ff'
+#     magenta: '0x9854ff'
+#     cyan:    '0x00a5ab'
+#     white:   '0xffffff'
+
+#   # Bright colors
+#   bright:
+#     black:   '0x0b141a'
+#     red:     '0xff4053'
+#     green:   '0x11ab00'
+#     yellow:  '0xbf8c00'
+#     blue:    '0x0099ff'
+#     magenta: '0x9854ff'
+#     cyan:    '0x00a5ab'
+#     white:   '0xffffff'
+
+# Colors (Base16 Atelier Lakeside Light)
 colors:
   # Default colors
   primary:
-    background: '0x000000'
-    foreground: '0xeaeaea'
+    background: '0xebf8ff'
+    foreground: '0x516d7b'
 
     # (Optional) Bright and Dim foreground colors
     #
@@ -143,41 +172,41 @@ colors:
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x000000'
-    cursor: '0x7aa6da'
+    text: '0xc1e4f6'
+    cursor: '0x516d7b'
 
   # Normal colors
   normal:
-    black:   '0x000000'
-    red:     '0xd54e53'
-    green:   '0xb9ca4a'
-    yellow:  '0xe6c547'
-    blue:    '0x7aa6da'
-    magenta: '0xc397d8'
-    cyan:    '0x70c0ba'
-    white:   '0xffffff'
+    black: '0xebf8ff'
+    red:     '0xd22d72'
+    green:   '0x568c3b'
+    yellow:  '0x8a8a0f'
+    blue:    '0x257fad'
+    magenta: '0x6b6bb8'
+    cyan:    '0x2d8f6f'
+    white:   '0x516d7b'
 
   # Bright colors
   bright:
-    black:   '0x666666'
-    red:     '0xff3334'
-    green:   '0x9ec400'
-    yellow:  '0xe7c547'
-    blue:    '0x7aa6da'
-    magenta: '0xb77ee0'
-    cyan:    '0x54ced6'
-    white:   '0xffffff'
+    black:   '0x7195a8'
+    red:     '0xd22d72'
+    green:   '0x568c3b'
+    yellow:  '0x8a8a0f'
+    blue:    '0x257fad'
+    magenta: '0x6b6bb8'
+    cyan:    '0x2d8f6f'
+    white:   '0x161b1d'
 
   # Dim colors (Optional)
-  dim:
-    black:   '0x333333'
-    red:     '0xf2777a'
-    green:   '0x99cc99'
-    yellow:  '0xffcc66'
-    blue:    '0x6699cc'
-    magenta: '0xcc99cc'
-    cyan:    '0x66cccc'
-    white:   '0xdddddd'
+  # dim:
+  #   black:   '0x333333'
+  #   red:     '0xf2777a'
+  #   green:   '0x99cc99'
+  #   yellow:  '0xffcc66'
+  #   blue:    '0x6699cc'
+  #   magenta: '0xcc99cc'
+  #   cyan:    '0x66cccc'
+  #   white:   '0xdddddd'
 
 # Visual Bell
 #
