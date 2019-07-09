@@ -189,6 +189,11 @@
 	foreground = "#e04d38"
     timeout = 0
 
+# hide overly-eager network notifications
+[ignore]
+    # This notification will not be displayed
+    summary = "New Access Point*|Network event"
+    format = ""
 
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
