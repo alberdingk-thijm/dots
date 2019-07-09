@@ -878,6 +878,7 @@
       </position>
       <focus>yes</focus>
       <maximized>no</maximized>
+      <decor>no</decor>
     </application>
     <application class="Firefox">
       <decor>no</decor>

@@ -7,11 +7,11 @@ conky -c ~/.config/conky/conky.conf &
 ~/.local/bin/greenclip daemon &
 cbatticon -i standard &
 lxpolkit &
-# mopidy &
 urxvtd &
 # wpa_gui -t &
 pasystray &
 dhcpcd-gtk &
 # octoxbps-notifier &
-dropbox start
+syncthing &
 xrdb ~/.Xresources
+mpd &
