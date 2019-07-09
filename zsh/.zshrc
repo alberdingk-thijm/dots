@@ -88,13 +88,8 @@ source ~/.zsh-aliases
 export SVN_EDITOR=vim
 export EDITOR=vim
 
-# Add bin/ and cargo to PATH
-export PATH=$PATH:$HOME/bin/:$HOME/.cargo/bin/:$HOME/.local/bin/
-
 # cd implicitly
 AUTO_CD="true"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))
@@ -102,3 +97,20 @@ lines() {
 
 # mail
 export MAIL=/var/spool/mail/tim
+
+# fzf
+# default file
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Auto completion
+[ -f /usr/share/doc/fzf/completion.zsh ] && source /usr/share/doc/fzf/completion.zsh
+
+# Key bindings
+[ -f /usr/share/doc/fzf/key-bindings.zsh ] && source /usr/share/doc/fzf/key-bindings.zsh
+fpath+=.zsh_functions
+
+# Use additional paths
+source ~/.zshenv
+
+# wine debug: turn off warnings
+export WINE_DEBUG=-all
