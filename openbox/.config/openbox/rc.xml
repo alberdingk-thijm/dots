@@ -307,7 +307,7 @@
     </keybind>
     <keybind key="W-grave">
       <action name="Execute">
-          <command>/home/tim/.local/bin/urxvtq</command>
+        <command>/home/tim/.local/bin/urxvtq</command>
       </action>
     </keybind>
     <keybind key="W-q">
@@ -354,7 +354,7 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-          <command>/home/tim/.local/bin/rofi_logout.sh</command>
+        <command>/home/tim/.local/bin/rofi_logout.sh</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Logout</name>
@@ -383,7 +383,7 @@
     </keybind>
     <keybind key="W-S-c">
       <action name="Execute">
-          <command>rofi -modi "clipboard:~/.local/bin/greenclip print" -show clipboard</command>
+        <command>rofi -modi "clipboard:~/.local/bin/greenclip print" -show clipboard</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>greenclip</name>
@@ -463,17 +463,17 @@
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-          <command>/home/tim/.local/bin/vol.sh -c up -i 5%</command>
+        <command>/home/tim/.local/bin/vol.sh -c up -i 5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-          <command>/home/tim/.local/bin/vol.sh -c down -i 5%</command>
+        <command>/home/tim/.local/bin/vol.sh -c down -i 5%</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-          <command>/home/tim/.local/bin/vol.sh -c mute</command>
+        <command>/home/tim/.local/bin/vol.sh -c mute</command>
       </action>
     </keybind>
     <keybind key="XF86ScreenSaver">

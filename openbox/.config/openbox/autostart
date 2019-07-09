@@ -7,6 +7,6 @@ conky -c ~/.config/conky/conky.conf &
 ~/.local/bin/greenclip daemon &
 cbatticon -i standard &
 lxpolkit &
-mopidy &
+# mopidy &
 urxvtd &
 xrdb ~/.Xresources
