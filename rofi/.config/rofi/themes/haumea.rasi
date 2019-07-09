@@ -15,7 +15,6 @@
     background-color:   @transp;
     border-color:       @blue;
     text-color:         @font-color;
-    lines:              10;
     anchor:             north;
     location:           center;
 }
@@ -81,34 +80,17 @@ element selected.urgent {
 element selected.active {
     text-color:         @pink;
 }
-element alternate {
-    background-color:   @blue;
-}
-element alternate.normal {
-    text-color:         @white;
-}
-element alternate.urgent {
-    text-color:         @yellow;
-}
-element alternate.active {
-    text-color:         @purple;
-}
 inputbar {
     text-color:         @pink;
     background-color:   @white;
     border:             0px;
     padding:            4px;
-    children:           [ prompt, textbox-prompt-arrows, entry, case-indicator ];
 }
 entry {
     spacing:            0;
     text-color:         @pink;
 }
 prompt {
-    enabled:             false;
-}
-textbox-prompt-arrows {
-    text-color:         @purple;
-    expand:             false;
-    str:                ">>>";
+    text-color:         @pink;
+    spacing:            0;
 }
