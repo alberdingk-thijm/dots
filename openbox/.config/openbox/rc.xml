@@ -868,6 +868,9 @@
       <focus>yes</focus>
       <maximized>no</maximized>
     </application>
+    <application class="Firefox">
+      <decor>no</decor>
+    </application>
     <application class="URxvt">
       <decor>no</decor>
     </application>
