@@ -1,5 +1,5 @@
 # Set icon to zathura
-set window-icon /usr/share/icons/Surfn/32/zathura.svg
+# set window-icon /usr/share/icons/Surfn/32/zathura.svg
 # Set clipboard style (Ctrl+v)
 set selection-clipboard clipboard
 
