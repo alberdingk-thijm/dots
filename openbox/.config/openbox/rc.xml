@@ -354,7 +354,7 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>oblogout</command>
+          <command>/home/tim/.local/bin/rofi_logout.sh</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Logout</name>
