@@ -9,4 +9,9 @@ cbatticon -i standard &
 lxpolkit &
 # mopidy &
 urxvtd &
+# wpa_gui -t &
+pasystray &
+dhcpcd-gtk &
+# octoxbps-notifier &
+dropbox start
 xrdb ~/.Xresources
