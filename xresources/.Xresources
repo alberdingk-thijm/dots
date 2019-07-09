@@ -1,12 +1,3 @@
-! /-----------------------\
-! | Created by fs0ciety   |
-! | https://fsociety.info |
-! | 2016                  |
-! | modified by Tim		  |
-! \-----------------------/
-
-!#include </home/tim/.termcolors/rosespectr>
-
 Xft.dpi:                        109
 Xft.antialias:                  1
 Xft.autohint:                   0
@@ -33,16 +24,6 @@ URxvt.perl-ext-common:          default
 
 URxvt.keysym.Control-Left:		\033[1;5D
 URxvt.keysym.Control-Right:		\033[1;5C
-
-/* ! Rofi */
-/* rofi.font:						Envy Code for Powerline 8 */
-/* rofi.color-enabled:				false */
-/* !								bg,fg,bgalt,hlbg,hlfg */
-/* rofi.color-normal:				base00,base05,base03,base0C,base00 */
-/* rofi.color-urgent:				base00,base08,base03,base0C,base08 */
-/* rofi.color-active:				base00,base0D,base03,base0C,base05 */
-/* rofi.color-window:				base00,base03 */
-/* rofi.separator-style:           solid */
 
 ! special
 *.foreground:   #1f121f
