@@ -53,8 +53,7 @@ set nohidden
 " to ensure plugins correctly use paths in bash
 set shellslash
 
-" use base16-materia colorscheme
-colo base16-gruvbox-dark-medium
+colo base16-atelier-sulphurpool-light
 
 " Syntax
 syntax on
