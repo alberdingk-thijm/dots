@@ -1,0 +1,106 @@
+.thunar toolbar
+{
+/*margin-top: -4px;*/
+margin-bottom: -6px;
+margin-left: -6px;
+margin-right: -6px;
+}
+
+.thunar toolbar button.flat
+{
+padding: 0;
+margin-left: -200px;
+color: shade (@button_normal_fg, 2.5);
+}
+
+.thunar notebook > header.top {
+border-left: 0px;
+margin-left: -1px;
+margin-top: -1px;
+border-top: none;
+border-bottom: 0;
+}
+
+.thunar notebook .frame
+{
+border-radius: 0;
+background-color: shade (@theme_bg_color, 1.1);
+}
+
+.thunar toolbar entry
+{
+color: #575757;
+box-shadow: none;
+margin: 0;
+padding-top: 4px;
+padding-bottom: 4px;
+
+}
+
+.thunar toolbar button
+{
+margin: 0;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+/* Uncomment both above (entry and button) and play with padding to get desired, matching sizes */
+
+
+.thunar toolbar entry:focus
+{
+color: @theme_text_color;
+}
+
+/* Empty entry till selected
+.thunar toolbar entry
+{
+border-top: 1px solid #f7f7f7;
+background-color: #f7f7f7;
+color: #f7f7f7;
+box-shadow: none;
+}
+
+.thunar toolbar entry:focus
+{
+background-color: white;
+border-top: 1px solid @button_focus_border;
+color: @theme_text_color;
+}
+*/
+
+
+/* To match height of entry bar
+.thunar toolbar button
+{
+padding-top: 1px;
+padding-bottom: 1px;
+}
+*/
+
+
+
+/* Midnight with entry instead of pathbar
+.thunar toolbar
+{
+margin-bottom: -6px;
+margin-left: -6px;
+margin-right: -6px;
+background-color: #31343D;
+}
+
+.thunar toolbar entry
+{
+background-color: #31343D;
+border-color: #31343D;
+color: #c7c7c7;
+box-shadow: none;
+}
+
+.thunar toolbar entry:focus
+{
+background-color: #25272E;
+color: #e9e9e9;
+border-color: #17181C;
+}
+*/
