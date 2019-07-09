@@ -89,7 +89,7 @@ export SVN_EDITOR=vim
 export EDITOR=vim
 
 # Add bin/ and cargo to PATH
-export PATH=$PATH:$HOME/bin/:$HOME/.cargo/bin/
+export PATH=$PATH:$HOME/bin/:$HOME/.cargo/bin/:$HOME/.local/bin/
 
 # cd implicitly
 AUTO_CD="true"
