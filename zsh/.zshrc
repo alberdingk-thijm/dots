@@ -99,3 +99,6 @@ AUTO_CD="true"
 lines() {
     tail -n +$1 $3 | head -n $(($2-$1+1))
 }
+
+# mail
+export MAIL=/var/spool/mail/tim
