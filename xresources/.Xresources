@@ -9,11 +9,11 @@ Xft.lcdfilter:                  lcddefault
 Xft.rgba:                       rgb
 
 ! Colors
-#include ".termcolors/pinkspectr"
+#include ".termcolors/algonquin-light"
 
 ! URxvt
 URxvt*termName:                 rxvt-256color
-URxvt*font:                     xft:Iosevka\ Type\ Medium:pixelsize=12,xft:Ubuntu\ Mono\ -\ Bront:pixelsize=12
+URxvt*font:                     xft:Iosevka\ Type\ Medium,Iosevka Nerd Font:pixelsize=12,xft:Ubuntu\ Mono\ -\ Bront:pixelsize=12
 URxvt.depth:                    32
 URxvt*lineSpace:                1
 URxvt.letterSpace:              1
