@@ -16,6 +16,7 @@
     background-color:   @transp;
     border-color:       @blue;
     text-color:         @font-color;
+    lines:              10;
     anchor:             north;
     location:           center;
 }
@@ -38,7 +39,6 @@ message {
     border:             2px;
     padding:            2px;
     background-color:   @white;
-    text-color:         @blue;
 }
 textbox normal {
     padding:            0;
@@ -76,10 +76,15 @@ inputbar {
     background-color:   @white;
     border:             0px;
     padding:            4px;
+    children:           [ prompt, textbox-prompt-arrows, entry, case-indicator ];
 }
 entry {
     spacing:            0;
 }
 prompt {
-    spacing:            0;
+    enabled:             false;
+}
+textbox-prompt-arrows {
+    expand:             false;
+    str:                ">>>";
 }
