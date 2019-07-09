@@ -69,7 +69,7 @@
 	url = https://github.com/lervag/vimtex.git
 [submodule "vim/.vim/bundle/ron.vim"]
 	path = vim/.vim/bundle/ron.vim
-	url = https://github.com/ron-rs/ron.vim
+	url = https://github.com/ron-rs/ron.vim.git
 [submodule "vim/.vim/bundle/coq.vim"]
 	path = vim/.vim/bundle/coq.vim
 	url = https://github.com/jvoorhis/coq.vim.git
