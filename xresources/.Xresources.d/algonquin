@@ -1,0 +1,38 @@
+! Xorg
+
+Xft.dpi:                        92
+Xft.antialias:                  1
+Xft.autohint:                   0
+Xft.hinting:                    1
+Xft.hintstyle:                  hintfull
+Xft.lcdfilter:                  lcddefault
+Xft.rgba:                       rgb
+
+! Colors
+#include ".termcolors/algonquin-light"
+
+! URxvt
+URxvt*termName:                 rxvt-256color
+URxvt*font:                     xft:Iosevka\ Type\ Medium,Iosevka Nerd Font:pixelsize=12,xft:Ubuntu\ Mono\ -\ Bront:pixelsize=12
+URxvt.depth:                    32
+URxvt*lineSpace:                1
+URxvt.letterSpace:              1
+URxvt.geometry:                 80x24
+URxvt.scrollBar:                false
+URxvt*loginShell:               true
+URxvt.internalBorder:           16
+URxvt.perl-lib:                 /usr/lib/urxvt/perl/
+URxvt.perl-ext-common:          default,matcher,keyboard-select
+URxvt.url-launcher:             firefox
+URxvt.keysym.C-Delete:          perl:matcher:last
+URxvt.keysym.M-Delete:          perl:matcher:list
+URxvt.matcher.button:           1
+URxvt.matcher.pattern.1:        \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+URxvt.matcher.pattern.2:        \\B/(\\S+?):(\\d+)(?=:|$)
+URxvt.matcher.launcher.2:       vim +$2 $1
+URxvt.keysym.M-Escape:          perl:keyboard-select:activate
+URxvt.keysym.M-s:               perl:keyboard-select:search
+
+URxvt.keysym.Control-Left:		\033[1;5D
+URxvt.keysym.Control-Right:		\033[1;5C
+
