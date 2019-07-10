@@ -2,9 +2,9 @@
 dunst &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
-tint2 &
+tint2 -c ~/.config/tint2/$HOST.conf &
 conky -c ~/.config/conky/conky.conf &
-~/bin/greenclip daemon &
+~/.local/bin/greenclip daemon &
 cbatticon -i symbolic &
 lxpolkit &
 mpd ~/.config/mpd.conf &
