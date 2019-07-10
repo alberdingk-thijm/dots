@@ -1,9 +1,8 @@
 execute pathogen#infect()
 filetype plugin indent on
 
-set rtp+=~/.fzf
+set rtp+=/usr/share/vim/vimfiles/plugin
 
-set clipboard=unnamedplus
 set encoding=utf-8
 " Rebind leader key
 let mapleader=","
@@ -18,11 +17,8 @@ au FileType xml setl sw=2 ts=2 sts=2 et
 au FileType json setl sw=2 ts=2 sts=2 et
 au FileType ron setl sw=2 ts=2 sts=2 et
 
-" Spellcheck
-if version >= 700
-    set spl=en spell
-    set nospell
-endif
+" to ensure plugins correctly use paths in bash
+set shellslash
 
 " Backup files
 " Create backup directory
@@ -37,34 +33,23 @@ set number
 set cursorline
 set showmatch
 
-" Indentation
-" Test indentation guides
-    " x
-        " y
-            " z
-set ai
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=8
-nnoremap <F4> :IndentGuidesToggle<CR>
+" Pasting
+set pastetoggle=<F2>
+
+" Spellcheck
+if version >= 700
+    set spl=en spell
+    set nospell
+endif
 
 " Searching
 set hlsearch
 nnoremap <F3> :noh<CR>
 if executable('rg')
   let g:ackprg = 'rg --vimgrep'
+elseif executable('ag')
+  let g:ackprg = 'ag --vimgrep'
 endif
-
-" to ensure plugins correctly use paths in bash
-set shellslash
-
-" Appearance
-colo desert
-" Cursor shapes (VTE terminals)
-let &t_SI = "\<Esc>[6 q"
-let &t_SR = "\<Esc>[4 q"
-let &t_EI = "\<Esc>[2 q"
 
 " Syntax and auto-complete
 syntax on
@@ -95,32 +80,28 @@ set foldnestmax=10
 " Enable folding with the spacebar
 nnoremap <space> za
 
-" Whitespace cleanup
-set list listchars=tab:\|_,trail:·
-nnoremap <F6> :set list!<CR>
-function! Preserve(command)
-    " Preparation: save last search, and cursor position.
-    let _s=@/
-    let l = line(".")
-    let c = col(".")
-    " Do the business:
-    execute a:command
-    " Clean up: restore previous search history, and cursor position
-    let @/=_s
-    call cursor(l, c)
-endfunction
-nmap ,$ :call Preserve("%s/\\s+$//e")<CR>
-nmap ,= :call Preserve("normal gg=G")<CR>
-" TODO: doesn't seem to work
+" Statusline config
+set noshowmode
+set laststatus=2
+
+" Cursor shapes (VTE terminals)
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
+
+" Test indentation guides
+    " x
+        " y
+            " z
+set ai
+nnoremap <F4> :IndentGuidesToggle<CR>
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_auto_colors = 0
 
 " fzf integration
 nmap ; :Buffers<CR>
 nmap <Leader>t :Files<CR>
 nmap <Leader>r :Tags<CR>
-
-" Statusline config
-set noshowmode
-set laststatus=2
 
 " ALE
 let g:ale_sign_warning = '▲'
@@ -160,53 +141,6 @@ let g:lightline = {
 \   },
 \}
 
-" " lightline-buffer ui settings
-" let g:lightline_buffer_logo = ''
-" let g:lightline_buffer_readonly_icon = 'RO'
-" let g:lightline_buffer_modified_icon = '*'
-" let g:lightline_buffer_git_icon = ''
-" let g:lightline_buffer_ellipsis_icon = '..'
-" let g:lightline_buffer_expand_left_icon = '< '
-" let g:lightline_buffer_expand_right_icon = ' >'
-" let g:lightline_buffer_active_buffer_left_icon = ''
-" let g:lightline_buffer_active_buffer_right_icon = ''
-" let g:lightline_buffer_separator_icon = '  '
-
-" " lightline-buffer function settings
-" let g:lightline_buffer_show_bufnr = 1
-" let g:lightline_buffer_rotate = 0
-" let g:lightline_buffer_fname_mod = ':t'
-" let g:lightline_buffer_excludes = ['vimfiler']
-
-" let g:lightline_buffer_maxflen = 30
-" let g:lightline_buffer_maxfextlen = 3
-" let g:lightline_buffer_minflen = 16
-" let g:lightline_buffer_minfextlen = 3
-" let g:lightline_buffer_reservelen = 20
-
-" function! LightlineLinterWarnings() abort
-"   let l:counts = ale#statusline#Count(bufnr(''))
-"   let l:all_errors = l:counts.error + l:counts.style_error
-"   let l:all_non_errors = l:counts.total - l:all_errors
-"   return l:counts.total == 0 ? '' : printf('%d ◆', all_non_errors)
-" endfunction
-
-" function! LightlineLinterErrors() abort
-"   let l:counts = ale#statusline#Count(bufnr(''))
-"   let l:all_errors = l:counts.error + l:counts.style_error
-"   let l:all_non_errors = l:counts.total - l:all_errors
-"   return l:counts.total == 0 ? '' : printf('%d ✗', all_errors)
-" endfunction
-
-" function! LightlineLinterOK() abort
-"   let l:counts = ale#statusline#Count(bufnr(''))
-"   let l:all_errors = l:counts.error + l:counts.style_error
-"   let l:all_non_errors = l:counts.total - l:all_errors
-"   return l:counts.total == 0 ? '✓ ' : ''
-" endfunction
-
-" autocmd User ALELint call s:MaybeUpdateLightline()
-
 " Update and show lightline but only if it's visible (e.g., not in Goyo)
 function! s:MaybeUpdateLightline()
   if exists('#lightline')
@@ -219,12 +153,6 @@ let g:gitgutter_sign_added = '+'
 let g:gitgutter_sign_modified = '~'
 let g:gitgutter_sign_removed = '-'
 let g:gitgutter_sign_modified_removed = '='
-
-" Pasting
-set pastetoggle=<F2>
-
-" Limelight
-let g:limelight_conceal_ctermfg = 240
 
 " ALE
 " Disable for XML since files are usually huge and xmllint is tempermental
@@ -249,6 +177,12 @@ let g:autofmt_autosave = 1
 let g:ale_rust_cargo_use_check=1
 let g:ale_rust_cargo_check_tests=1
 let g:ale_rust_cargo_check_examples=1
+
+" Delegate to host-specific vimrc
+let s:host_vimrc = $HOME . '/.vim/' . hostname() . '.vimrc'
+if filereadable(s:host_vimrc)
+  execute 'source ' . s:host_vimrc
+endif
 
 " Load all plugins now
 packloadall
