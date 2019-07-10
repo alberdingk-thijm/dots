@@ -38,8 +38,6 @@ endif
 set backupdir=./.backup//,.,/tmp//
 set directory=.,./.backup//,/tmp//
 
-set encoding=utf-8
-
 " Tracking where we are
 set number
 set cursorline
@@ -78,6 +76,8 @@ colo default
 
 " Syntax
 syntax on
+set hidden
+let g:racer_cmd = "/home/tim/.cargo/bin/racer"
 
 " Tab navigation
 nnoremap <F7> :tabn<CR>

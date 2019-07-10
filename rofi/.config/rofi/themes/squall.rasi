@@ -1,0 +1,112 @@
+/* Squall rofi theme
+ * for use with -show run
+ */
+
+* {
+    base00:             #282828;
+    base01:             #3c3836;
+    base02:             #504945;
+    base03:             #665c54;
+    base04:             #bdae93;
+    base05:             #d5c4a1;
+    base06:             #ebdbb2;
+    base07:             #fbf1c7;
+    base08:             #fb4934;
+    base09:             #fe8019;
+    base0A:             #fabd2f;
+    base0B:             #b8bb26;
+    base0C:             #8ec07c;
+    base0D:             #83a598;
+    base0E:             #d3869b;
+    base0F:             #d65d0e;
+
+    background-color:   @base00;
+    text-color:         @base03;
+    spacing:            2;
+    border-color:       @base01;
+    lines:              10;
+}
+window {
+    border:             1;
+    padding:            5;
+    width:              25%;
+    font:               "lucy tewi 8";
+}
+mainbox {
+    border:             0;
+    padding:            0;
+}
+message {
+    border:             1px;
+    padding:            1px;
+}
+textbox {
+    text-color:         @base05;
+}
+listview {
+    fixed-height:       0;
+    border:             0;
+    spacing:            2px;
+    scrollbar:          true;
+    padding:            2px 0px 0px;
+}
+element {
+    border:             0;
+    padding:            1px;
+}
+element.normal.normal {
+    background-color: @base00;
+    text-color:       @base05;
+}
+element.normal.urgent {
+    background-color: @base00;
+    text-color:       @base08;
+}
+element.normal.active {
+    background-color: @base00;
+    text-color:       @base0D;
+}
+element.selected.normal {
+    background-color: @base0C;
+    text-color:       @base00;
+}
+element.selected.urgent {
+    background-color: @base0C;
+    text-color:       @base08;
+}
+element.selected.active {
+    background-color: @base0C;
+    text-color:       @base05;
+}
+element.alternate.normal {
+    background-color: @base03;
+    text-color:       @base05;
+}
+element.alternate.urgent {
+    background-color: @base03;
+    text-color:       @base08;
+}
+element.alternate.active {
+    background-color: @base03;
+    text-color:       @base0D;
+}
+inputbar {
+    spacing:            2;
+    text-color:         @base05;
+    children:           [ prompt, textbox-prompt-arrows, entry, case-indicator ];
+}
+entry {
+    spacing:            0;
+    text-color:         @base05;
+}
+prompt {
+    enabled:            false;
+    spacing:            0;
+    text-color:         @base05;
+}
+textbox-prompt-arrows {
+    text-color:         @base05;
+    expand:             false;
+    margin:             0px 0.3em 0em 0em;
+    str:                ">>>";
+}

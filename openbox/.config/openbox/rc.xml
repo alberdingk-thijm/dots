@@ -120,7 +120,7 @@
       <name>3</name>
       <name>4</name>
     </names>
-    <popupTime>875</popupTime>
+    <popupTime>475</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
@@ -882,6 +882,9 @@
     </application>
     <application class="Firefox">
       <!-- <decor>no</decor> -->
+    </application>
+    <application class="Firefox">
+      <decor>no</decor>
     </application>
     <application class="URxvt">
       <!-- <decor>no</decor> -->
