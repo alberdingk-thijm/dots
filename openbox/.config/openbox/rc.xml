@@ -145,7 +145,7 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>24</top>
+    <top>22</top>
     <bottom>1</bottom>
     <left>2</left>
     <right>2</right>
@@ -478,7 +478,7 @@
     </keybind>
     <keybind key="XF86ScreenSaver">
       <action name="Execute">
-        <command>i3lock-fancy -p -- scrot -z</command>
+        <command>dm-tool lock</command>
       </action>
     </keybind>
     <keybind key="XF86Sleep">
@@ -489,6 +489,21 @@
     <keybind key="XF86TouchpadToggle">
       <action name="Execute">
           <command>/home/tim/.local/bin/touchpad.sh</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <command>xbacklight -inc 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <command>xbacklight -dec 10</command>
+      </action>
+    </keybind>
+    <keybind key="XF86Display">
+      <action name="Execute">
+        <command>arandr</command>
       </action>
     </keybind>
     <keybind key="W-F11">
@@ -882,6 +897,10 @@
     </application>
     <application class="Firefox">
       <!-- <decor>no</decor> -->
+    </application>
+    <!-- hide all decorations -->
+    <application class="*">
+      <decor>no</decor>
     </application>
     <application class="Firefox">
       <decor>no</decor>

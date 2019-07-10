@@ -5,6 +5,7 @@ alias 'x'='exit'
 alias 'qaac'='wine ~/.wine/drive_c/qaac/qaac.exe'
 alias 'refalac'='wine ~/.wine/drive_c/qaac/refalac.exe'
 alias 'img'='feh -F -d'
+alias 'rustbook'='rustup doc --book'
 
 source /etc/os-release
 
