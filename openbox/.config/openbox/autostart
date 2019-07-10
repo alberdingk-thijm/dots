@@ -1,19 +1,17 @@
 light-locker &
 ~/.fehbg &
-dunst &
+dunst -conf ~/.config/dunst/$HOST.dunstrc &
 volumeicon &
 compton --config ~/.config/compton.conf -b &
-tint2 &
-conky -c ~/.config/conky/conky.conf &
+tint2 -c ~/.config/tint2/$HOST/tint2rc &
+# conky -c ~/.config/conky/$HOST.conf &
 ~/.local/bin/greenclip daemon &
 cbatticon -i standard &
 lxpolkit &
 urxvtd &
-# wpa_gui -t &
 pasystray &
 dhcpcd-gtk &
-# octoxbps-notifier &
 syncthing &
-xrdb ~/.Xresources
-mpd &
+xrdb -merge ~/.Xresources.d/$HOST &
+mpd ~/.config/mpd/$HOST.conf &
 ~/.local/bin/mpd-notify.sh &
