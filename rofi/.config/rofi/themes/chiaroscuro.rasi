@@ -1,0 +1,95 @@
+/* Chiaroscuro rofi theme
+ * for use with -show run
+ */
+
+* {
+    cyan:               #609BF3;
+    blue:               #5481D1;
+    red:                #FE7458;
+    green:              #D8D977;
+    orange:             #FF9450;
+    teal:               #A8C6B3;
+    white:              #F4F8FC;
+
+    background-color:   @blue;
+    text-color:         @white;
+    spacing:            2;
+    border-color:       @white;
+    lines:              10;
+}
+window {
+    border:             1;
+    padding:            5;
+    width:              25%;
+    font:               "curie 10";
+}
+mainbox {
+    border:             0;
+    padding:            0;
+}
+message {
+    border:             1px;
+    padding:            1px;
+}
+textbox {
+    text-color:         @white;
+}
+listview {
+    fixed-height:       0;
+    border:             0;
+    spacing:            2px;
+    scrollbar:          true;
+    padding:            2px 0px 0px;
+}
+element {
+    border:             0;
+    padding:            1px;
+}
+element.normal.normal {
+    /* background-color: @blue; */
+    /* text-color:       @white; */
+}
+element.normal.urgent {
+    background-color: @white;
+    text-color:       @red;
+}
+element.normal.active {
+    background-color: @cyan;
+}
+element.selected.normal {
+    background-color: @orange;
+}
+element.selected.urgent {
+    background-color: @red;
+}
+element.selected.active {
+    background-color: @cyan;
+}
+element.alternate.normal {
+    background-color: @teal;
+}
+element.alternate.urgent {
+    background-color: @white;
+}
+element.alternate.active {
+    background-color: @green;
+}
+inputbar {
+    spacing:            2;
+    children:           [ prompt, textbox-prompt-arrows, entry, case-indicator ];
+}
+entry {
+    spacing:            0;
+    text-color:         @white;
+}
+prompt {
+    enabled:            false;
+    spacing:            0;
+    text-color:         @white;
+}
+textbox-prompt-arrows {
+    text-color:         @white;
+    expand:             false;
+    margin:             0px 0.3em 0em 0em;
+    str:                ">>>";
+}
