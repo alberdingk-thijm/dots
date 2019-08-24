@@ -85,3 +85,6 @@
 [submodule "vim/.vim/bundle/ron.vim"]
 	path = vim/.vim/bundle/ron.vim
 	url = https://github.com/ron-rs/ron.vim.git
+[submodule "vim/.vim/pack/git-plugins/start/vim-lsc"]
+	path = vim/.vim/pack/git-plugins/start/vim-lsc
+	url = https://github.com/natebosch/vim-lsc
