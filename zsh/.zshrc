@@ -53,6 +53,9 @@ HIST_STAMPS="yyyy-mm-dd"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+# change dir for zsh completion files
+export ZSH_COMPDUMP="$HOME/.cache/zsh/zcompdump-${ZSH_VERSION}"
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -73,7 +76,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -84,16 +87,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zsh-aliases
-
-export SVN_EDITOR=vim
-export EDITOR=vim
-
-# Add .local/bin/ and cargo to PATH, and RUST_SRC_PATH
-export PATH=$PATH:$HOME/.local/bin/:$HOME/.cargo/bin/
-if [ "$(command -v rustc)" >/dev/null 2>&1 ];
-then
-    export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
-fi
 
 # cd implicitly
 AUTO_CD="true"

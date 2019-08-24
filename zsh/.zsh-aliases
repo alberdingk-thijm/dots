@@ -1,6 +1,10 @@
-alias 'git lg'=
-alias 'ssh cdf'='ssh alberdi1@teach.cs.toronto.edu'
+alias 'cat'='bat'
 alias 'ff'='firefox-nightly'
 alias 'grep'='rg'
 alias 'rustbook'='rustup doc --book'
 alias 'x'='exit'
+
+alias 'xqy'='xbps-query'
+alias 'xns'='sudo xbps-install'
+alias 'xrm'='sudo xbps-remove'
+alias 'vim'='vim-huge-python3'
