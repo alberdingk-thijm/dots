@@ -1,4 +1,4 @@
 # Set clipboard style (Ctrl+v)
 set selection-clipboard clipboard
 
-include base16-zathura/zathurarc-light
+# include base16-zathura/zathurarc-light
