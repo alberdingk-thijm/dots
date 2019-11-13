@@ -1,0 +1,58 @@
+* {
+    background:         #3a3a3a80;
+    foreground:         #d8d8d8;
+    transparent:        #00000000;
+    blue:               #5481d1;
+    orange:             #ff9450;
+    white:              #f4f8fc;
+    font:               "curie 10";
+}
+
+#window {
+    background-color:       @background;
+    border:                 0;
+    border-radius:          4px;
+    padding:                50px;
+    width:                  70%;
+    height:                 70%;
+}
+
+#mainbox {
+    background-color:       @transparent;
+    border:                 0;
+    padding:                0;
+    children:               [ inputbar, message, listview ];
+}
+
+#listview {
+    background-color:       @transparent;
+    scrollbar:              false;
+}
+
+#element {
+    border:                 1px 0 0 0;
+    border-color:           #606060;
+    padding:                3px 6px 3px ;
+}
+
+#inputbar {
+    background-color:       @transparent;
+    spacing:                0;
+    text-color:             @foreground;
+    children:               [ prompt, textbox-prompt-arrows, entry, case-indicator ];
+}
+#entry {
+    background-color:       @transparent;
+    spacing:                0;
+    text-color:             @foreground;
+}
+#prompt {
+    background-color:       @transparent;
+}
+
+#textbox-prompt-arrows {
+    text-color:             @white;
+    expand:                 false;
+    margin:                 0px 0.3em 0em 0em;
+    str:                    ">>>";
+}
