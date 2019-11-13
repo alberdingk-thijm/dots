@@ -16,6 +16,7 @@ au FileType vim setl sw=2 ts=2 sts=2 et
 au FileType xml setl sw=2 ts=2 sts=2 et
 au FileType json setl sw=2 ts=2 sts=2 et
 au FileType ron setl sw=2 ts=2 sts=2 et
+au FileType ocaml setl sw=2 ts=2 sts=2 et
 
 " to ensure plugins correctly use paths in bash
 set shellslash
