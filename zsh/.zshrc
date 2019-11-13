@@ -77,8 +77,6 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/id_rsa"
-# run keychain
-eval `keychain --eval id_rsa`
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -113,3 +111,8 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 
 # OPAM configuration
 . /home/tim/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+#
+# run keychain:
+# --clear: flush any saved keys
+# --noask: wait until first use to ask
+eval `keychain --clear --noask --eval id_rsa`
