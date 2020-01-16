@@ -88,6 +88,3 @@
 [submodule "vim/.vim/pack/git-plugins/start/vim-lsc"]
 	path = vim/.vim/pack/git-plugins/start/vim-lsc
 	url = https://github.com/natebosch/vim-lsc
-[submodule "vim/.vim/pack/git-plugins/start/LanguageClient-neovim"]
-	path = vim/.vim/pack/git-plugins/start/LanguageClient-neovim
-	url = https://github.com/autozimu/LanguageClient-neovim
