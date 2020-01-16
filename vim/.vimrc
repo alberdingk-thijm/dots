@@ -109,8 +109,8 @@ let g:ale_sign_warning = '▲'
 let g:ale_sign_error = '✗'
 highlight link ALEWarningSign String
 highlight link ALEErrorSign Title
-nmap g> :ALENextWrap<CR>
-nmap g< :ALEPreviousWrap<CR>
+nmap <Leader>j :ALENextWrap<CR>
+nmap <Leader>k :ALEPreviousWrap<CR>
 
 " Lightline
 let g:lightline = { 
@@ -184,6 +184,13 @@ let s:host_vimrc = $HOME . '/.vim/' . hostname() . '.vimrc'
 if filereadable(s:host_vimrc)
   execute 'source ' . s:host_vimrc
 endif
+
+" let g:LanguageClient_serverCommands = {
+" \ 'rust': ['ra_lsp_server'],
+" \ }
+" let g:LanguageClient_loggingFile = expand('~/.vim/LanguageClient.log')
+
+" nnoremap <Tab> :call LanguageClient_contextMenu()<CR>
 
 " Load all plugins now
 packloadall
