@@ -91,6 +91,7 @@ let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
 " Test indentation guides
+" Colors are set from $HOST.vimrc
     " x
         " y
             " z
