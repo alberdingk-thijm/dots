@@ -17,6 +17,7 @@ set shiftwidth=4
 au FileType xml setl sw=2 ts=2 sts=2 et
 au FileType json setl sw=2 ts=2 sts=2 et
 au FileType ron setl sw=2 ts=2 sts=2 et
+au FileType ml setl sw=2 ts=2 sts=2 et
 " set ts=2:sts=2:sw=2:et
 
 " Spellcheck
@@ -25,10 +26,10 @@ if version >= 700
     set nospell
 endif
 
-" VIM server
-"if empty(v:servername) && exists('*remote_startserver')
-"    call remote_startserver('VIM')
-"endif
+" Vimtex
+if empty(v:servername) && exists('*remote_startserver')
+    call remote_startserver('VIM')
+endif
 
 " Backup files
 " Create backup directory
@@ -57,8 +58,8 @@ set ai
 " let g:indentLine_color_term = 10
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=7
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=15
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=8
 nnoremap <F4> :IndentGuidesToggle<CR>
 
 " Searching
@@ -137,7 +138,7 @@ let g:ale_sign_error = '✗'
 highlight link ALEWarningSign String
 highlight link ALEErrorSign Title
 nmap <Leader>j :ALENextWrap<CR>
-nmap <Leader>k :ALEPrevWrap<CR>
+nmap <Leader>k :ALEPreviousWrap<CR>
 
 " Lightline
 let g:lightline = { 
@@ -235,6 +236,14 @@ let g:ale_fixers = {
 \   'python': ['autopep8'],
 \}
 
+" OCaml settings
+if executable('ocamlmerlin') && has('python')
+  let s:ocamlmerlin = substitute(system('opam config var share'), '\n$', '', '''') . "/merlin"
+  execute "set rtp+=".s:ocamlmerlin."/vim"
+  execute "set rtp+=".s:ocamlmerlin."/vimbufsync"
+endif
+autocmd FileType ocaml execute "set rtp+=" . substitute(system('opam config var share'), '\n$', '', '''') . "/ocp-indent/vim/indent/ocaml.vim"
+
 let g:autofmt_autosave = 1
 
 let g:ale_rust_cargo_use_check=1
@@ -243,6 +252,9 @@ let g:ale_rust_cargo_check_examples=1
 
 " Integrate with airline
 "let g:airline#extensions#ale#enabled = 1
+
+" Put comments in italics
+highlight Comment cterm=italic
 
 " Load all plugins now
 packloadall
