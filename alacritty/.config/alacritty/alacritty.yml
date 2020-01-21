@@ -13,6 +13,7 @@ env:
   # You can verify this by checking for the presence of `smso` and `sitm` in
   # `infocmp xterm-256color`.
   TERM: xterm-256color
+  # LC_ALL: en_US.utf8
 
 window:
   # Window dimensions in character columns and lines
@@ -61,19 +62,19 @@ draw_bold_text_with_bright_colors: true
 font:
   # The normal (roman) font face to use.
   normal:
-    family: Iosevka Nerd Font
+    family: Iosevka Term
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
-    family: Iosevka Nerd Font
+    family: Iosevka Term
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
-    family: Iosevka Nerd Font
+    family: Iosevka Term
     # Style can be specified to pick a specific face.
     style: Italic
 
@@ -110,63 +111,119 @@ debug:
   render_timer: false
 
 # Algonquin
-colors:
-  # Default colors
-  primary:
-    background: '0xe5e6ea'
-    foreground: '0x222c31'
-
-  # Normal colors
-  normal:
-    black:   '0x222c31'
-    red:     '0x99716e'
-    green:   '0x6c756e'
-    yellow:  '0xb09d51'
-    blue:    '0x8c9596'
-    magenta: '0x82736f'
-    cyan:    '0x70736e'
-    white:   '0xeaebee'
-
-  # Bright colors
-  bright:
-    black:   '0x161b19'
-    red:     '0x91726c'
-    green:   '0x5a6250'
-    yellow:  '0xc1ab7d'
-    blue:    '0x8ba8ac'
-    magenta: '0x8c736e'
-    cyan:    '0x72776f'
-    white:   '0xe5e6ea'
-
-
-# # Colors (Seagull)
 # colors:
 #   # Default colors
 #   primary:
-#     background: '0xffffff'
-#     foreground: '0x61707a'
+#     background: '0xe5e6ea'
+#     foreground: '0x222c31'
 
 #   # Normal colors
 #   normal:
-#     black:   '0x0b141a'
-#     red:     '0xff4053'
-#     green:   '0x11ab00'
-#     yellow:  '0xbf8c00'
-#     blue:    '0x0099ff'
-#     magenta: '0x9854ff'
-#     cyan:    '0x00a5ab'
-#     white:   '0xffffff'
+#     black:   '0x222c31'
+#     red:     '0x99716e'
+#     green:   '0x6c756e'
+#     yellow:  '0xb09d51'
+#     blue:    '0x8c9596'
+#     magenta: '0x82736f'
+#     cyan:    '0x70736e'
+#     white:   '0xeaebee'
 
 #   # Bright colors
 #   bright:
-#     black:   '0x0b141a'
-#     red:     '0xff4053'
-#     green:   '0x11ab00'
-#     yellow:  '0xbf8c00'
-#     blue:    '0x0099ff'
-#     magenta: '0x9854ff'
-#     cyan:    '0x00a5ab'
-#     white:   '0xffffff'
+#     black:   '0x161b19'
+#     red:     '0x91726c'
+#     green:   '0x5a6250'
+#     yellow:  '0xc1ab7d'
+#     blue:    '0x8ba8ac'
+#     magenta: '0x8c736e'
+#     cyan:    '0x72776f'
+#     white:   '0xe5e6ea'
+# Base16 Brush Trees 256 - alacritty color config
+# Abraham White &lt;abelincoln.white@gmail.com&gt;
+colors:
+  # Default colors
+  primary:
+    background: '0xe3efef'
+    foreground: '0x6d828e'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0xe3efef'
+    cursor: '0x6d828e'
+
+  # Normal colors
+  normal:
+    black:   '0xe3efef'
+    red:     '0xb38686'
+    green:   '0x87b386'
+    yellow:  '0xaab386'
+    blue:    '0x868cb3'
+    magenta: '0xb386b2'
+    cyan:    '0x86b3b3'
+    white:   '0x6d828e'
+
+  # Bright colors
+  bright:
+    black:   '0x98afb5'
+    red:     '0xb38686'
+    green:   '0x87b386'
+    yellow:  '0xaab386'
+    blue:    '0x868cb3'
+    magenta: '0xb386b2'
+    cyan:    '0x86b3b3'
+    white:   '0x485867'
+
+  indexed_colors:
+    - { index: 16, color: '0xd8bba2' }
+    - { index: 17, color: '0xb39f9f' }
+    - { index: 18, color: '0xc9dbdc' }
+    - { index: 19, color: '0xb0c5c8' }
+    - { index: 20, color: '0x8299a1' }
+    - { index: 21, color: '0x5a6d7a' }
+
+# # Base16 One Light 256 - alacritty color config
+# # Daniel Pfeifer (http://github.com/purpleKarrot)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0xfafafa'
+#     foreground: '0x383a42'
+
+#   # Colors the cursor will use if `custom_cursor_colors` is true
+#   cursor:
+#     text: '0xfafafa'
+#     cursor: '0x383a42'
+
+#   # Normal colors
+#   normal:
+#     black:   '0xfafafa'
+#     red:     '0xca1243'
+#     green:   '0x50a14f'
+#     yellow:  '0xc18401'
+#     blue:    '0x4078f2'
+#     magenta: '0xa626a4'
+#     cyan:    '0x0184bc'
+#     white:   '0x383a42'
+
+#   # Bright colors
+#   bright:
+#     black:   '0xa0a1a7'
+#     red:     '0xca1243'
+#     green:   '0x50a14f'
+#     yellow:  '0xc18401'
+#     blue:    '0x4078f2'
+#     magenta: '0xa626a4'
+#     cyan:    '0x0184bc'
+#     white:   '0x090a0b'
+
+#   indexed_colors:
+#     - { index: 16, color: '0xd75f00' }
+#     - { index: 17, color: '0x986801' }
+#     - { index: 18, color: '0xf0f0f1' }
+#     - { index: 19, color: '0xe5e5e6' }
+#     - { index: 20, color: '0x696c77' }
+#     - { index: 21, color: '0x202227' }
+
 
 # Visual Bell
 #
