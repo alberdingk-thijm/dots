@@ -76,3 +76,6 @@
 [submodule "vim/.vim/bundle/vim-racer"]
 	path = vim/.vim/bundle/vim-racer
 	url = https://github.com/racer-rust/vim-racer.git
+[submodule "vim/.vim/pack/git-plugins/start/vim-toml"]
+	path = vim/.vim/pack/git-plugins/start/vim-toml
+	url = https://github.com/cespare/vim-toml.git
