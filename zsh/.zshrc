@@ -114,3 +114,8 @@ source ~/.zshenv
 
 # wine debug: turn off warnings
 export WINE_DEBUG=-all
+
+# opam configuration
+test -r /home/tim/.opam/opam-init/init.zsh && . /home/tim/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
+eval `keychain --noask --eval id_rsa`

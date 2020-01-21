@@ -1,4 +1,3 @@
-alias 'ssh cdf'='ssh alberdi1@teach.cs.toronto.edu'
 alias 'ff'='firefox-nightly'
 alias 'grep'='rg'
 alias 'x'='exit'
