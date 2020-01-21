@@ -9,7 +9,8 @@ Xft.lcdfilter:                  lcddefault
 Xft.rgba:                       rgb
 
 ! Colors
-#include ".termcolors/algonquin-light"
+! #include ".termcolors/algonquin-light"
+#include ".termcolors/base16/xresources/base16-brushtrees-256.Xresources"
 
 ! URxvt
 URxvt*termName:                 rxvt-256color
