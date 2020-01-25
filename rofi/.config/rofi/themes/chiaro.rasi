@@ -12,9 +12,10 @@
     background-color:       @background;
     border:                 0;
     border-radius:          4px;
-    padding:                50px;
-    width:                  70%;
-    height:                 70%;
+    padding:                20px;
+    width:                  20%;
+    height:                 100%;
+    location:               west;
 }
 
 #mainbox {
@@ -30,6 +31,8 @@
 }
 
 #element {
+    background-color:       transparent;
+    text-color:             @foreground;
     border:                 1px 0 0 0;
     border-color:           #606060;
     padding:                3px 6px 3px ;
@@ -51,6 +54,7 @@
 }
 
 #textbox-prompt-arrows {
+    background-color:       transparent;
     text-color:             @white;
     expand:                 false;
     margin:                 0px 0.3em 0em 0em;
