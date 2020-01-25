@@ -116,3 +116,9 @@ BASE16_SHELL="$HOME/.config/base16-shell/"
 # --clear: flush any saved keys
 # --noask: wait until first use to ask
 eval `keychain --clear --noask --eval id_rsa`
+
+# add emacs binaries (i.e. doom) to path
+export PATH=$PATH:$HOME/.emacs.d/bin
+
+# Racer config
+export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
