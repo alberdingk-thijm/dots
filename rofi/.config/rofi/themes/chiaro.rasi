@@ -18,14 +18,14 @@
 }
 
 #mainbox {
-    background-color:       @transparent;
+    background-color:       transparent;
     border:                 0;
     padding:                0;
     children:               [ inputbar, message, listview ];
 }
 
 #listview {
-    background-color:       @transparent;
+    background-color:       transparent;
     scrollbar:              false;
 }
 
@@ -36,18 +36,18 @@
 }
 
 #inputbar {
-    background-color:       @transparent;
+    background-color:       transparent;
     spacing:                0;
     text-color:             @foreground;
     children:               [ prompt, textbox-prompt-arrows, entry, case-indicator ];
 }
 #entry {
-    background-color:       @transparent;
+    background-color:       transparent;
     spacing:                0;
     text-color:             @foreground;
 }
 #prompt {
-    background-color:       @transparent;
+    background-color:       transparent;
 }
 
 #textbox-prompt-arrows {
