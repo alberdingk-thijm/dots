@@ -1,62 +1,94 @@
 * {
-    background:         #3a3a3a80;
-    foreground:         #d8d8d8;
-    transparent:        #00000000;
-    blue:               #5481d1;
-    orange:             #ff9450;
-    white:              #f4f8fc;
+    blue:               #5481D1;
+    darkblue:           #3f51b5;
+    background:         @blue;
     font:               "curie 10";
+    foreground:         WhiteSmoke;
+    text-color:         @foreground;
+    /* border-color:       @darkblue; */
+    border-color:       WhiteSmoke;
+    
 }
 
-#window {
-    background-color:       @background;
-    border:                 0;
-    border-radius:          4px;
-    padding:                20px;
-    width:                  20%;
+window {
+    background-color:       #3a3a3a80;
+    padding:                25% 35% 25% 35%;
+    width:                  100%;
     height:                 100%;
-    location:               west;
+    location:               center;
 }
 
-#mainbox {
+mainbox {
     background-color:       transparent;
-    border:                 0;
-    padding:                0;
+    border:                 1px;
+    border-radius:          2px;
+    spacing:                0px;
+    /* pad the side so that the mainbox is way over on the left, but everything else is faded */
+    /* padding:                0% 80% 0% 0%; */
     children:               [ inputbar, message, listview ];
 }
 
-#listview {
-    background-color:       transparent;
-    scrollbar:              false;
+inputbar {
+    background-color:       @background;
+    padding:                2px 2px;
+    spacing:                2px;
+    text-color:             @foreground;
+    border:                 0px 0px 1px 0px;
+    border-radius:          1px;
+    border-color:           @foreground;
+    children:               [ prompt, prompt-arrows, entry ];
 }
 
-#element {
+entry {
     background-color:       transparent;
     text-color:             @foreground;
-    border:                 1px 0 0 0;
-    border-color:           #606060;
-    padding:                3px 6px 3px ;
 }
 
-#inputbar {
+prompt {
     background-color:       transparent;
-    spacing:                0;
-    text-color:             @foreground;
-    children:               [ prompt, textbox-prompt-arrows, entry, case-indicator ];
-}
-#entry {
-    background-color:       transparent;
-    spacing:                0;
-    text-color:             @foreground;
-}
-#prompt {
-    background-color:       transparent;
+    text-color:             Gold;
 }
 
-#textbox-prompt-arrows {
+prompt-arrows {
     background-color:       transparent;
-    text-color:             @white;
     expand:                 false;
     margin:                 0px 0.3em 0em 0em;
     str:                    ">>>";
 }
+
+message {
+    background-color:       @background;
+}
+
+textbox {
+    background-color:       @background;
+    border:                 1px 1px 1px 1px;
+    border-radius:          1px;
+    padding:                2px;
+}
+
+listview {
+    background-color:       @background;
+    scrollbar:              false;
+    spacing:                0px;
+    /* border:                 1px 1px 1px 1px; */
+    /* border-radius:          1px; */
+}
+
+element {
+    background-color:       transparent;
+    text-color:             @foreground;
+    border:                 0 0 1px 0;
+    border-color:           @foreground;
+    padding:                1px 6px 1px ;
+}
+
+element selected {
+    background-color:       @foreground;
+    text-color:             @background;
+}
+
+element alternate {
+    text-color:             Gold;
+}
+/* vim: set syntax=css: */
