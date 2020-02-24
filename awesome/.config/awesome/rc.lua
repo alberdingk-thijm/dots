@@ -56,7 +56,7 @@ power:init()
 -- Note that these are used by keys!
 terminal = "alacritty"
 editor = os.getenv("EDITOR") or "vim"
-editor_cmd = terminal .. " -e " .. editor
+editor_cmd = "emacs"
 
 webbrowser = "firefox"
 filemanager = "pcmanfm"

@@ -187,10 +187,13 @@ keys.globalkeys = gears.table.join(
               {description = "power off", group = "power"}),
 
     -- Common programs
+    -- NOTE: these variables need to set where keys is used (i.e. in rc.lua)
     awful.key({ superkey, shiftkey  }, "w", function () awful.spawn(webbrowser) end,
               {description = "open web browser", group = "launcher"}),
     awful.key({ superkey, shiftkey  }, "f", function () awful.spawn(filemanager) end,
-              {description = "open file manager", group = "launcher"})
+              {description = "open file manager", group = "launcher"}),
+    awful.key({ superkey,           }, "e", function () awful.spawn(editor_cmd) end,
+              {description = "open text editor", group = "launcher"})
 )
 
 keys.clientkeys = gears.table.join(
