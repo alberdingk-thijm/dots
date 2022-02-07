@@ -85,3 +85,6 @@
 [submodule "vim/.vim/bundle/ron.vim"]
 	path = vim/.vim/bundle/ron.vim
 	url = https://github.com/ron-rs/ron.vim.git
+[submodule "vim/.vim/pack/tpope/start"]
+	path = vim/.vim/pack/tpope/start
+	url = https://tpope.io/vim/fugitive.git
